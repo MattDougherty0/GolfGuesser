@@ -58,6 +58,7 @@ export default function RevealCard({
         guessLat={result.pinLat}
         guessLng={result.pinLng}
         distanceMiles={result.pinDistance}
+        courseName={course.name}
       />
 
       {/* Score breakdown */}
