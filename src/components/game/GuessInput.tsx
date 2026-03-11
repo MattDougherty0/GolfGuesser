@@ -103,7 +103,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
       )}
 
       {isOpen && (
-        <ul className="absolute z-50 mt-1 w-full max-h-60 overflow-y-auto rounded-lg border border-cream/15 bg-card shadow-xl">
+        <ul className="absolute z-[1000] mt-1 w-full max-h-60 overflow-y-auto rounded-lg border border-cream/15 bg-card shadow-xl">
           {results.map((course, i) => (
             <li key={course.id}>
               <button
