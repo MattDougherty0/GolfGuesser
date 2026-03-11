@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const viewport: Viewport = {
   width: "device-width",
-  initialScale: 0.87, // ~1.15x viewport width = zoom out so content fits without horizontal scroll
+  initialScale: 1, // default for entrance/home; play pages override to 1.15 on mobile via PlayViewportEffect
 };
 
 const inter = Inter({
