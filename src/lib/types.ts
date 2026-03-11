@@ -78,9 +78,13 @@ export interface GuessResult {
 
 export interface RoundResult {
   courseId: string;
+  nameGuess?: string;
   nameCorrect: boolean;
+  pinLat?: number;
+  pinLng?: number;
   pinDistance: number;
   hintsUsed: number;
+  hintPenalty?: number;
   timeSeconds: number;
   score: number;
 }

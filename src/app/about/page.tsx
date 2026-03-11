@@ -62,9 +62,9 @@ export default function AboutPage() {
             {SCORING.map((s) => (
               <div
                 key={s.label}
-                className="flex items-start gap-3 rounded-xl border border-cream/8 bg-card/50 px-4 py-3"
+                className="flex items-center gap-3 rounded-xl border border-cream/8 bg-card/50 px-4 py-3"
               >
-                <span className="shrink-0 rounded-md bg-accent/10 px-2 py-0.5 text-xs font-bold tabular-nums text-accent">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent/10 text-sm font-bold tabular-nums text-accent">
                   {s.max}
                 </span>
                 <div>

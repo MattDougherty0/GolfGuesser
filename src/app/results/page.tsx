@@ -1,13 +1,74 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { getPlayerState, getTodayResults } from "@/lib/storage";
 import { getTodayDateET } from "@/lib/daily";
 import { getCourseById } from "@/lib/courses";
-import type { PlayerState, TodayResults, RoundResult, Course } from "@/lib/types";
+import type { PlayerState, TodayResults, RoundResult, Course, GuessResult } from "@/lib/types";
 import Header from "@/components/layout/Header";
 import StatsModal from "@/components/layout/StatsModal";
+import RevealCard from "@/components/reveal/RevealCard";
+import { calculateHintPenalty } from "@/lib/scoring";
+
+function RevealModal({
+  onClose,
+  course,
+  result,
+  roundNumber,
+}: {
+  onClose: () => void;
+  course: Course;
+  result: GuessResult;
+  roundNumber: number;
+}) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    scrollRef.current?.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div
+      ref={scrollRef}
+      className="fixed inset-0 z-[2000] flex items-start justify-center overflow-y-auto bg-black/60 backdrop-blur-sm py-8 px-4"
+      onClick={onClose}
+    >
+      <div
+        className="w-full max-w-2xl rounded-2xl bg-background shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="px-4 py-6 sm:py-10">
+          <RevealCard
+            course={course}
+            result={result}
+            roundNumber={roundNumber}
+            totalRounds={3}
+            onClose={onClose}
+            standalone
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function roundResultToGuessResult(round: RoundResult, course: Course): GuessResult {
+  const lat = course.location.latitude;
+  const lng = course.location.longitude;
+  return {
+    courseId: round.courseId,
+    nameGuess: round.nameGuess ?? "",
+    nameCorrect: round.nameCorrect,
+    pinLat: round.pinLat ?? lat,
+    pinLng: round.pinLng ?? lng,
+    pinDistance: round.pinDistance,
+    hintsUsed: round.hintsUsed,
+    hintPenalty: round.hintPenalty ?? calculateHintPenalty(round.hintsUsed),
+    timeSeconds: round.timeSeconds,
+    score: round.score,
+  };
+}
 
 function useMidnightCountdown() {
   const [timeLeft, setTimeLeft] = useState("");
@@ -46,6 +107,7 @@ export default function ResultsPage() {
   const [stats, setStats] = useState<PlayerState | null>(null);
   const [courses, setCourses] = useState<(Course | undefined)[]>([]);
   const [showStats, setShowStats] = useState(false);
+  const [revealRoundIndex, setRevealRoundIndex] = useState<number | null>(null);
   const [copied, setCopied] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -106,7 +168,7 @@ export default function ResultsPage() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Header onStatsClick={() => setShowStats(true)} />
+      <Header />
 
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-6 sm:py-10">
         {/* Date heading */}
@@ -123,6 +185,7 @@ export default function ResultsPage() {
               round={round}
               course={courses[i]}
               roundNumber={i + 1}
+              onClick={() => setRevealRoundIndex(i)}
             />
           ))}
         </div>
@@ -133,6 +196,22 @@ export default function ResultsPage() {
             {results.totalScore.toLocaleString()}
           </p>
           <p className="text-sm text-cream/40 mt-1">out of 3,000</p>
+        </div>
+
+        {/* Action buttons */}
+        <div className="flex justify-center gap-3 mb-6">
+          <button
+            onClick={handleShare}
+            className="rounded-full border border-cream/15 bg-card px-6 py-2.5 text-sm font-medium text-cream transition-all hover:border-accent/30 hover:bg-accent/5"
+          >
+            {copied ? "Copied!" : "Share Results"}
+          </button>
+          <a
+            href="/leaderboard"
+            className="rounded-full border border-accent/30 bg-accent/5 px-6 py-2.5 text-sm font-medium text-accent transition-all hover:bg-accent/10"
+          >
+            Leaderboard
+          </a>
         </div>
 
         {/* Quick stats */}
@@ -152,21 +231,17 @@ export default function ResultsPage() {
           </div>
         )}
 
-        {/* Action buttons */}
-        <div className="flex justify-center gap-3 mb-6">
-          <button
-            onClick={handleShare}
-            className="rounded-full border border-cream/15 bg-card px-6 py-2.5 text-sm font-medium text-cream transition-all hover:border-accent/30 hover:bg-accent/5"
-          >
-            {copied ? "Copied!" : "Share Results"}
-          </button>
-          <a
-            href="/leaderboard"
-            className="rounded-full border border-accent/30 bg-accent/5 px-6 py-2.5 text-sm font-medium text-accent transition-all hover:bg-accent/10"
-          >
-            Leaderboard
-          </a>
-        </div>
+        {/* My Stats link */}
+        {stats && (
+          <div className="text-center mb-6">
+            <button
+              onClick={() => setShowStats(true)}
+              className="text-sm text-cream/40 hover:text-cream/70 transition-colors"
+            >
+              View full stats
+            </button>
+          </div>
+        )}
 
         {/* Countdown */}
         <div className="text-center pb-8">
@@ -180,6 +255,16 @@ export default function ResultsPage() {
       {showStats && stats && (
         <StatsModal stats={stats} onClose={() => setShowStats(false)} />
       )}
+
+      {/* Reveal modal - matches play page reveal layout */}
+      {revealRoundIndex !== null && courses[revealRoundIndex] && (
+        <RevealModal
+          onClose={() => setRevealRoundIndex(null)}
+          course={courses[revealRoundIndex]!}
+          result={roundResultToGuessResult(results.rounds[revealRoundIndex], courses[revealRoundIndex]!)}
+          roundNumber={revealRoundIndex + 1}
+        />
+      )}
     </div>
   );
 }
@@ -190,17 +275,23 @@ function RoundSummaryCard({
   round,
   course,
   roundNumber,
+  onClick,
 }: {
   round: RoundResult;
   course: Course | undefined;
   roundNumber: number;
+  onClick: () => void;
 }) {
   const minutes = Math.floor(round.timeSeconds / 60);
   const seconds = round.timeSeconds % 60;
   const timeStr = `${minutes}:${seconds.toString().padStart(2, "0")}`;
 
   return (
-    <div className="flex items-center gap-4 rounded-xl border border-cream/10 bg-card p-4">
+    <button
+      type="button"
+      onClick={onClick}
+      className="flex w-full items-center gap-4 rounded-xl border border-cream/10 bg-card p-4 text-left transition-colors hover:border-cream/20 hover:bg-card/80 cursor-pointer"
+    >
       {/* Round number badge */}
       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary text-sm font-bold text-cream/70">
         R{roundNumber}
@@ -223,7 +314,7 @@ function RoundSummaryCard({
       <div className="shrink-0 text-right">
         <p className="text-lg font-bold tabular-nums text-accent">{round.score}</p>
       </div>
-    </div>
+    </button>
   );
 }
 

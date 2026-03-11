@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getPlayerState, isTodayCompleted, getTodayResults } from "@/lib/storage";
-import { getLocalPlayerId, getPlayer, createPlayer, hasSkippedLogin, setSkippedLogin, type Player } from "@/lib/db";
+import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
 import type { PlayerState } from "@/lib/types";
 import Header from "@/components/layout/Header";
 import StatsModal from "@/components/layout/StatsModal";
@@ -66,9 +66,9 @@ export default function Home() {
     if (pid) {
       getPlayer(pid).then((p) => {
         if (p) setPlayer(p);
-        else if (!hasSkippedLogin()) setNeedsUsername(true);
+        else setNeedsUsername(true);
       });
-    } else if (!hasSkippedLogin()) {
+    } else {
       setNeedsUsername(true);
     }
   }, []);
@@ -82,7 +82,6 @@ export default function Home() {
   }
 
   function handleSkipLogin() {
-    setSkippedLogin();
     setNeedsUsername(false);
   }
 
@@ -98,7 +97,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Header onStatsClick={() => setShowStats(true)} playerName={player?.display_name} />
+      <Header playerName={player?.display_name} />
 
       <main className="flex flex-1 flex-col items-center justify-center px-4">
         <div className="rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
@@ -129,6 +128,15 @@ export default function Home() {
               >
                 View Results
               </Link>
+
+              {stats && (
+                <button
+                  onClick={() => setShowStats(true)}
+                  className="text-sm text-cream/40 hover:text-cream/70 transition-colors"
+                >
+                  View stats
+                </button>
+              )}
 
               <div className="pt-2">
                 <p className="text-sm text-cream/40">Next puzzle in</p>

@@ -11,7 +11,9 @@ interface RevealCardProps {
   result: GuessResult;
   roundNumber: number; // 1-based
   totalRounds: number;
-  onNext: () => void;
+  onNext?: () => void;
+  onClose?: () => void;
+  standalone?: boolean; // true = modal view with Close button instead of Next
 }
 
 export default function RevealCard({
@@ -20,6 +22,8 @@ export default function RevealCard({
   roundNumber,
   totalRounds,
   onNext,
+  onClose,
+  standalone = false,
 }: RevealCardProps) {
   const [visible, setVisible] = useState(false);
 
@@ -67,15 +71,17 @@ export default function RevealCard({
       {/* Course profile */}
       <CourseProfile course={course} />
 
-      {/* Next button */}
-      <div className="flex justify-center pt-2">
-        <button
-          onClick={onNext}
-          className="rounded-full bg-accent px-8 py-3 text-sm font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
-        >
-          {isFinalRound ? "See Results" : "Next Round"}
-        </button>
-      </div>
+      {/* Next / Close button */}
+      {(onNext || onClose) && (
+        <div className="flex justify-center pt-2">
+          <button
+            onClick={standalone ? onClose : onNext}
+            className="rounded-full bg-accent px-8 py-3 text-sm font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
+          >
+            {standalone ? "Close" : isFinalRound ? "See Results" : "Next Round"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

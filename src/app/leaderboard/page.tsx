@@ -10,9 +10,6 @@ import {
 } from "@/lib/db";
 import { getTodayDateET } from "@/lib/daily";
 import Header from "@/components/layout/Header";
-import StatsModal from "@/components/layout/StatsModal";
-import { getPlayerState } from "@/lib/storage";
-import type { PlayerState } from "@/lib/types";
 
 type Tab = "daily" | "weekly" | "alltime";
 
@@ -35,8 +32,6 @@ export default function LeaderboardPage() {
   const [tab, setTab] = useState<Tab>("daily");
   const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
-  const [showStats, setShowStats] = useState(false);
-  const [stats, setStats] = useState<PlayerState | null>(null);
   const playerId = getLocalPlayerId();
 
   const fetchLeaderboard = useCallback(async (t: Tab) => {
@@ -54,7 +49,6 @@ export default function LeaderboardPage() {
   }, []);
 
   useEffect(() => {
-    setStats(getPlayerState());
     fetchLeaderboard(tab);
   }, [tab, fetchLeaderboard]);
 
@@ -66,7 +60,7 @@ export default function LeaderboardPage() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Header onStatsClick={() => setShowStats(true)} />
+      <Header />
 
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-6 sm:py-10">
         <h1 className="text-center font-serif text-3xl text-cream mb-6">Leaderboard</h1>
@@ -144,10 +138,6 @@ export default function LeaderboardPage() {
           </div>
         )}
       </main>
-
-      {showStats && stats && (
-        <StatsModal stats={stats} onClose={() => setShowStats(false)} />
-      )}
     </div>
   );
 }

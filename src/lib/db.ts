@@ -8,7 +8,6 @@ export interface Player {
 }
 
 const PLAYER_KEY = "courseiq-player-id";
-const SKIPPED_KEY = "courseiq-skipped-login";
 
 export function getLocalPlayerId(): string | null {
   if (typeof window === "undefined") return null;
@@ -18,16 +17,6 @@ export function getLocalPlayerId(): string | null {
 export function setLocalPlayerId(id: string): void {
   if (typeof window === "undefined") return;
   localStorage.setItem(PLAYER_KEY, id);
-}
-
-export function hasSkippedLogin(): boolean {
-  if (typeof window === "undefined") return false;
-  return localStorage.getItem(SKIPPED_KEY) === "true";
-}
-
-export function setSkippedLogin(): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(SKIPPED_KEY, "true");
 }
 
 export async function createPlayer(displayName: string): Promise<Player | null> {

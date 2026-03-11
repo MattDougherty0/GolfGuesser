@@ -234,9 +234,13 @@ export default function PlayPage() {
     // Persist to localStorage
     saveRoundResult({
       courseId: currentCourse.id,
+      nameGuess: state.selectedCourseName ?? "",
       nameCorrect,
+      pinLat: state.pin.lat,
+      pinLng: state.pin.lng,
       pinDistance,
       hintsUsed: state.hintsUsed,
+      hintPenalty: state.hintPenalty,
       timeSeconds: state.elapsed,
       score,
     });

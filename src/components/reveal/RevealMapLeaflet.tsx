@@ -47,7 +47,7 @@ function FitBounds({ courseLat, courseLng, guessLat, guessLng }: {
       [courseLat, courseLng],
       [guessLat, guessLng]
     );
-    map.fitBounds(bounds, { padding: [60, 60], maxZoom: 8 });
+    map.fitBounds(bounds, { padding: [80, 80], maxZoom: 8 });
   }, [map, courseLat, courseLng, guessLat, guessLng]);
 
   return null;
