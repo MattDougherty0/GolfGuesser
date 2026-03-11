@@ -20,7 +20,7 @@ const HINTS = [
 
 export default function AboutPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen min-w-0 flex-col overflow-x-hidden">
       <Header />
 
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:py-16">

@@ -23,7 +23,7 @@ interface RevealMapProps {
 export default function RevealMap(props: RevealMapProps) {
   return (
     <div
-      className="w-full overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30"
+      className="min-w-0 w-full overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30"
       style={{ height: "300px" }}
     >
       <RevealMapLeaflet {...props} />

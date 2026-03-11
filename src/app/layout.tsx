@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${dmSerif.variable} antialiased`}>
+      <body className={`${inter.variable} ${dmSerif.variable} antialiased min-w-0 overflow-x-hidden`}>
         {children}
       </body>
     </html>

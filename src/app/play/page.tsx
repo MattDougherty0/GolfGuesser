@@ -296,8 +296,8 @@ export default function PlayPage() {
   // ── Guessing Phase ──
   if (state.phase === "guessing" && currentCourse) {
     return (
-      <div className="min-h-screen px-4 py-6 sm:py-10">
-        <div className="mx-auto flex max-w-4xl flex-col items-center gap-5">
+      <div className="min-h-screen min-w-0 overflow-x-hidden px-4 py-6 sm:py-10">
+        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-5 overflow-x-hidden">
           {/* Header row: round + timer */}
           <div className="flex w-full max-w-[500px] items-center justify-between">
             <span className="text-sm font-medium text-cream/60">
@@ -326,7 +326,7 @@ export default function PlayPage() {
           </div>
 
           {/* Guess section: name then map, stacked */}
-          <div className="w-full max-w-[500px] flex flex-col gap-4">
+          <div className="min-w-0 w-full max-w-[500px] flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-medium uppercase tracking-wider text-cream/40">
                 Course Name
@@ -363,7 +363,7 @@ export default function PlayPage() {
   // ── Reveal Phase ──
   if (state.phase === "reveal" && currentCourse && latestResult) {
     return (
-      <div className="min-h-screen px-4 py-6 sm:py-10">
+      <div className="min-h-screen min-w-0 overflow-x-hidden px-4 py-6 sm:py-10">
         <RevealCard
           course={currentCourse}
           result={latestResult}

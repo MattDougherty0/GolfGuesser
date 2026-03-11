@@ -59,7 +59,7 @@ export default function LeaderboardPage() {
   ];
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen min-w-0 flex-col overflow-x-hidden">
       <Header />
 
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-6 sm:py-10">
