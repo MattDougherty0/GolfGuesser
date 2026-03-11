@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GolfGuessr
 
-## Getting Started
+A daily golf geography challenge. How well do you know America's golf courses?
 
-First, run the development server:
+## What It Is
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Each day you get **three rounds**—three aerial satellite images of real courses from across the continental U.S. Your job: name the course, drop a pin on the map where you think it's located, and earn up to **3,000 points**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Course name** — Type it in (or skip for pin-only)
+- **Pin location** — Drop a marker on the map
+- **Hints** — Reveal region, architect, tournament info, etc.—but each one costs points
+- **Speed** — Faster guesses score higher
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+New puzzles drop at midnight Eastern. 100 courses across 30 states, from bucket-list icons to hidden gems.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What We Built
 
-## Learn More
+- **Daily puzzle system** — 3 rounds per day, 180-day rotating schedule
+- **Interactive map guessing** — Leaflet-based pin drop with distance scoring
+- **Course autocomplete** — Search 100 courses by name
+- **Hint system** — 5 hint types with different point costs
+- **Leaderboard** — Optional sign-in to track scores (Supabase)
+- **Results & reveal** — See how you did, compare your pin to the real location, read course profiles
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer | Tech |
+|-------|------|
+| Framework | Next.js 16, React 19 |
+| Styling | Tailwind CSS 4 |
+| Maps | Leaflet, React-Leaflet |
+| Backend | Supabase (auth, leaderboard) |
+| Data | Static JSON (courses, schedule) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for [Vercel](https://vercel.com). Connect the repo and deploy.
