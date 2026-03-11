@@ -126,7 +126,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/leaderboard"
-                  className="text-sm text-cream/40 hover:text-cream/70 transition-colors"
+                  className="text-sm font-medium text-accent underline underline-offset-2 hover:brightness-110 transition-colors"
                 >
                   Leaderboard
                 </Link>
