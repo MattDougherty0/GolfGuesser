@@ -296,7 +296,7 @@ export default function PlayPage() {
   // ── Guessing Phase ──
   if (state.phase === "guessing" && currentCourse) {
     return (
-      <div className="min-h-screen w-full max-w-full overflow-x-hidden px-4 py-6 sm:py-10">
+      <div className="min-h-screen w-full overflow-x-hidden px-4 py-6 sm:py-10">
         <div className="mx-auto flex min-w-0 w-full max-w-full flex-col items-stretch gap-5 sm:max-w-4xl">
           {/* Header row: round + timer */}
           <div className="flex min-w-0 items-center justify-between">

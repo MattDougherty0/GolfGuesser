@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const viewport: Viewport = {
   width: "device-width",
-  initialScale: 0.85,
+  initialScale: 0.87, // ~1.15x viewport width = zoom out so content fits without horizontal scroll
 };
 
 const inter = Inter({

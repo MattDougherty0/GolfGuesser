@@ -31,7 +31,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
   }
 
   return (
-    <div className="min-w-0 w-full max-w-[500px] space-y-3">
+    <div className="min-w-0 w-full max-w-full space-y-3">
       {/* Hint buttons */}
       <div className="flex flex-wrap justify-center gap-2">
         {HINT_CONFIG.map((hint, i) => {
@@ -43,7 +43,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
               onClick={isRevealed ? undefined : () => revealHint(i)}
               disabled={isRevealed}
               className={`
-                rounded-full px-4 py-1.5 text-xs font-medium transition-all
+                shrink-0 rounded-full px-3 py-1.5 text-[11px] font-medium transition-all sm:px-4 sm:text-xs
                 ${isRevealed
                   ? "border border-accent/30 bg-accent/10 text-accent/70"
                   : "border border-cream/20 bg-card text-cream cursor-pointer hover:border-accent/50 hover:text-accent active:scale-95"
