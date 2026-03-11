@@ -16,6 +16,17 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Load .env.local if present
+const envPath = join(__dirname, "..", ".env.local");
+if (existsSync(envPath)) {
+  const env = readFileSync(envPath, "utf-8");
+  for (const line of env.split("\n")) {
+    const m = line.match(/^([^#=]+)=(.*)$/);
+    if (m) process.env[m[1].trim()] = m[2].trim().replace(/^["']|["']$/g, "");
+  }
+}
+
 const coursesPath = join(__dirname, "../src/data/courses.json");
 const publicDir = join(__dirname, "../public");
 

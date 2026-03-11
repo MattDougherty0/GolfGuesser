@@ -8,12 +8,44 @@ const outputPath = join(__dirname, "../src/data/schedule.json");
 
 const courses = JSON.parse(readFileSync(coursesPath, "utf-8"));
 
-const DAYS = 180;
+const DAYS_ORIGINAL = 180;
+const DAYS_NEW = 60; // Days after original schedule, using only newly added courses
 const ROUNDS_PER_DAY = 3;
 const START_DATE = new Date("2026-03-11T12:00:00-05:00");
 
 const imageKeys = ["aerialTight", "aerialMedium", "aerialWide"];
 const difficulties = ["easy", "medium", "hard"];
+
+// Original 100 course IDs (do not seed new courses into first 180 days)
+const ORIGINAL_IDS = new Set([
+  "pebble-beach-golf-links", "augusta-national-golf-club", "tpc-sawgrass-stadium-course",
+  "pinehurst-no-2", "oakmont-country-club", "torrey-pines-south-course", "bethpage-black",
+  "shinnecock-hills-golf-club", "valhalla-golf-club", "tpc-scottsdale-stadium-course",
+  "winged-foot-golf-club", "merion-golf-club", "congressional-country-club",
+  "southern-hills-country-club", "baltusrol-golf-club", "olympic-club", "medinah-country-club",
+  "hazeltine-national-golf-club", "erin-hills", "chambers-bay", "whistling-straits",
+  "kiawah-island-ocean-course", "bellerive-country-club", "quail-hollow-club",
+  "the-country-club", "oakland-hills-country-club", "inverness-club", "los-angeles-country-club",
+  "olympia-fields-country-club", "crooked-stick-golf-club", "riviera-country-club",
+  "harbour-town-golf-links", "bay-hill-club-and-lodge", "east-lake-golf-club",
+  "muirfield-village-golf-club", "tpc-harding-park", "colonial-country-club",
+  "firestone-country-club", "tpc-river-highlands", "tpc-summerlin", "sedgefield-country-club",
+  "tpc-southwind", "congaree-golf-club", "pga-west-stadium-course", "cog-hill-dubsdread",
+  "liberty-national-golf-club", "caves-valley-golf-club", "tpc-craig-ranch", "tpc-deere-run",
+  "silverado-resort-north-course", "bandon-dunes", "pacific-dunes", "streamsong-red",
+  "sand-valley", "spyglass-hill", "shadow-creek", "arcadia-bluffs", "pasatiempo",
+  "streamsong-blue", "we-ko-pa-saguaro", "cypress-point", "pine-valley", "national-golf-links",
+  "seminole", "crystal-downs", "prairie-dunes", "sand-hills", "chicago-golf-club",
+  "fishers-island", "camargo", "garden-city-golf-club", "aronimink", "friars-head",
+  "tpc-louisiana", "greenbrier-old-white", "sea-island-golf-club-seaside",
+  "pga-national-champion-course", "tpc-san-antonio-oaks-course", "innisbrook-copperhead-course",
+  "blackwolf-run-river-course", "atlantic-golf-club", "sage-valley-golf-club", "yeamans-hall-club",
+  "calusa-pines-golf-club", "pete-dye-golf-club", "maidstone-club", "bandon-trails",
+  "old-macdonald", "sheep-ranch", "trump-national-golf-club-bedminster",
+  "sawgrass-country-club-east-course", "the-honors-course", "wade-hampton-golf-club",
+  "secession-golf-club", "peachtree-golf-club", "shoreacres", "kingsley-club",
+  "milwaukee-country-club", "old-sandwich-golf-club", "somerset-hills-country-club",
+]);
 
 // Tier 1: Courses most golf fans recognize instantly
 const TIER1 = new Set([
@@ -74,16 +106,20 @@ function getTier(id) {
 }
 
 const allIds = courses.map((c) => c.id);
-const tier1Ids = allIds.filter((id) => getTier(id) === 1);
-const tier2Ids = allIds.filter((id) => getTier(id) === 2);
-const tier3Ids = allIds.filter((id) => getTier(id) === 3);
+const originalIds = allIds.filter((id) => ORIGINAL_IDS.has(id));
+const newIds = allIds.filter((id) => !ORIGINAL_IDS.has(id));
+
+const tier1Ids = originalIds.filter((id) => getTier(id) === 1);
+const tier2Ids = originalIds.filter((id) => getTier(id) === 2);
+const tier3Ids = originalIds.filter((id) => getTier(id) === 3);
 
 const schedule = [];
 const usedRecently = new Set();
 const COOLDOWN = 5;
 const recentQueue = [];
 
-for (let day = 0; day < DAYS; day++) {
+// Phase 1: Days 1-180 using only original 100 courses
+for (let day = 0; day < DAYS_ORIGINAL; day++) {
   const date = new Date(START_DATE);
   date.setDate(date.getDate() + day);
   const dateStr = date.toISOString().split("T")[0];
@@ -105,16 +141,16 @@ for (let day = 0; day < DAYS; day++) {
     picked = allAvail.slice(0, 3);
   }
 
-  // Fallback if any tier ran dry
+  // Fallback if any tier ran dry (original pool only)
   if (picked.length < 3) {
-    const remaining = shuffle(allIds.filter((id) => !usedRecently.has(id) && !picked.includes(id)));
+    const remaining = shuffle(originalIds.filter((id) => !usedRecently.has(id) && !picked.includes(id)));
     while (picked.length < 3 && remaining.length > 0) {
       picked.push(remaining.shift());
     }
   }
   // Last resort: allow repeats
   if (picked.length < 3) {
-    const fallback = shuffle(allIds.filter((id) => !picked.includes(id)));
+    const fallback = shuffle(originalIds.filter((id) => !picked.includes(id)));
     while (picked.length < 3) picked.push(fallback.shift());
   }
 
@@ -139,7 +175,60 @@ for (let day = 0; day < DAYS; day++) {
   }
 }
 
+// Phase 2: Days 181+ using only newly added courses (if any)
+if (newIds.length >= 3) {
+  usedRecently.clear();
+  recentQueue.length = 0;
+  const newRand = seededRandom(177); // Different seed for new section
+  const newShuffle = (arr) => {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(newRand() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+
+  for (let day = 0; day < DAYS_NEW; day++) {
+    const date = new Date(START_DATE);
+    date.setDate(date.getDate() + DAYS_ORIGINAL + day);
+    const dateStr = date.toISOString().split("T")[0];
+
+    const avail = newShuffle(newIds.filter((id) => !usedRecently.has(id)));
+    let picked = avail.slice(0, 3);
+    if (picked.length < 3) {
+      const remaining = newShuffle(newIds.filter((id) => !usedRecently.has(id) && !picked.includes(id)));
+      while (picked.length < 3 && remaining.length > 0) picked.push(remaining.shift());
+    }
+    if (picked.length < 3) {
+      const fallback = newShuffle(newIds.filter((id) => !picked.includes(id)));
+      while (picked.length < 3 && fallback.length > 0) picked.push(fallback.shift());
+    }
+    picked = newShuffle(picked);
+
+    schedule.push({
+      date: dateStr,
+      rounds: picked.map((courseId, i) => ({
+        courseId,
+        imageKey: imageKeys[(day * ROUNDS_PER_DAY + i) % imageKeys.length],
+        difficulty: difficulties[i],
+      })),
+    });
+
+    for (const id of picked) {
+      usedRecently.add(id);
+      recentQueue.push({ id, expiresDay: day + COOLDOWN });
+    }
+    while (recentQueue.length > 0 && recentQueue[0].expiresDay <= day) {
+      usedRecently.delete(recentQueue.shift().id);
+    }
+  }
+}
+
 writeFileSync(outputPath, JSON.stringify(schedule, null, 2));
-console.log(`Generated ${schedule.length} days of schedule (${DAYS * ROUNDS_PER_DAY} rounds total)`);
-console.log(`Courses in pool: ${allIds.length} (T1: ${tier1Ids.length}, T2: ${tier2Ids.length}, T3: ${tier3Ids.length})`);
+console.log(`Generated ${schedule.length} days of schedule`);
+console.log(`Original pool: ${originalIds.length} (T1: ${tier1Ids.length}, T2: ${tier2Ids.length}, T3: ${tier3Ids.length})`);
+if (newIds.length > 0) {
+  console.log(`New pool: ${newIds.length} (days ${DAYS_ORIGINAL + 1}–${schedule.length})`);
+}
 console.log(`Date range: ${schedule[0].date} to ${schedule[schedule.length - 1].date}`);

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-courses": "node scripts/generate-course-data.mjs",
+    "generate-schedule": "node scripts/generate-schedule.mjs",
+    "fetch-images": "node scripts/fetch-images.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.0",
