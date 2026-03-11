@@ -14,7 +14,7 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "CourseIQ",
+  title: "GolfGuessr",
   description: "How well do you know America's golf courses?",
 };
 

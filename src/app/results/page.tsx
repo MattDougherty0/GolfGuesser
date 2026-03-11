@@ -153,7 +153,7 @@ export default function ResultsPage() {
   const dateShort = getTodayDateET().slice(5).replace("-", "/"); // "03/10"
 
   function handleShare() {
-    const text = `CourseIQ ${dateShort} — ${results!.totalScore.toLocaleString()}/3,000\n\n${results!.rounds
+    const text = `GolfGuessr ${dateShort} — ${results!.totalScore.toLocaleString()}/3,000\n\n${results!.rounds
       .map((r, i) => {
         const correct = r.nameCorrect ? "✅" : "❌";
         return `R${i + 1}: ${correct} ${r.score}pts`;

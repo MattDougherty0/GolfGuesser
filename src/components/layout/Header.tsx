@@ -10,7 +10,7 @@ export default function Header({ playerName }: HeaderProps) {
   return (
     <header className="flex items-center justify-between px-4 py-3 sm:px-6">
       <Link href="/" className="font-serif text-xl text-cream tracking-tight hover:text-accent transition-colors">
-        CourseIQ
+        GolfGuessr
       </Link>
 
       <div className="flex items-center gap-2">

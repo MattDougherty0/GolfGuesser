@@ -97,7 +97,7 @@ export default function Home() {
       <main className="flex flex-1 flex-col items-center justify-center px-4">
         <div className="rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
           <h1 className="font-serif text-5xl tracking-tight text-cream sm:text-6xl">
-            CourseIQ
+            GolfGuessr
           </h1>
           <p className="mt-3 text-lg text-cream/70">
             How well do you know America&apos;s golf courses?

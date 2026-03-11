@@ -31,7 +31,7 @@ export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) 
   return (
     <div className="fixed inset-0 z-[2000] flex items-center justify-center bg-black/60 backdrop-blur-sm px-4">
       <div className="w-full max-w-sm rounded-2xl border border-cream/10 bg-card p-6 shadow-2xl">
-        <h2 className="font-serif text-2xl text-cream text-center">Welcome to CourseIQ</h2>
+        <h2 className="font-serif text-2xl text-cream text-center">Welcome to GolfGuessr</h2>
         <p className="mt-2 text-sm text-cream/50 text-center">
           Pick a display name for the leaderboard
         </p>

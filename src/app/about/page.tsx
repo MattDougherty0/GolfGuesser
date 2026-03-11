@@ -26,7 +26,7 @@ export default function AboutPage() {
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:py-16">
         {/* Title */}
         <h1 className="font-serif text-4xl tracking-tight text-cream sm:text-5xl">
-          About CourseIQ
+          About GolfGuessr
         </h1>
         <p className="mt-3 text-cream/60 leading-relaxed">
           A daily golf geography challenge. Each day you get three rounds&mdash;three
