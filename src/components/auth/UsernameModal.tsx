@@ -4,9 +4,10 @@ import { useState } from "react";
 
 interface UsernameModalProps {
   onSubmit: (name: string) => void;
+  onSkip: () => void;
 }
 
-export default function UsernameModal({ onSubmit }: UsernameModalProps) {
+export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) {
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -62,6 +63,14 @@ export default function UsernameModal({ onSubmit }: UsernameModalProps) {
             {loading ? "Creating…" : "Let's Play"}
           </button>
         </form>
+
+        <button
+          type="button"
+          onClick={onSkip}
+          className="mt-3 w-full text-center text-xs text-cream/35 transition-colors hover:text-cream/55"
+        >
+          Continue without a name &mdash; no leaderboard tracking
+        </button>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getPlayerState, isTodayCompleted, getTodayResults } from "@/lib/storage";
-import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
+import { getLocalPlayerId, getPlayer, createPlayer, hasSkippedLogin, setSkippedLogin, type Player } from "@/lib/db";
 import type { PlayerState } from "@/lib/types";
 import Header from "@/components/layout/Header";
 import StatsModal from "@/components/layout/StatsModal";
@@ -66,9 +66,9 @@ export default function Home() {
     if (pid) {
       getPlayer(pid).then((p) => {
         if (p) setPlayer(p);
-        else setNeedsUsername(true);
+        else if (!hasSkippedLogin()) setNeedsUsername(true);
       });
-    } else {
+    } else if (!hasSkippedLogin()) {
       setNeedsUsername(true);
     }
   }, []);
@@ -79,6 +79,11 @@ export default function Home() {
       setPlayer(p);
       setNeedsUsername(false);
     }
+  }
+
+  function handleSkipLogin() {
+    setSkippedLogin();
+    setNeedsUsername(false);
   }
 
   const today = mounted
@@ -143,7 +148,7 @@ export default function Home() {
         </div>
       </main>
 
-      {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} />}
+      {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} onSkip={handleSkipLogin} />}
 
       {showStats && stats && (
         <StatsModal stats={stats} onClose={() => setShowStats(false)} />
