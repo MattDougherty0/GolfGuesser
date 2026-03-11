@@ -303,15 +303,15 @@ export default function PlayPage() {
           {/* Hint panel — key forces remount on round change */}
           <HintPanel key={`hints-${state.roundIndex}`} clues={currentCourse.clues} onHintsUsedChange={handleHintsChange} />
 
-          {/* Guess section: input + map */}
-          <div className="w-full max-w-4xl grid grid-cols-1 gap-4 lg:grid-cols-2">
-            <div className="flex flex-col gap-3">
+          {/* Guess section: name then map, stacked */}
+          <div className="w-full max-w-[500px] flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
               <label className="text-xs font-medium uppercase tracking-wider text-cream/40">
                 Course Name
               </label>
               <GuessInput key={`guess-${state.roundIndex}`} onChange={handleCourseChange} />
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-2">
               <label className="text-xs font-medium uppercase tracking-wider text-cream/40">
                 Pin Location
               </label>
