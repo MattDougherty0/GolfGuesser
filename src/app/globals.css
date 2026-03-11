@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0D1F17;
+  --color-foreground: #F5F1EB;
+  --color-primary: #1B4332;
+  --color-accent: #C9A84C;
+  --color-cream: #F5F1EB;
+  --color-card: #132E22;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-dm-serif);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}

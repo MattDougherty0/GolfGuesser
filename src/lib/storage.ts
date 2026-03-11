@@ -1,0 +1,130 @@
+import type { PlayerState, RoundResult, TodayResults } from "./types";
+import { getTodayDateET } from "./daily";
+
+const STORAGE_KEY = "courseiq-player-state";
+
+function defaultState(): PlayerState {
+  return {
+    currentStreak: 0,
+    longestStreak: 0,
+    gamesPlayed: 0,
+    totalScore: 0,
+    averageScore: 0,
+    lastPlayedDate: null,
+    todayResults: null,
+    history: {},
+  };
+}
+
+/** Read the full player state from localStorage. */
+export function getPlayerState(): PlayerState {
+  if (typeof window === "undefined") return defaultState();
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return defaultState();
+    return JSON.parse(raw) as PlayerState;
+  } catch {
+    return defaultState();
+  }
+}
+
+/** Write the full player state to localStorage. */
+export function setPlayerState(state: PlayerState): void {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+/** Get today's results, or null if not started. */
+export function getTodayResults(): TodayResults | null {
+  const state = getPlayerState();
+  const today = getTodayDateET();
+
+  // If todayResults exists but is from a previous day, clear it
+  if (state.lastPlayedDate !== today) {
+    return null;
+  }
+
+  return state.todayResults;
+}
+
+/** Check if today's puzzle has been completed (all 3 rounds). */
+export function isTodayCompleted(): boolean {
+  const results = getTodayResults();
+  return results?.completed ?? false;
+}
+
+/** Save a round result. Appends to today's rounds and updates totals. */
+export function saveRoundResult(result: RoundResult): void {
+  const state = getPlayerState();
+  const today = getTodayDateET();
+
+  // Initialize todayResults if needed or if it's a new day
+  if (!state.todayResults || state.lastPlayedDate !== today) {
+    state.todayResults = {
+      completed: false,
+      rounds: [],
+      totalScore: 0,
+    };
+    state.lastPlayedDate = today;
+  }
+
+  state.todayResults.rounds.push(result);
+  state.todayResults.totalScore += result.score;
+
+  // Mark completed after 3 rounds
+  if (state.todayResults.rounds.length >= 3) {
+    state.todayResults.completed = true;
+    finalizeDailyResults(state, today);
+  }
+
+  setPlayerState(state);
+}
+
+/**
+ * Called when all 3 rounds are done.
+ * Updates streak, games played, averages, and history.
+ */
+function finalizeDailyResults(state: PlayerState, today: string): void {
+  // Update streak
+  updateStreak(state, today);
+
+  // Update totals
+  state.gamesPlayed += 1;
+  state.totalScore += state.todayResults!.totalScore;
+  state.averageScore = Math.round(state.totalScore / state.gamesPlayed);
+
+  // Save to history
+  state.history[today] = { ...state.todayResults! };
+}
+
+/**
+ * Update the streak based on consecutive days played.
+ * Increment if the previous played date was yesterday, reset if there's a gap.
+ */
+function updateStreak(state: PlayerState, today: string): void {
+  if (!state.lastPlayedDate) {
+    // First time playing
+    state.currentStreak = 1;
+  } else {
+    const yesterday = getYesterdayDateET(today);
+    if (state.lastPlayedDate === yesterday) {
+      state.currentStreak += 1;
+    } else if (state.lastPlayedDate === today) {
+      // Already counted today (shouldn't happen, but guard)
+    } else {
+      // Gap — reset streak
+      state.currentStreak = 1;
+    }
+  }
+
+  if (state.currentStreak > state.longestStreak) {
+    state.longestStreak = state.currentStreak;
+  }
+}
+
+/** Get yesterday's date string relative to a given YYYY-MM-DD date. */
+function getYesterdayDateET(today: string): string {
+  const date = new Date(today + "T12:00:00-05:00"); // noon ET to avoid DST edge cases
+  date.setDate(date.getDate() - 1);
+  return date.toISOString().split("T")[0];
+}

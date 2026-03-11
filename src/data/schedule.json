@@ -1,0 +1,3602 @@
+[
+  {
+    "date": "2026-03-11",
+    "rounds": [
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      },
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-sawgrass-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "rounds": [
+      {
+        "courseId": "riviera-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "rounds": [
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "rounds": [
+      {
+        "courseId": "muirfield-village-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "rounds": [
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "rounds": [
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bethpage-black",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "rounds": [
+      {
+        "courseId": "arcadia-bluffs",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "kiawah-island-ocean-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "rounds": [
+      {
+        "courseId": "valhalla-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "rounds": [
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "rounds": [
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "rounds": [
+      {
+        "courseId": "oakmont-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "chambers-bay",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "rounds": [
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-national-champion-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "rounds": [
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "rounds": [
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "harbour-town-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "hazeltine-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "rounds": [
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "rounds": [
+      {
+        "courseId": "peachtree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-27",
+    "rounds": [
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "streamsong-blue",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "rounds": [
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "rounds": [
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "rounds": [
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "silverado-resort-north-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "rounds": [
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "erin-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "rounds": [
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "maidstone-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "rounds": [
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "shadow-creek",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlantic-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "rounds": [
+      {
+        "courseId": "old-sandwich-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "rounds": [
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "rounds": [
+      {
+        "courseId": "seminole",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "kiawah-island-ocean-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-valley",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "rounds": [
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "rounds": [
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "streamsong-red",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "rounds": [
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bethpage-black",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "rounds": [
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "hazeltine-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-san-antonio-oaks-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "rounds": [
+      {
+        "courseId": "shadow-creek",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cypress-point",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "rounds": [
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-12",
+    "rounds": [
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "rounds": [
+      {
+        "courseId": "shoreacres",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "rounds": [
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "rounds": [
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "rounds": [
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "rounds": [
+      {
+        "courseId": "cypress-point",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "harbour-town-golf-links",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "riviera-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "rounds": [
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "rounds": [
+      {
+        "courseId": "muirfield-village-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympia-fields-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "rounds": [
+      {
+        "courseId": "bethpage-black",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "rounds": [
+      {
+        "courseId": "caves-valley-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "baltusrol-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "oakmont-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "rounds": [
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-summerlin",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "rounds": [
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-craig-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "rounds": [
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-26",
+    "rounds": [
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympia-fields-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "rounds": [
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "milwaukee-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "arcadia-bluffs",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "rounds": [
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "rounds": [
+      {
+        "courseId": "streamsong-blue",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-san-antonio-oaks-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "rounds": [
+      {
+        "courseId": "garden-city-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "rounds": [
+      {
+        "courseId": "silverado-resort-north-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "rounds": [
+      {
+        "courseId": "pete-dye-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bethpage-black",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-03",
+    "rounds": [
+      {
+        "courseId": "riviera-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sedgefield-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-valley",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "rounds": [
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "rounds": [
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "rounds": [
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "rounds": [
+      {
+        "courseId": "old-sandwich-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "erin-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "rounds": [
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-09",
+    "rounds": [
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-10",
+    "rounds": [
+      {
+        "courseId": "aronimink",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlantic-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "rounds": [
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "kingsley-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "shadow-creek",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "rounds": [
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-13",
+    "rounds": [
+      {
+        "courseId": "bandon-trails",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "riviera-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "baltusrol-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "rounds": [
+      {
+        "courseId": "oakmont-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "rounds": [
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "east-lake-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-national-champion-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "rounds": [
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "wade-hampton-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "kiawah-island-ocean-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "muirfield-village-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-18",
+    "rounds": [
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "rounds": [
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "rounds": [
+      {
+        "courseId": "pete-dye-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cypress-point",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "silverado-resort-north-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "rounds": [
+      {
+        "courseId": "hazeltine-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pasatiempo",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "rounds": [
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "baltusrol-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "chambers-bay",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-23",
+    "rounds": [
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "seminole",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-24",
+    "rounds": [
+      {
+        "courseId": "caves-valley-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "rounds": [
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "rounds": [
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "maidstone-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "rounds": [
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "we-ko-pa-saguaro",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "rounds": [
+      {
+        "courseId": "bandon-trails",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "rounds": [
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "peachtree-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "rounds": [
+      {
+        "courseId": "bethpage-black",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "rounds": [
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "chambers-bay",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "rounds": [
+      {
+        "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "yeamans-hall-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "shadow-creek",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "rounds": [
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-craig-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "rounds": [
+      {
+        "courseId": "tpc-sawgrass-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "rounds": [
+      {
+        "courseId": "maidstone-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "rounds": [
+      {
+        "courseId": "spyglass-hill",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "caves-valley-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "rounds": [
+      {
+        "courseId": "seminole",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "old-sandwich-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "rounds": [
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "rounds": [
+      {
+        "courseId": "streamsong-blue",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "rounds": [
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "rounds": [
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pine-valley",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-national-champion-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "rounds": [
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "rounds": [
+      {
+        "courseId": "tpc-craig-ranch",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympia-fields-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-13",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "crystal-downs",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "rounds": [
+      {
+        "courseId": "sedgefield-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-sawgrass-stadium-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "rounds": [
+      {
+        "courseId": "pete-dye-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "wade-hampton-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "rounds": [
+      {
+        "courseId": "arcadia-bluffs",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "kingsley-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "rounds": [
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "peachtree-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "rounds": [
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlantic-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "rounds": [
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "rounds": [
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "harbour-town-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "rounds": [
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "rounds": [
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympia-fields-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "rounds": [
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pebble-beach-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "old-macdonald",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "rounds": [
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "rounds": [
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "seminole",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "rounds": [
+      {
+        "courseId": "east-lake-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "old-sandwich-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "rounds": [
+      {
+        "courseId": "chambers-bay",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "peachtree-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-28",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sand-valley",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-29",
+    "rounds": [
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bandon-trails",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pasatiempo",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "rounds": [
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cypress-point",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "firestone-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "rounds": [
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "milwaukee-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "rounds": [
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-san-antonio-oaks-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "rounds": [
+      {
+        "courseId": "erin-hills",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "silverado-resort-north-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-04",
+    "rounds": [
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pete-dye-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "chambers-bay",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "rounds": [
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-craig-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "rounds": [
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "rounds": [
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "fishers-island",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "rounds": [
+      {
+        "courseId": "we-ko-pa-saguaro",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "spyglass-hill",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "rounds": [
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "valhalla-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "rounds": [
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympia-fields-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "rounds": [
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "garden-city-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-12",
+    "rounds": [
+      {
+        "courseId": "crystal-downs",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "rounds": [
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "yeamans-hall-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "rounds": [
+      {
+        "courseId": "east-lake-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "rounds": [
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pine-valley",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "rounds": [
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "kiawah-island-ocean-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "rounds": [
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sand-valley",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "rounds": [
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "maidstone-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-19",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "yeamans-hall-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "rounds": [
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sea-island-golf-club-seaside",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "valhalla-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "rounds": [
+      {
+        "courseId": "bandon-trails",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "rounds": [
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "rounds": [
+      {
+        "courseId": "caves-valley-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "old-macdonald",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "arcadia-bluffs",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "rounds": [
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pacific-dunes",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "rounds": [
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "cog-hill-dubsdread",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "rounds": [
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "rounds": [
+      {
+        "courseId": "tpc-louisiana",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pga-national-champion-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "kingsley-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "rounds": [
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "prairie-dunes",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "oakmont-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "rounds": [
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "colonial-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "rounds": [
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "rounds": [
+      {
+        "courseId": "pasatiempo",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "national-golf-links",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "rounds": [
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-valley",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "rounds": [
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "atlantic-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "secession-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "rounds": [
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "milwaukee-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "crystal-downs",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "rounds": [
+      {
+        "courseId": "pine-valley",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "whistling-straits",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "rounds": [
+      {
+        "courseId": "bandon-dunes",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "muirfield-village-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "rounds": [
+      {
+        "courseId": "harbour-town-golf-links",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-summerlin",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "kingsley-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "rounds": [
+      {
+        "courseId": "pasatiempo",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "pete-dye-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "rounds": [
+      {
+        "courseId": "shoreacres",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "riviera-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "rounds": [
+      {
+        "courseId": "sand-hills",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "erin-hills",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "rounds": [
+      {
+        "courseId": "valhalla-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "rounds": [
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "rounds": [
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-craig-ranch",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "rounds": [
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "innisbrook-copperhead-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "friars-head",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "rounds": [
+      {
+        "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "bellerive-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "aronimink",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "rounds": [
+      {
+        "courseId": "southern-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cog-hill-dubsdread",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "yeamans-hall-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-16",
+    "rounds": [
+      {
+        "courseId": "streamsong-red",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "rounds": [
+      {
+        "courseId": "east-lake-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-harding-park",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "augusta-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "rounds": [
+      {
+        "courseId": "los-angeles-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-honors-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "seminole",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "rounds": [
+      {
+        "courseId": "merion-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "old-macdonald",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "prairie-dunes",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "rounds": [
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "silverado-resort-north-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sand-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "rounds": [
+      {
+        "courseId": "tpc-sawgrass-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "chicago-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pga-west-stadium-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "rounds": [
+      {
+        "courseId": "tpc-summerlin",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlantic-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
+    "rounds": [
+      {
+        "courseId": "sheep-ranch",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "baltusrol-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "shinnecock-hills-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "rounds": [
+      {
+        "courseId": "secession-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
+    "rounds": [
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sedgefield-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pine-valley",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "rounds": [
+      {
+        "courseId": "harbour-town-golf-links",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "winged-foot-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "congressional-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "rounds": [
+      {
+        "courseId": "quail-hollow-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "oakland-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "inverness-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "rounds": [
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "congaree-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "rounds": [
+      {
+        "courseId": "shadow-creek",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-sawgrass-stadium-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sage-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
+    "rounds": [
+      {
+        "courseId": "cog-hill-dubsdread",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "medinah-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "streamsong-red",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "rounds": [
+      {
+        "courseId": "liberty-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "somerset-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "olympic-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "rounds": [
+      {
+        "courseId": "camargo",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "hazeltine-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-deere-run",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "rounds": [
+      {
+        "courseId": "tpc-river-highlands",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-scottsdale-stadium-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "erin-hills",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-03",
+    "rounds": [
+      {
+        "courseId": "greenbrier-old-white",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "trump-national-golf-club-bedminster",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "calusa-pines-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "rounds": [
+      {
+        "courseId": "wade-hampton-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sand-hills",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "streamsong-blue",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "rounds": [
+      {
+        "courseId": "bay-hill-club-and-lodge",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "valhalla-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-southwind",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "rounds": [
+      {
+        "courseId": "pinehurst-no-2",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "we-ko-pa-saguaro",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  }
+]
