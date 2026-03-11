@@ -302,11 +302,24 @@ export default function PlayPage() {
             <Timer running={state.timerRunning} elapsed={state.elapsed} onTick={handleTick} />
           </div>
 
+          {/* Points available */}
+          <div className="text-center">
+            <span className="text-2xl font-bold tabular-nums text-accent">
+              {1000 - state.hintPenalty}
+            </span>
+            <span className="ml-2 text-xs font-medium uppercase tracking-wider text-accent/50">
+              pts available
+            </span>
+          </div>
+
           {/* Clue image */}
           <ClueImage src={imageSrc} />
 
-          {/* Hint panel — key forces remount on round change */}
-          <HintPanel key={`hints-${state.roundIndex}`} clues={currentCourse.clues} onHintsUsedChange={handleHintsChange} />
+          {/* Hints label + panel */}
+          <div className="w-full max-w-[500px]">
+            <p className="mb-2 text-center text-xs font-medium uppercase tracking-wider text-accent/60">Hints</p>
+            <HintPanel key={`hints-${state.roundIndex}`} clues={currentCourse.clues} onHintsUsedChange={handleHintsChange} />
+          </div>
 
           {/* Guess section: name then map, stacked */}
           <div className="w-full max-w-[500px] flex flex-col gap-4">
