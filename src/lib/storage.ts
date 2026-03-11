@@ -1,5 +1,6 @@
 import type { PlayerState, RoundResult, TodayResults } from "./types";
 import { getTodayDateET } from "./daily";
+import { getLocalPlayerId, submitDailyScore } from "./db";
 
 const STORAGE_KEY = "courseiq-player-state";
 
@@ -75,9 +76,24 @@ export function saveRoundResult(result: RoundResult): void {
   if (state.todayResults.rounds.length >= 3) {
     state.todayResults.completed = true;
     finalizeDailyResults(state, today);
+    submitToLeaderboard(state.todayResults, today);
   }
 
   setPlayerState(state);
+}
+
+async function submitToLeaderboard(results: TodayResults, date: string) {
+  const playerId = getLocalPlayerId();
+  if (!playerId) return;
+
+  await submitDailyScore({
+    playerId,
+    date,
+    roundScores: results.rounds.map((r) => r.score),
+    totalScore: results.totalScore,
+    hintsUsed: results.rounds.reduce((sum, r) => sum + r.hintsUsed, 0),
+    timeSeconds: results.rounds.reduce((sum, r) => sum + r.timeSeconds, 0),
+  });
 }
 
 /**

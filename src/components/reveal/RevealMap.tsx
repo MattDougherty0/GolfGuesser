@@ -17,7 +17,6 @@ interface RevealMapProps {
   guessLat: number;
   guessLng: number;
   distanceMiles: number;
-  courseName: string;
 }
 
 export default function RevealMap(props: RevealMapProps) {

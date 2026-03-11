@@ -31,7 +31,6 @@ interface RevealMapLeafletProps {
   guessLat: number;
   guessLng: number;
   distanceMiles: number;
-  courseName: string;
 }
 
 function FitBounds({ courseLat, courseLng, guessLat, guessLng }: {
@@ -47,7 +46,7 @@ function FitBounds({ courseLat, courseLng, guessLat, guessLng }: {
       [courseLat, courseLng],
       [guessLat, guessLng]
     );
-    map.fitBounds(bounds, { padding: [60, 60], maxZoom: 8 });
+    map.fitBounds(bounds, { padding: [50, 50], maxZoom: 10 });
   }, [map, courseLat, courseLng, guessLat, guessLng]);
 
   return null;
@@ -59,7 +58,6 @@ export default function RevealMapLeaflet({
   guessLat,
   guessLng,
   distanceMiles,
-  courseName,
 }: RevealMapLeafletProps) {
   const linePositions: [number, number][] = useMemo(
     () => [
@@ -97,7 +95,7 @@ export default function RevealMapLeaflet({
       {/* Correct course location */}
       <Marker position={[courseLat, courseLng]} icon={correctIcon}>
         <Tooltip permanent direction="top" offset={[0, -42]} className="reveal-tooltip">
-          {courseName}
+          Correct
         </Tooltip>
       </Marker>
 

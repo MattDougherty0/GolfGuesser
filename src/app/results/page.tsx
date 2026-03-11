@@ -152,14 +152,20 @@ export default function ResultsPage() {
           </div>
         )}
 
-        {/* Share button */}
-        <div className="flex justify-center mb-6">
+        {/* Action buttons */}
+        <div className="flex justify-center gap-3 mb-6">
           <button
             onClick={handleShare}
             className="rounded-full border border-cream/15 bg-card px-6 py-2.5 text-sm font-medium text-cream transition-all hover:border-accent/30 hover:bg-accent/5"
           >
             {copied ? "Copied!" : "Share Results"}
           </button>
+          <a
+            href="/leaderboard"
+            className="rounded-full border border-accent/30 bg-accent/5 px-6 py-2.5 text-sm font-medium text-accent transition-all hover:bg-accent/10"
+          >
+            Leaderboard
+          </a>
         </div>
 
         {/* Countdown */}

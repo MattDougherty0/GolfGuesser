@@ -3,10 +3,11 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getPlayerState, isTodayCompleted, getTodayResults } from "@/lib/storage";
-import { getTodayDateET } from "@/lib/daily";
-import type { PlayerState, TodayResults } from "@/lib/types";
+import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
+import type { PlayerState } from "@/lib/types";
 import Header from "@/components/layout/Header";
 import StatsModal from "@/components/layout/StatsModal";
+import UsernameModal from "@/components/auth/UsernameModal";
 
 function useMidnightCountdown() {
   const [timeLeft, setTimeLeft] = useState("");
@@ -14,7 +15,6 @@ function useMidnightCountdown() {
   useEffect(() => {
     function update() {
       const now = new Date();
-      // Calculate midnight ET
       const etNow = new Date(
         now.toLocaleString("en-US", { timeZone: "America/New_York" })
       );
@@ -46,6 +46,8 @@ export default function Home() {
   const [stats, setStats] = useState<PlayerState | null>(null);
   const [showStats, setShowStats] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [player, setPlayer] = useState<Player | null>(null);
+  const [needsUsername, setNeedsUsername] = useState(false);
 
   const countdown = useMidnightCountdown();
 
@@ -59,7 +61,25 @@ export default function Home() {
     }
     setStats(getPlayerState());
     requestAnimationFrame(() => window.scrollTo(0, 0));
+
+    const pid = getLocalPlayerId();
+    if (pid) {
+      getPlayer(pid).then((p) => {
+        if (p) setPlayer(p);
+        else setNeedsUsername(true);
+      });
+    } else {
+      setNeedsUsername(true);
+    }
   }, []);
+
+  async function handleCreatePlayer(name: string) {
+    const p = await createPlayer(name);
+    if (p) {
+      setPlayer(p);
+      setNeedsUsername(false);
+    }
+  }
 
   const today = mounted
     ? new Date().toLocaleDateString("en-US", {
@@ -73,7 +93,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Header onStatsClick={() => setShowStats(true)} />
+      <Header onStatsClick={() => setShowStats(true)} playerName={player?.display_name} />
 
       <main className="flex flex-1 flex-col items-center justify-center px-4">
         <div className="rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
@@ -89,7 +109,6 @@ export default function Home() {
           )}
 
           {mounted && completed ? (
-            /* ── Completed state ── */
             <div className="mt-8 space-y-4">
               <div>
                 <p className="text-xs uppercase tracking-wider text-cream/40">Today&apos;s Score</p>
@@ -114,7 +133,6 @@ export default function Home() {
               </div>
             </div>
           ) : mounted ? (
-            /* ── Not played state ── */
             <Link
               href="/play"
               className="mt-8 inline-block rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
@@ -124,6 +142,8 @@ export default function Home() {
           ) : null}
         </div>
       </main>
+
+      {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} />}
 
       {showStats && stats && (
         <StatsModal stats={stats} onClose={() => setShowStats(false)} />
