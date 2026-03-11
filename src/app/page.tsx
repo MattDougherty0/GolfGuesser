@@ -2,11 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { getPlayerState, isTodayCompleted, getTodayResults } from "@/lib/storage";
+import { isTodayCompleted, getTodayResults } from "@/lib/storage";
 import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
-import type { PlayerState } from "@/lib/types";
 import Header from "@/components/layout/Header";
-import StatsModal from "@/components/layout/StatsModal";
 import UsernameModal from "@/components/auth/UsernameModal";
 
 function useMidnightCountdown() {
@@ -43,8 +41,6 @@ function useMidnightCountdown() {
 export default function Home() {
   const [completed, setCompleted] = useState(false);
   const [todayScore, setTodayScore] = useState(0);
-  const [stats, setStats] = useState<PlayerState | null>(null);
-  const [showStats, setShowStats] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [player, setPlayer] = useState<Player | null>(null);
   const [needsUsername, setNeedsUsername] = useState(false);
@@ -59,7 +55,6 @@ export default function Home() {
       const results = getTodayResults();
       setTodayScore(results?.totalScore ?? 0);
     }
-    setStats(getPlayerState());
     requestAnimationFrame(() => window.scrollTo(0, 0));
 
     const pid = getLocalPlayerId();
@@ -129,14 +124,12 @@ export default function Home() {
                 View Results
               </Link>
 
-              {stats && (
-                <button
-                  onClick={() => setShowStats(true)}
-                  className="text-sm text-cream/40 hover:text-cream/70 transition-colors"
-                >
-                  View stats
-                </button>
-              )}
+              <Link
+                href="/leaderboard"
+                className="inline-block text-sm text-cream/40 hover:text-cream/70 transition-colors"
+              >
+                Leaderboard
+              </Link>
 
               <div className="pt-2">
                 <p className="text-sm text-cream/40">Next puzzle in</p>
@@ -157,10 +150,6 @@ export default function Home() {
       </main>
 
       {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} onSkip={handleSkipLogin} />}
-
-      {showStats && stats && (
-        <StatsModal stats={stats} onClose={() => setShowStats(false)} />
-      )}
     </div>
   );
 }
