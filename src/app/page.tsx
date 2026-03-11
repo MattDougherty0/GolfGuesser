@@ -117,19 +117,20 @@ export default function Home() {
                 <p className="text-sm text-cream/40 mt-1">out of 3,000</p>
               </div>
 
-              <Link
-                href="/results"
-                className="inline-block rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
-              >
-                View Results
-              </Link>
-
-              <Link
-                href="/leaderboard"
-                className="inline-block text-sm text-cream/40 hover:text-cream/70 transition-colors"
-              >
-                Leaderboard
-              </Link>
+              <div className="flex flex-col items-center gap-3">
+                <Link
+                  href="/results"
+                  className="inline-block rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
+                >
+                  View Results
+                </Link>
+                <Link
+                  href="/leaderboard"
+                  className="text-sm text-cream/40 hover:text-cream/70 transition-colors"
+                >
+                  Leaderboard
+                </Link>
+              </div>
 
               <div className="pt-2">
                 <p className="text-sm text-cream/40">Next puzzle in</p>
