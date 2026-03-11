@@ -325,7 +325,7 @@ export default function PlayPage() {
             <HintPanel key={`hints-${state.roundIndex}`} clues={currentCourse.clues} onHintsUsedChange={handleHintsChange} />
           </div>
 
-          {/* Guess section: name then map, stacked */}
+          {/* Guess section: name, submit button, then map */}
           <div className="flex min-w-0 flex-col gap-4">
             <div className="flex flex-col gap-2">
               <label className="text-xs font-medium uppercase tracking-wider text-cream/40">
@@ -333,6 +333,22 @@ export default function PlayPage() {
               </label>
               <GuessInput key={`guess-${state.roundIndex}`} onChange={handleCourseChange} />
             </div>
+
+            {/* Submit button — below course name, above pin */}
+            <button
+              onClick={handleSubmit}
+              disabled={!canSubmit}
+              className={`
+                rounded-full px-10 py-3 text-sm font-semibold transition-all
+                ${canSubmit
+                  ? "bg-accent text-background hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
+                  : "bg-cream/10 text-cream/25 cursor-not-allowed"
+                }
+              `}
+            >
+              Submit Guess
+            </button>
+
             <div className="flex flex-col gap-2">
               <label className="text-xs font-medium uppercase tracking-wider text-cream/40">
                 Pin Location
@@ -340,21 +356,6 @@ export default function PlayPage() {
               <MapGuess key={`map-${state.roundIndex}`} pin={state.pin} onPinChange={handlePinChange} />
             </div>
           </div>
-
-          {/* Submit button */}
-          <button
-            onClick={handleSubmit}
-            disabled={!canSubmit}
-            className={`
-              mt-2 rounded-full px-10 py-3 text-sm font-semibold transition-all
-              ${canSubmit
-                ? "bg-accent text-background hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
-                : "bg-cream/10 text-cream/25 cursor-not-allowed"
-              }
-            `}
-          >
-            Submit Guess
-          </button>
         </div>
       </div>
     );
