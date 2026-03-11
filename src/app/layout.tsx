@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const viewport: Viewport = {
   width: "device-width",
-  initialScale: 1,
+  initialScale: 0.85,
 };
 
 const inter = Inter({
