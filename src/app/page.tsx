@@ -91,11 +91,11 @@ export default function Home() {
     : "";
 
   return (
-    <div className="flex min-h-screen min-w-0 flex-col overflow-x-hidden">
+    <div className="flex min-h-screen flex-col">
       <Header playerName={player?.display_name} />
 
-      <main className="flex min-w-0 flex-1 flex-col items-center justify-center overflow-x-hidden px-4">
-        <div className="w-full max-w-full rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
+      <main className="flex flex-1 flex-col items-center justify-center px-4">
+        <div className="rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
           <h1 className="font-serif text-5xl tracking-tight text-cream sm:text-6xl">
             GolfGuessr
           </h1>

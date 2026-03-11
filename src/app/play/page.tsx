@@ -296,10 +296,10 @@ export default function PlayPage() {
   // ── Guessing Phase ──
   if (state.phase === "guessing" && currentCourse) {
     return (
-      <div className="min-h-screen min-w-0 overflow-x-hidden px-4 py-6 sm:py-10">
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-center gap-5 overflow-x-hidden">
+      <div className="min-h-screen w-full overflow-x-hidden px-4 py-6 sm:py-10">
+        <div className="mx-auto flex w-full max-w-full flex-col items-center gap-5 sm:max-w-4xl">
           {/* Header row: round + timer */}
-          <div className="flex w-full max-w-[500px] items-center justify-between">
+          <div className="flex w-full max-w-[500px] min-w-0 items-center justify-between">
             <span className="text-sm font-medium text-cream/60">
               Round {state.roundIndex + 1} of {TOTAL_ROUNDS}
             </span>
@@ -320,7 +320,7 @@ export default function PlayPage() {
           <ClueImage src={imageSrc} />
 
           {/* Hints label + panel */}
-          <div className="w-full max-w-[500px]">
+          <div className="w-full max-w-[500px] min-w-0">
             <p className="mb-2 text-center text-xs font-medium uppercase tracking-wider text-accent/60">Hints</p>
             <HintPanel key={`hints-${state.roundIndex}`} clues={currentCourse.clues} onHintsUsedChange={handleHintsChange} />
           </div>
@@ -363,7 +363,7 @@ export default function PlayPage() {
   // ── Reveal Phase ──
   if (state.phase === "reveal" && currentCourse && latestResult) {
     return (
-      <div className="min-h-screen min-w-0 overflow-x-hidden px-4 py-6 sm:py-10">
+      <div className="min-h-screen w-full overflow-x-hidden px-4 py-6 sm:py-10">
         <RevealCard
           course={currentCourse}
           result={latestResult}
