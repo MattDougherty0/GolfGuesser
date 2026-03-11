@@ -73,7 +73,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
   }
 
   return (
-    <div ref={containerRef} className="relative w-full">
+    <div ref={containerRef} className="relative min-w-0 w-full">
       <input
         ref={inputRef}
         type="text"

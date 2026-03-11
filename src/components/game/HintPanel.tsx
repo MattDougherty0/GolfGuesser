@@ -31,7 +31,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
   }
 
   return (
-    <div className="w-full max-w-[500px] min-w-0 space-y-3">
+    <div className="min-w-0 w-full max-w-[500px] space-y-3">
       {/* Hint buttons */}
       <div className="flex flex-wrap justify-center gap-2">
         {HINT_CONFIG.map((hint, i) => {

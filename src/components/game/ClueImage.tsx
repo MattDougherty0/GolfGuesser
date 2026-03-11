@@ -12,7 +12,7 @@ export default function ClueImage({ src, alt = "Aerial view of a golf course" }:
   const [loading, setLoading] = useState(true);
 
   return (
-    <div className="relative w-full max-w-[500px] min-w-0 overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30">
+    <div className="relative min-w-0 w-full max-w-[500px] overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30">
       <div className="relative aspect-square w-full bg-primary/50">
         {hasError ? (
           <div className="flex h-full w-full flex-col items-center justify-center gap-3 text-cream/30 p-8">

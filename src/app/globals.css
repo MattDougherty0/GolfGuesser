@@ -11,8 +11,15 @@
   --font-serif: var(--font-dm-serif);
 }
 
-html,
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 body {
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 

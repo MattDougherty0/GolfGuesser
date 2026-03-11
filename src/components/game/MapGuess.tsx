@@ -18,7 +18,7 @@ interface MapGuessProps {
 
 export default function MapGuess({ pin, onPinChange }: MapGuessProps) {
   return (
-    <div className="min-w-0 w-full overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30"
+    <div className="min-w-0 w-full max-w-full overflow-hidden rounded-xl border border-cream/10 shadow-lg shadow-black/30"
          style={{ height: "400px" }}>
       <MapGuessLeaflet pin={pin} onPinChange={onPinChange} />
     </div>
