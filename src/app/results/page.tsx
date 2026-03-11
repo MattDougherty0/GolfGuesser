@@ -52,7 +52,6 @@ export default function ResultsPage() {
   const countdown = useMidnightCountdown();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     setMounted(true);
     const todayResults = getTodayResults();
     if (!todayResults || !todayResults.completed) {
@@ -64,6 +63,7 @@ export default function ResultsPage() {
 
     const roundCourses = todayResults.rounds.map((r) => getCourseById(r.courseId));
     setCourses(roundCourses);
+    requestAnimationFrame(() => window.scrollTo(0, 0));
   }, [router]);
 
   if (!mounted || !results) {

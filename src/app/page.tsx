@@ -50,7 +50,6 @@ export default function Home() {
   const countdown = useMidnightCountdown();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     setMounted(true);
     const done = isTodayCompleted();
     setCompleted(done);
@@ -59,6 +58,7 @@ export default function Home() {
       setTodayScore(results?.totalScore ?? 0);
     }
     setStats(getPlayerState());
+    requestAnimationFrame(() => window.scrollTo(0, 0));
   }, []);
 
   const today = mounted

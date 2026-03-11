@@ -256,6 +256,11 @@ export default function PlayPage() {
   // ── Latest guess result (for reveal) ──
   const latestResult = state.guessResults[state.guessResults.length - 1] ?? null;
 
+  // Scroll to top on every phase/round change
+  useEffect(() => {
+    requestAnimationFrame(() => window.scrollTo(0, 0));
+  }, [state.status, state.phase, state.roundIndex]);
+
   // ── Render ──
 
   if (state.status === "loading") {
