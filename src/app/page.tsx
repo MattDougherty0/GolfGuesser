@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { isTodayCompleted, getTodayResults } from "@/lib/storage";
 import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
-import Header from "@/components/layout/Header";
+import MainWithSidebar from "@/components/layout/MainWithSidebar";
 import UsernameModal from "@/components/auth/UsernameModal";
 
 function useMidnightCountdown() {
@@ -93,9 +93,7 @@ export default function Home() {
     : "";
 
   return (
-    <div className="flex min-h-screen flex-col">
-      <Header playerName={player?.display_name} />
-
+    <MainWithSidebar playerName={player?.display_name}>
       <main className="flex flex-1 flex-col items-center justify-center px-4">
         <div className="rounded-2xl border border-cream/10 bg-card px-8 py-12 shadow-2xl sm:px-16 sm:py-16 text-center">
           <h1 className="font-serif text-5xl tracking-tight text-cream sm:text-6xl">
@@ -153,6 +151,6 @@ export default function Home() {
       </main>
 
       {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} onSkip={handleSkipLogin} />}
-    </div>
+    </MainWithSidebar>
   );
 }

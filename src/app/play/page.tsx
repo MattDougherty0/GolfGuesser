@@ -1,12 +1,13 @@
 "use client";
 
 import { useReducer, useEffect, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { getTodayPuzzle } from "@/lib/daily";
 import { getCourseById } from "@/lib/courses";
+import { buildExplorePuzzle } from "@/lib/explore";
 import { calculatePinDistance, calculateRoundScore, calculateHintPenalty } from "@/lib/scoring";
 import { getTodayResults, saveRoundResult } from "@/lib/storage";
-import type { Course, DailyPuzzle, GuessResult } from "@/lib/types";
+import type { Course, DailyPuzzle, GuessResult, PuzzleRound } from "@/lib/types";
 
 import ClueImage from "@/components/game/ClueImage";
 import HintPanel from "@/components/game/HintPanel";
@@ -19,7 +20,7 @@ import RevealCard from "@/components/reveal/RevealCard";
 
 interface GameState {
   status: "loading" | "no-puzzle" | "playing" | "done";
-  puzzle: DailyPuzzle | null;
+  puzzle: { rounds: PuzzleRound[] } | null;
   courses: (Course | undefined)[];
   roundIndex: number;
   phase: "guessing" | "reveal";
@@ -34,7 +35,7 @@ interface GameState {
 }
 
 type GameAction =
-  | { type: "LOADED"; puzzle: DailyPuzzle; courses: (Course | undefined)[]; resumeRound: number; priorResults: GuessResult[] }
+  | { type: "LOADED"; puzzle: { rounds: PuzzleRound[] }; courses: (Course | undefined)[]; resumeRound: number; priorResults: GuessResult[] }
   | { type: "NO_PUZZLE" }
   | { type: "DONE" }
   | { type: "SET_HINTS"; count: number; penalty: number }
@@ -126,25 +127,43 @@ function reducer(state: GameState, action: GameAction): GameState {
 
 // ── Component ──────────────────────────────────────────
 
-const TOTAL_ROUNDS = 3;
-
 export default function PlayPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  const isExploreMode =
+    searchParams.get("mode") === "explore" &&
+    searchParams.get("set") &&
+    searchParams.get("count");
 
   // ── Mount: load puzzle + check progress ──
   useEffect(() => {
-    const puzzle = getTodayPuzzle();
+    if (isExploreMode) {
+      const setId = searchParams.get("set")!;
+      const countParam = searchParams.get("count")!;
+      const count = countParam === "all" ? 999 : parseInt(countParam, 10);
+      if (isNaN(count) || count < 1) {
+        dispatch({ type: "NO_PUZZLE" });
+        return;
+      }
+      const puzzle = buildExplorePuzzle(setId, count);
+      if (!puzzle) {
+        dispatch({ type: "NO_PUZZLE" });
+        return;
+      }
+      const courses = puzzle.rounds.map((r) => getCourseById(r.courseId));
+      dispatch({ type: "LOADED", puzzle, courses, resumeRound: 0, priorResults: [] });
+      return;
+    }
 
+    const puzzle = getTodayPuzzle();
     if (!puzzle) {
       dispatch({ type: "NO_PUZZLE" });
       return;
     }
 
-    // Load courses for all 3 rounds
     const courses = puzzle.rounds.map((r) => getCourseById(r.courseId));
-
-    // Check localStorage for in-progress results
     const saved = getTodayResults();
     if (saved?.completed) {
       router.replace("/results");
@@ -152,8 +171,6 @@ export default function PlayPage() {
     }
 
     const resumeRound = saved?.rounds.length ?? 0;
-
-    // Reconstruct GuessResults from saved RoundResults for reveal cards
     const priorResults: GuessResult[] = (saved?.rounds ?? []).map((r) => ({
       courseId: r.courseId,
       nameGuess: "",
@@ -168,7 +185,7 @@ export default function PlayPage() {
     }));
 
     dispatch({ type: "LOADED", puzzle, courses, resumeRound, priorResults });
-  }, [router]);
+  }, [router, isExploreMode, searchParams]);
 
   // ── Callbacks ──
   const handleTick = useCallback((elapsed: number) => {
@@ -231,31 +248,39 @@ export default function PlayPage() {
       score,
     };
 
-    // Persist to localStorage
-    saveRoundResult({
-      courseId: currentCourse.id,
-      nameGuess: state.selectedCourseName ?? "",
-      nameCorrect,
-      pinLat: state.pin.lat,
-      pinLng: state.pin.lng,
-      pinDistance,
-      hintsUsed: state.hintsUsed,
-      hintPenalty: state.hintPenalty,
-      timeSeconds: state.elapsed,
-      score,
-    });
+    if (!isExploreMode) {
+      saveRoundResult({
+        courseId: currentCourse.id,
+        nameGuess: state.selectedCourseName ?? "",
+        nameCorrect,
+        pinLat: state.pin.lat,
+        pinLng: state.pin.lng,
+        pinDistance,
+        hintsUsed: state.hintsUsed,
+        hintPenalty: state.hintPenalty,
+        timeSeconds: state.elapsed,
+        score,
+      });
+    }
 
     dispatch({ type: "SUBMIT", result: guessResult });
-  }, [currentCourse, state.pin, state.selectedCourseId, state.selectedCourseName, state.elapsed, state.hintsUsed, state.hintPenalty]);
+  }, [currentCourse, state.pin, state.selectedCourseId, state.selectedCourseName, state.elapsed, state.hintsUsed, state.hintPenalty, isExploreMode]);
+
+  const totalRounds = state.puzzle?.rounds.length ?? 0;
 
   // ── Next round / finish ──
   const handleNext = useCallback(() => {
-    if (state.roundIndex + 1 >= TOTAL_ROUNDS) {
-      router.push("/results");
+    if (state.roundIndex + 1 >= totalRounds) {
+      if (isExploreMode) {
+        const finalTotal = state.guessResults.reduce((sum, r) => sum + r.score, 0);
+        router.push(`/explore?done=1&score=${finalTotal}`);
+      } else {
+        router.push("/results");
+      }
     } else {
       dispatch({ type: "NEXT_ROUND" });
     }
-  }, [state.roundIndex, router]);
+  }, [state.roundIndex, state.guessResults, totalRounds, isExploreMode, router]);
 
   // ── Latest guess result (for reveal) ──
   const latestResult = state.guessResults[state.guessResults.length - 1] ?? null;
@@ -301,7 +326,7 @@ export default function PlayPage() {
           {/* Header row: round + timer */}
           <div className="flex min-w-0 items-center justify-between">
             <span className="text-sm font-medium text-cream/60">
-              Round {state.roundIndex + 1} of {TOTAL_ROUNDS}
+              Round {state.roundIndex + 1} of {totalRounds}
             </span>
             <Timer running={state.timerRunning} elapsed={state.elapsed} onTick={handleTick} />
           </div>
@@ -369,7 +394,7 @@ export default function PlayPage() {
           course={currentCourse}
           result={latestResult}
           roundNumber={state.roundIndex + 1}
-          totalRounds={TOTAL_ROUNDS}
+          totalRounds={totalRounds}
           onNext={handleNext}
         />
       </div>
