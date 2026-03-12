@@ -1,17 +1,38 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface HeaderProps {
   playerName?: string | null;
 }
 
 export default function Header({ playerName }: HeaderProps) {
+  const pathname = usePathname();
+  const isDaily = pathname === "/" || pathname.startsWith("/play") || pathname.startsWith("/results");
+  const isExplore = pathname.startsWith("/explore");
+
   return (
     <header className="flex items-center justify-between px-4 py-3 sm:px-6">
-      <Link href="/" className="font-serif text-xl text-cream tracking-tight hover:text-accent transition-colors">
-        GolfGuessr
-      </Link>
+      <div className="flex items-center gap-3">
+        <Link
+          href="/"
+          className={`text-sm font-medium transition-colors ${
+            isDaily ? "text-accent" : "text-cream/50 hover:text-cream/80"
+          }`}
+        >
+          Daily Challenge
+        </Link>
+        <span className="text-cream/20">|</span>
+        <Link
+          href="/explore"
+          className={`text-sm font-medium transition-colors ${
+            isExplore ? "text-accent" : "text-cream/50 hover:text-cream/80"
+          }`}
+        >
+          Explore
+        </Link>
+      </div>
 
       <div className="flex items-center gap-2">
         {playerName && (

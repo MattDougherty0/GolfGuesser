@@ -1,6 +1,6 @@
 "use client";
 
-import { useReducer, useEffect, useCallback } from "react";
+import { Suspense, useReducer, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { getTodayPuzzle } from "@/lib/daily";
 import { getCourseById } from "@/lib/courses";
@@ -127,7 +127,7 @@ function reducer(state: GameState, action: GameAction): GameState {
 
 // ── Component ──────────────────────────────────────────
 
-export default function PlayPage() {
+function PlayContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -402,4 +402,16 @@ export default function PlayPage() {
   }
 
   return null;
+}
+
+export default function PlayPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen items-center justify-center">
+        <span className="text-cream/40">Loading puzzle…</span>
+      </div>
+    }>
+      <PlayContent />
+    </Suspense>
+  );
 }

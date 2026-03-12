@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import MainWithSidebar from "@/components/layout/MainWithSidebar";
@@ -17,7 +17,7 @@ const EXPLORE_OPTIONS = [
 
 const COUNT_OPTIONS = [5, 10] as const;
 
-export default function ExplorePage() {
+function ExploreContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [selectedSet, setSelectedSet] = useState<string | null>(null);
@@ -122,5 +122,13 @@ export default function ExplorePage() {
         )}
       </main>
     </MainWithSidebar>
+  );
+}
+
+export default function ExplorePage() {
+  return (
+    <Suspense fallback={<div className="flex min-h-screen items-center justify-center text-cream/50">Loading…</div>}>
+      <ExploreContent />
+    </Suspense>
   );
 }
