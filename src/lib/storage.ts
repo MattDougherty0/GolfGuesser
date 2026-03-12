@@ -65,6 +65,7 @@ export function saveRoundResult(result: RoundResult): void {
       completed: false,
       rounds: [],
       totalScore: 0,
+      _streakBaseDate: state.lastPlayedDate, // capture before overwrite (for streak increment)
     };
     state.lastPlayedDate = today;
   }
@@ -101,8 +102,8 @@ async function submitToLeaderboard(results: TodayResults, date: string) {
  * Updates streak, games played, averages, and history.
  */
 function finalizeDailyResults(state: PlayerState, today: string): void {
-  // Update streak
-  updateStreak(state, today);
+  const previousLastPlayedDate = state.todayResults?._streakBaseDate ?? null;
+  updateStreak(state, today, previousLastPlayedDate);
 
   // Update totals
   state.gamesPlayed += 1;
@@ -115,18 +116,22 @@ function finalizeDailyResults(state: PlayerState, today: string): void {
 
 /**
  * Update the streak based on consecutive days played.
- * Increment if the previous played date was yesterday, reset if there's a gap.
+ * Uses previousLastPlayedDate (before today overwrote it) to detect yesterday.
  */
-function updateStreak(state: PlayerState, today: string): void {
-  if (!state.lastPlayedDate) {
+function updateStreak(
+  state: PlayerState,
+  today: string,
+  previousLastPlayedDate: string | null
+): void {
+  if (!previousLastPlayedDate) {
     // First time playing
     state.currentStreak = 1;
   } else {
     const yesterday = getYesterdayDateET(today);
-    if (state.lastPlayedDate === yesterday) {
+    if (previousLastPlayedDate === yesterday) {
       state.currentStreak += 1;
-    } else if (state.lastPlayedDate === today) {
-      // Already counted today (shouldn't happen, but guard)
+    } else if (previousLastPlayedDate === today) {
+      // Already played today earlier (e.g. resumed and finished) — don't double-count
     } else {
       // Gap — reset streak
       state.currentStreak = 1;

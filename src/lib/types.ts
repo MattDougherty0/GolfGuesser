@@ -95,6 +95,8 @@ export interface TodayResults {
   completed: boolean;
   rounds: RoundResult[];
   totalScore: number;
+  /** lastPlayedDate before we started today (for streak increment when finishing) */
+  _streakBaseDate?: string | null;
 }
 
 export interface PlayerState {

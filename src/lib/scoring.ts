@@ -7,12 +7,16 @@ export function calculateNameScore(correct: boolean): number {
 
 /**
  * Pin accuracy (max 300).
- * 300 if within 25 miles, linear decay to 0 at 200 miles.
+ * Tiered scoring: closer = more points.
  */
 export function calculatePinScore(distanceMiles: number): number {
-  if (distanceMiles <= 25) return 300;
-  if (distanceMiles >= 200) return 0;
-  return Math.round(300 * (1 - (distanceMiles - 25) / 175));
+  if (distanceMiles < 20) return 300;
+  if (distanceMiles < 50) return 250;
+  if (distanceMiles < 100) return 200;
+  if (distanceMiles < 250) return 150;
+  if (distanceMiles < 500) return 100;
+  if (distanceMiles < 1000) return 50;
+  return 0;
 }
 
 /**

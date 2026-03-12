@@ -5,7 +5,7 @@ import Header from "@/components/layout/Header";
 
 const SCORING = [
   { label: "Course Name", max: 300, desc: "Correctly identify the course by name." },
-  { label: "Pin Accuracy", max: 300, desc: "Full marks within 25 miles, scales to 0 at 200 miles." },
+  { label: "Pin Accuracy", max: 300, desc: "Tiered by distance: 300 (&lt;20 mi), 250 (20–50), 200 (50–100), 150 (100–250), 100 (250–500), 50 (500–1000), 0 (1000+ mi)." },
   { label: "Hints Unused", max: 300, desc: "Start with a 300-point pool\u2014each hint you reveal deducts from it." },
   { label: "Speed", max: 100, desc: "Full marks under 15 seconds, scales to 0 at 90 seconds." },
 ];

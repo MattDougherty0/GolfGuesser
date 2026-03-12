@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 interface UsernameModalProps {
-  onSubmit: (name: string) => void;
+  onSubmit: (name: string) => Promise<boolean>;
   onSkip: () => void;
 }
 
@@ -25,7 +25,14 @@ export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) 
     }
     setLoading(true);
     setError("");
-    onSubmit(trimmed);
+    try {
+      const success = await onSubmit(trimmed);
+      if (!success) {
+        setError("Could not create player. Try again.");
+      }
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (

@@ -68,12 +68,14 @@ export default function Home() {
     }
   }, []);
 
-  async function handleCreatePlayer(name: string) {
+  async function handleCreatePlayer(name: string): Promise<boolean> {
     const p = await createPlayer(name);
     if (p) {
       setPlayer(p);
       setNeedsUsername(false);
+      return true;
     }
+    return false;
   }
 
   function handleSkipLogin() {
