@@ -15,6 +15,11 @@ const EXPLORE_OPTIONS = [
     description: "Courses from the 2025 PGA Tour schedule (lower 48)",
   },
   {
+    id: "tiger",
+    title: "Tiger's Wins",
+    description: "Courses where Tiger Woods has won (1994 U.S. Amateur onward)",
+  },
+  {
     id: "erie",
     title: "Erie",
     description: "Courses in the Erie, PA area",
@@ -28,6 +33,7 @@ const EXPLORE_OPTIONS = [
 
 const EXPLORE_CARD_IMAGES: Record<string, string> = {
   pga2025: "/images/explore/pga2025.jpg",
+  tiger: "/images/explore/tiger.png",
   erie: "/images/explore/erie.jpg",
   "region-West": "/images/explore/west.jpg",
   "region-Southwest": "/images/explore/southwest.jpg",

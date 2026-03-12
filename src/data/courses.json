@@ -6922,5 +6922,318 @@
       "aerialMedium": "courses/culbertson-hills-golf-resort/aerial-medium.jpg",
       "aerialWide": "courses/culbertson-hills-golf-resort/aerial-wide.jpg"
     }
+  },
+  {
+    "id": "newport-country-club",
+    "name": "Newport Country Club",
+    "location": {
+      "city": "Newport",
+      "state": "Rhode Island",
+      "region": "New England",
+      "latitude": 41.4789,
+      "longitude": -71.3089
+    },
+    "details": {
+      "type": "private",
+      "architect": "William F. Davis, A.W. Tillinghast",
+      "yearOpened": 1894,
+      "par": 70,
+      "yardage": 7075,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "New England",
+      "typeHint": "Private",
+      "architectHint": "William F. Davis, A.W. Tillinghast",
+      "tournamentHint": "One of five founding members of the USGA; hosted first U.S. Amateur and first U.S. Open in 1895",
+      "mostWinsHint": "Tiger Woods (1995 U.S. Amateur)",
+      "mostRecentWinnerHint": "Tiger Woods (1995 U.S. Amateur)",
+      "didYouKnow": "Tiger Woods won his second consecutive U.S. Amateur here in 1995, defeating Buddy Marucci 2-up in the final. The course has no fairway irrigation and features authentic links-style design with ocean views."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Amateur (1995)",
+        "U.S. Open (1895, 1913, 1920, 1932, 1987, 2006)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won his second of three consecutive U.S. Amateurs here in 1995"
+      ],
+      "signatureHole": "Oceanfront holes with dramatic views of Rhode Island Sound. Classic links-style layout with no fairway irrigation.",
+      "description": "Newport Country Club is one of the five founding members of the USGA and hosted both the first U.S. Amateur and first U.S. Open in 1895. A.W. Tillinghast redesigned the course in the 1920s. Tiger Woods won his second consecutive U.S. Amateur here in 1995.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/newport-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/newport-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/newport-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "pumpkin-ridge-witch-hollow",
+    "name": "Pumpkin Ridge (Witch Hollow)",
+    "location": {
+      "city": "North Plains",
+      "state": "Oregon",
+      "region": "West",
+      "latitude": 45.5967,
+      "longitude": -122.9942
+    },
+    "details": {
+      "type": "private",
+      "architect": "Bob Cupp",
+      "yearOpened": 1992,
+      "par": 72,
+      "yardage": 7017,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Private",
+      "architectHint": "Bob Cupp",
+      "tournamentHint": "Hosted U.S. Amateur and U.S. Women's Open",
+      "mostWinsHint": "Tiger Woods (1996 U.S. Amateur)",
+      "mostRecentWinnerHint": "Tiger Woods (1996 U.S. Amateur)",
+      "didYouKnow": "Tiger Woods won his historic third consecutive U.S. Amateur here in 1996, defeating Steve Scott in 38 holes. No player had ever won three straight U.S. Amateurs before."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Amateur (1996)",
+        "U.S. Women's Open (1997, 2003)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won his third consecutive U.S. Amateur in 1996, the first player ever to achieve the three-peat"
+      ],
+      "signatureHole": "Classic-style layout blending with natural surroundings in the shadows of the Cascade Mountains. Undulating fairways and water features woven through fir, maple, oak, and ash trees.",
+      "description": "Pumpkin Ridge's Witch Hollow course was designed by Bob Cupp and opened in 1992. Tiger Woods won his historic third consecutive U.S. Amateur here in 1996, defeating Steve Scott in 38 holes—a feat no player had accomplished before.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/pumpkin-ridge-witch-hollow/aerial-tight.jpg",
+      "aerialMedium": "courses/pumpkin-ridge-witch-hollow/aerial-medium.jpg",
+      "aerialWide": "courses/pumpkin-ridge-witch-hollow/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "trump-national-doral-blue-monster",
+    "name": "Trump National Doral (Blue Monster)",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "region": "South",
+      "latitude": 25.8189,
+      "longitude": -80.3789
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Dick Wilson, Gil Hanse (2014 renovation)",
+      "yearOpened": 1962,
+      "par": 72,
+      "yardage": 7520,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Resort",
+      "architectHint": "Dick Wilson, Gil Hanse",
+      "tournamentHint": "Hosted WGC-Cadillac Championship and Ford Championship at Doral",
+      "mostWinsHint": "Tiger Woods (7 WGC wins, 2 Ford Championship)",
+      "mostRecentWinnerHint": "Tiger Woods (2013 WGC-Cadillac)",
+      "didYouKnow": "Tiger Woods holds the record for most wins at Doral with seven WGC titles and two Ford Championship victories. He won here in 1999, 2002, 2003, 2005, 2006, 2007, and 2013."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "WGC-Cadillac Championship (1962-2016)",
+        "Ford Championship at Doral"
+      ],
+      "famousMoments": [
+        "Tiger Woods won a record seven WGC events at Doral, including his lowest 72-hole total of 261 (-23) in 2006"
+      ],
+      "signatureHole": "The iconic 18th hole was largely preserved in Gil Hanse's 2014 renovation. Water now plays a factor on 14 holes. The par-5 first was extended by 100 yards.",
+      "description": "The Blue Monster at Trump National Doral was originally designed by Dick Wilson in 1962. Gil Hanse renovated the course in 2014. Tiger Woods dominated here with seven WGC wins—more than any other player at any single venue.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/trump-national-doral-blue-monster/aerial-tight.jpg",
+      "aerialMedium": "courses/trump-national-doral-blue-monster/aerial-medium.jpg",
+      "aerialWide": "courses/trump-national-doral-blue-monster/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "omni-la-costa-resort-champions",
+    "name": "Omni La Costa Resort (Champions Course)",
+    "location": {
+      "city": "Carlsbad",
+      "state": "California",
+      "region": "West",
+      "latitude": 33.1689,
+      "longitude": -117.2233
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Dick Wilson, Joe Lee",
+      "yearOpened": 1965,
+      "par": 72,
+      "yardage": 7172,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Dick Wilson, Joe Lee",
+      "tournamentHint": "Hosted WGC-Accenture Match Play Championship",
+      "mostWinsHint": "Tiger Woods (2003, 2004)",
+      "mostRecentWinnerHint": "Tiger Woods (2004)",
+      "didYouKnow": "Tiger Woods won the WGC-Accenture Match Play Championship here in back-to-back years (2003 and 2004), defeating David Toms and Davis Love III in the finals."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "WGC-Accenture Match Play Championship (1999-2006)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won the WGC Match Play in 2003 (def. David Toms 2 and 1) and 2004 (def. Davis Love III 3 and 2)"
+      ],
+      "signatureHole": "The Champions Course (North) was the primary venue for the WGC Match Play. Dick Wilson's original design was enhanced by Joe Lee with additional nines.",
+      "description": "La Costa Resort & Spa in Carlsbad hosted the WGC-Accenture Match Play Championship from 1999-2006. Tiger Woods won the event in 2003 and 2004, establishing his dominance in match play at this venue.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/omni-la-costa-resort-champions/aerial-tight.jpg",
+      "aerialMedium": "courses/omni-la-costa-resort-champions/aerial-medium.jpg",
+      "aerialWide": "courses/omni-la-costa-resort-champions/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "walt-disney-world-magnolia",
+    "name": "Walt Disney World (Magnolia Course)",
+    "location": {
+      "city": "Lake Buena Vista",
+      "state": "Florida",
+      "region": "South",
+      "latitude": 28.3833,
+      "longitude": -81.5667
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Joe Lee",
+      "yearOpened": 1971,
+      "par": 72,
+      "yardage": 7516,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Resort",
+      "architectHint": "Joe Lee",
+      "tournamentHint": "Hosted Walt Disney World Golf Classic on PGA Tour",
+      "mostWinsHint": "Tiger Woods (1996, 1999)",
+      "mostRecentWinnerHint": "Tiger Woods (1999)",
+      "didYouKnow": "Tiger Woods won the Walt Disney World/Oldsmobile Classic here twice—in 1996 (his second pro win) and 1999. The Magnolia course opened the same day as Magic Kingdom in 1971."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "Walt Disney World Golf Classic (1971-2012)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won his second professional tournament here in 1996, then won again in 1999"
+      ],
+      "signatureHole": "At 7,516 yards from the championship tees, Magnolia is the longest of the Disney World golf courses. The course features the famous Mickey Mouse-shaped bunker.",
+      "description": "Disney's Magnolia Golf Course was designed by Joe Lee and opened October 1, 1971—the same day as Magic Kingdom. Tiger Woods won the Walt Disney World Classic here in 1996 and 1999.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/walt-disney-world-magnolia/aerial-tight.jpg",
+      "aerialMedium": "courses/walt-disney-world-magnolia/aerial-medium.jpg",
+      "aerialWide": "courses/walt-disney-world-magnolia/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "capital-city-club-crabapple",
+    "name": "Capital City Club (Crabapple Course)",
+    "location": {
+      "city": "Milton",
+      "state": "Georgia",
+      "region": "South",
+      "latitude": 34.0917,
+      "longitude": -84.3333
+    },
+    "details": {
+      "type": "private",
+      "architect": "Tom Fazio",
+      "yearOpened": 2002,
+      "par": 72,
+      "yardage": 7200,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Private",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Hosted WGC-American Express Championship",
+      "mostWinsHint": "Tiger Woods (2003)",
+      "mostRecentWinnerHint": "Tiger Woods (2003)",
+      "didYouKnow": "A year after opening, the Crabapple Course gained national prominence by hosting the 2003 WGC-American Express Championship, which Tiger Woods won by two strokes over Stuart Appleby, Tim Herron, and Vijay Singh."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "WGC-American Express Championship (2003)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won the 2003 WGC-American Express Championship here, shooting -6 to win by two strokes"
+      ],
+      "signatureHole": "Tom Fazio design in the northern Atlanta suburbs. The course opened in 2002 and immediately hosted a World Golf Championship.",
+      "description": "Capital City Club's Crabapple Course was designed by Tom Fazio and opened in 2002. Tiger Woods won the 2003 WGC-American Express Championship here in the course's first year hosting a professional event.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/capital-city-club-crabapple/aerial-tight.jpg",
+      "aerialMedium": "courses/capital-city-club-crabapple/aerial-medium.jpg",
+      "aerialWide": "courses/capital-city-club-crabapple/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "tpc-boston",
+    "name": "TPC Boston",
+    "location": {
+      "city": "Norton",
+      "state": "Massachusetts",
+      "region": "New England",
+      "latitude": 41.9717,
+      "longitude": -71.1867
+    },
+    "details": {
+      "type": "private",
+      "architect": "Arnold Palmer, Gil Hanse (2007 redesign)",
+      "yearOpened": 2002,
+      "par": 73,
+      "yardage": 7241,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "New England",
+      "typeHint": "Private",
+      "architectHint": "Arnold Palmer, Gil Hanse",
+      "tournamentHint": "Hosted Deutsche Bank Championship and FedEx Cup playoff events",
+      "mostWinsHint": "Tiger Woods (2006 Deutsche Bank)",
+      "mostRecentWinnerHint": "Tiger Woods (2006 Deutsche Bank)",
+      "didYouKnow": "Tiger Woods won the 2006 Deutsche Bank Championship here, shooting -16 to beat Vijay Singh by two strokes. Gil Hanse redesigned the course in 2007, earning Golf Digest's Best Private Remodel award."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "Deutsche Bank Championship (2003-2016)",
+        "Dell Technologies Championship (2017-2018)",
+        "The Northern Trust (2020)"
+      ],
+      "famousMoments": [
+        "Tiger Woods won the 2006 Deutsche Bank Championship by two strokes over Vijay Singh"
+      ],
+      "signatureHole": "Gil Hanse's 2007 redesign earned Golf Digest's Best Private Remodel award. The 18th green was renovated in 2011 for a more challenging finish.",
+      "description": "TPC Boston in Norton, Massachusetts, was designed by Arnold Palmer and opened in 2002. Gil Hanse redesigned it in 2007. Tiger Woods won the 2006 Deutsche Bank Championship here.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/tpc-boston/aerial-tight.jpg",
+      "aerialMedium": "courses/tpc-boston/aerial-medium.jpg",
+      "aerialWide": "courses/tpc-boston/aerial-wide.jpg"
+    }
   }
 ]

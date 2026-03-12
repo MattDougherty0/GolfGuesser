@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { searchCourses } from "@/lib/courses";
+import { searchCoursesWithDecoys } from "@/lib/courses";
 
 interface GuessInputProps {
   onChange: (courseId: string | null, courseName: string) => void;
@@ -10,24 +10,27 @@ interface GuessInputProps {
 
 export default function GuessInput({ onChange, disabled = false }: GuessInputProps) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<{ id: string; name: string }[]>([]);
+  const [results, setResults] = useState<{ id: string | null; name: string }[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedName, setSelectedName] = useState<string | null>(null);
   const [highlightIndex, setHighlightIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  const hasSelection = selectedName !== null;
+
   useEffect(() => {
-    if (query.length < 3 || selectedId) {
+    if (query.length < 3 || hasSelection) {
       setResults([]);
       setIsOpen(false);
       return;
     }
-    const matches = searchCourses(query).map((c) => ({ id: c.id, name: c.name }));
+    const matches = searchCoursesWithDecoys(query);
     setResults(matches);
     setIsOpen(matches.length > 0);
     setHighlightIndex(-1);
-  }, [query, selectedId]);
+  }, [query, hasSelection]);
 
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -39,17 +42,19 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
     return () => document.removeEventListener("mousedown", handleClick);
   }, []);
 
-  function handleSelect(id: string, name: string) {
+  function handleSelect(id: string | null, name: string) {
     setQuery(name);
     setSelectedId(id);
+    setSelectedName(name);
     setIsOpen(false);
     onChange(id, name);
   }
 
   function handleInputChange(value: string) {
     setQuery(value);
-    if (selectedId) {
+    if (hasSelection) {
       setSelectedId(null);
+      setSelectedName(null);
     }
     onChange(null, value);
   }
@@ -66,7 +71,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
     } else if (e.key === "Enter" && highlightIndex >= 0) {
       e.preventDefault();
       const match = results[highlightIndex];
-      handleSelect(match.id, match.name);
+      handleSelect(match.id ?? null, match.name);
     } else if (e.key === "Escape") {
       setIsOpen(false);
     }
@@ -81,23 +86,23 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
         onChange={(e) => handleInputChange(e.target.value)}
         onKeyDown={handleKeyDown}
         onFocus={() => {
-          if (results.length > 0 && !selectedId) setIsOpen(true);
+          if (results.length > 0 && !hasSelection) setIsOpen(true);
         }}
         disabled={disabled}
         placeholder="Type a course name…"
         className={`
           flex-1 min-w-0 w-full rounded-lg border bg-card px-4 py-3 text-sm text-cream
           placeholder:text-cream/30 outline-none transition-colors
-          ${selectedId
+          ${hasSelection
             ? "border-accent/40 bg-accent/5"
             : "border-cream/15 focus:border-accent/40"
           }
           ${disabled ? "opacity-50 cursor-not-allowed" : ""}
         `}
       />
-      {!selectedId && <span className="shrink-0 text-sm font-medium text-accent">(+300)</span>}
+      {!hasSelection && <span className="shrink-0 text-sm font-medium text-accent">(+300)</span>}
 
-      {selectedId && (
+      {hasSelection && (
         <div className="absolute right-3 top-1/2 -translate-y-1/2 text-accent text-sm">
           ✓
         </div>
@@ -106,10 +111,10 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
       {isOpen && (
         <ul className="absolute z-[1000] mt-1 w-full max-h-60 overflow-y-auto rounded-lg border border-cream/15 bg-card shadow-xl">
           {results.map((course, i) => (
-            <li key={course.id}>
+            <li key={course.id ?? `decoy-${course.name}`}>
               <button
                 type="button"
-                onClick={() => handleSelect(course.id, course.name)}
+                onClick={() => handleSelect(course.id ?? null, course.name)}
                 className={`
                   w-full px-4 py-2.5 text-left text-sm transition-colors
                   ${i === highlightIndex

@@ -40,6 +40,43 @@ export const PGA_TOUR_2025_COURSE_IDS: string[] = [
   "east-lake-golf-club",
 ];
 
+/**
+ * Tiger Woods win venues (lower 48) - from 1994 U.S. Amateur through 2019.
+ * One entry per unique venue. Includes US Amateur (3) + PGA Tour (82) venues in continental US.
+ */
+export const TIGER_WINS_COURSE_IDS: string[] = [
+  "tpc-sawgrass-stadium-course",
+  "newport-country-club",
+  "pumpkin-ridge-witch-hollow",
+  "tpc-summerlin",
+  "walt-disney-world-magnolia",
+  "pebble-beach-golf-links",
+  "bay-hill-club-and-lodge",
+  "muirfield-village-golf-club",
+  "medinah-country-club",
+  "firestone-country-club",
+  "east-lake-golf-club",
+  "trump-national-doral-blue-monster",
+  "augusta-national-golf-club",
+  "torrey-pines-south-course",
+  "bethpage-black",
+  "congressional-country-club",
+  "warwick-hills-golf-and-country-club",
+  "capital-city-club-crabapple",
+  "omni-la-costa-resort-champions",
+  "cog-hill-dubsdread",
+  "southern-hills-country-club",
+  "valhalla-golf-club",
+  "quail-hollow-club",
+  "the-gallery-golf-club",
+  "tpc-harding-park",
+  "sherwood-country-club",
+  "cordevalle",
+  "aronimink",
+  "tpc-boston",
+  "tpc-sugarloaf",
+];
+
 /** Erie, PA area courses - its own Explore set. */
 export const ERIE_COURSE_IDS: string[] = [
   "lake-shore-country-club",
@@ -72,6 +109,7 @@ function buildRegionSets(): Record<string, string[]> {
 
 export const EXPLORE_SETS: Record<string, string[]> = {
   pga2025: PGA_TOUR_2025_COURSE_IDS,
+  tiger: TIGER_WINS_COURSE_IDS,
   erie: ERIE_COURSE_IDS,
   ...buildRegionSets(),
 };
@@ -101,7 +139,7 @@ export function buildExplorePuzzle(
   const take = Math.min(count, shuffled.length);
   const selected = shuffled.slice(0, take);
 
-  const imageKey = setId === "erie" ? "aerialWide" : "aerialTight";
+  const imageKey = "aerialWide";
   const rounds: PuzzleRound[] = selected.map((courseId) => ({
     courseId,
     imageKey,

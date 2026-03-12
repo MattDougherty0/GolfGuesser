@@ -4,12 +4,12 @@
     "rounds": [
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bandon-dunes",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -24,12 +24,12 @@
     "rounds": [
       {
         "courseId": "blackwolf-run-river-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "augusta-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -44,12 +44,12 @@
     "rounds": [
       {
         "courseId": "colonial-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "quail-hollow-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -64,12 +64,12 @@
     "rounds": [
       {
         "courseId": "muirfield-village-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "liberty-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -84,12 +84,12 @@
     "rounds": [
       {
         "courseId": "firestone-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pebble-beach-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -104,12 +104,12 @@
     "rounds": [
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bethpage-black",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -124,12 +124,12 @@
     "rounds": [
       {
         "courseId": "arcadia-bluffs",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "merion-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -144,12 +144,12 @@
     "rounds": [
       {
         "courseId": "valhalla-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -164,12 +164,12 @@
     "rounds": [
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "medinah-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -184,12 +184,12 @@
     "rounds": [
       {
         "courseId": "riviera-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -204,12 +204,12 @@
     "rounds": [
       {
         "courseId": "oakmont-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "chambers-bay",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -224,12 +224,12 @@
     "rounds": [
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "whistling-straits",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -244,12 +244,12 @@
     "rounds": [
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-harding-park",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -264,12 +264,12 @@
     "rounds": [
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "harbour-town-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -284,12 +284,12 @@
     "rounds": [
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -304,12 +304,12 @@
     "rounds": [
       {
         "courseId": "peachtree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bandon-dunes",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -324,12 +324,12 @@
     "rounds": [
       {
         "courseId": "blackwolf-run-river-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "merion-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -344,12 +344,12 @@
     "rounds": [
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-scottsdale-stadium-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -364,12 +364,12 @@
     "rounds": [
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "crooked-stick-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -384,12 +384,12 @@
     "rounds": [
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "silverado-resort-north-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -404,12 +404,12 @@
     "rounds": [
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "colonial-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -424,12 +424,12 @@
     "rounds": [
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "maidstone-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -444,12 +444,12 @@
     "rounds": [
       {
         "courseId": "innisbrook-copperhead-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "shadow-creek",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -464,12 +464,12 @@
     "rounds": [
       {
         "courseId": "old-sandwich-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "firestone-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -484,12 +484,12 @@
     "rounds": [
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sawgrass-country-club-east-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -504,12 +504,12 @@
     "rounds": [
       {
         "courseId": "seminole",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "kiawah-island-ocean-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -524,12 +524,12 @@
     "rounds": [
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -544,12 +544,12 @@
     "rounds": [
       {
         "courseId": "pga-west-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "quail-hollow-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -564,12 +564,12 @@
     "rounds": [
       {
         "courseId": "friars-head",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "oakland-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -584,12 +584,12 @@
     "rounds": [
       {
         "courseId": "liberty-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "hazeltine-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -604,12 +604,12 @@
     "rounds": [
       {
         "courseId": "shadow-creek",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cypress-point",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -624,12 +624,12 @@
     "rounds": [
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sawgrass-country-club-east-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -644,12 +644,12 @@
     "rounds": [
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -664,12 +664,12 @@
     "rounds": [
       {
         "courseId": "shoreacres",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "blackwolf-run-river-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -684,12 +684,12 @@
     "rounds": [
       {
         "courseId": "innisbrook-copperhead-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "calusa-pines-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -704,12 +704,12 @@
     "rounds": [
       {
         "courseId": "oakland-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "camargo",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -724,12 +724,12 @@
     "rounds": [
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "crooked-stick-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -744,12 +744,12 @@
     "rounds": [
       {
         "courseId": "cypress-point",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -764,12 +764,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "riviera-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -784,12 +784,12 @@
     "rounds": [
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "colonial-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -804,12 +804,12 @@
     "rounds": [
       {
         "courseId": "muirfield-village-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "friars-head",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -824,12 +824,12 @@
     "rounds": [
       {
         "courseId": "bethpage-black",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-deere-run",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -844,12 +844,12 @@
     "rounds": [
       {
         "courseId": "caves-valley-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "baltusrol-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -864,12 +864,12 @@
     "rounds": [
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -884,12 +884,12 @@
     "rounds": [
       {
         "courseId": "blackwolf-run-river-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -904,12 +904,12 @@
     "rounds": [
       {
         "courseId": "quail-hollow-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -924,12 +924,12 @@
     "rounds": [
       {
         "courseId": "firestone-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -944,12 +944,12 @@
     "rounds": [
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "milwaukee-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -964,12 +964,12 @@
     "rounds": [
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -984,12 +984,12 @@
     "rounds": [
       {
         "courseId": "streamsong-blue",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sheep-ranch",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1004,12 +1004,12 @@
     "rounds": [
       {
         "courseId": "garden-city-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "inverness-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1024,12 +1024,12 @@
     "rounds": [
       {
         "courseId": "silverado-resort-north-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1044,12 +1044,12 @@
     "rounds": [
       {
         "courseId": "pete-dye-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bethpage-black",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1064,12 +1064,12 @@
     "rounds": [
       {
         "courseId": "riviera-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sedgefield-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1084,12 +1084,12 @@
     "rounds": [
       {
         "courseId": "bay-hill-club-and-lodge",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "liberty-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1104,12 +1104,12 @@
     "rounds": [
       {
         "courseId": "pebble-beach-golf-links",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "firestone-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1124,12 +1124,12 @@
     "rounds": [
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1144,12 +1144,12 @@
     "rounds": [
       {
         "courseId": "old-sandwich-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1164,12 +1164,12 @@
     "rounds": [
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "calusa-pines-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1184,12 +1184,12 @@
     "rounds": [
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1204,12 +1204,12 @@
     "rounds": [
       {
         "courseId": "aronimink",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "medinah-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1224,12 +1224,12 @@
     "rounds": [
       {
         "courseId": "firestone-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "kingsley-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1244,12 +1244,12 @@
     "rounds": [
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1264,12 +1264,12 @@
     "rounds": [
       {
         "courseId": "bandon-trails",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "riviera-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1284,12 +1284,12 @@
     "rounds": [
       {
         "courseId": "oakmont-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "friars-head",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1304,12 +1304,12 @@
     "rounds": [
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "east-lake-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1324,12 +1324,12 @@
     "rounds": [
       {
         "courseId": "medinah-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "wade-hampton-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1344,12 +1344,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "kiawah-island-ocean-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1364,12 +1364,12 @@
     "rounds": [
       {
         "courseId": "camargo",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1384,12 +1384,12 @@
     "rounds": [
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1404,12 +1404,12 @@
     "rounds": [
       {
         "courseId": "pete-dye-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cypress-point",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1424,12 +1424,12 @@
     "rounds": [
       {
         "courseId": "hazeltine-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sage-valley-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1444,12 +1444,12 @@
     "rounds": [
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "baltusrol-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1464,12 +1464,12 @@
     "rounds": [
       {
         "courseId": "calusa-pines-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "seminole",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1484,12 +1484,12 @@
     "rounds": [
       {
         "courseId": "caves-valley-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1504,12 +1504,12 @@
     "rounds": [
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "merion-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1524,12 +1524,12 @@
     "rounds": [
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "maidstone-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1544,12 +1544,12 @@
     "rounds": [
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "we-ko-pa-saguaro",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1564,12 +1564,12 @@
     "rounds": [
       {
         "courseId": "bandon-trails",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-harding-park",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1584,12 +1584,12 @@
     "rounds": [
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "peachtree-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1604,12 +1604,12 @@
     "rounds": [
       {
         "courseId": "bethpage-black",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "quail-hollow-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1624,12 +1624,12 @@
     "rounds": [
       {
         "courseId": "colonial-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "friars-head",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1644,12 +1644,12 @@
     "rounds": [
       {
         "courseId": "sawgrass-country-club-east-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "yeamans-hall-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1664,12 +1664,12 @@
     "rounds": [
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "innisbrook-copperhead-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1684,12 +1684,12 @@
     "rounds": [
       {
         "courseId": "tpc-sawgrass-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "trump-national-golf-club-bedminster",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1704,12 +1704,12 @@
     "rounds": [
       {
         "courseId": "maidstone-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1724,12 +1724,12 @@
     "rounds": [
       {
         "courseId": "spyglass-hill",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "caves-valley-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1744,12 +1744,12 @@
     "rounds": [
       {
         "courseId": "seminole",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "old-sandwich-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1764,12 +1764,12 @@
     "rounds": [
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bandon-dunes",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1784,12 +1784,12 @@
     "rounds": [
       {
         "courseId": "streamsong-blue",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "torrey-pines-south-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1804,12 +1804,12 @@
     "rounds": [
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1824,12 +1824,12 @@
     "rounds": [
       {
         "courseId": "tpc-deere-run",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pine-valley",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1844,12 +1844,12 @@
     "rounds": [
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sheep-ranch",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1864,12 +1864,12 @@
     "rounds": [
       {
         "courseId": "tpc-craig-ranch",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1884,12 +1884,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "greenbrier-old-white",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1904,12 +1904,12 @@
     "rounds": [
       {
         "courseId": "sedgefield-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1924,12 +1924,12 @@
     "rounds": [
       {
         "courseId": "pete-dye-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1944,12 +1944,12 @@
     "rounds": [
       {
         "courseId": "arcadia-bluffs",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "innisbrook-copperhead-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1964,12 +1964,12 @@
     "rounds": [
       {
         "courseId": "whistling-straits",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "colonial-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -1984,12 +1984,12 @@
     "rounds": [
       {
         "courseId": "crooked-stick-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2004,12 +2004,12 @@
     "rounds": [
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pga-west-stadium-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2024,12 +2024,12 @@
     "rounds": [
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "harbour-town-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2044,12 +2044,12 @@
     "rounds": [
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "augusta-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2064,12 +2064,12 @@
     "rounds": [
       {
         "courseId": "oakland-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "winged-foot-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2084,12 +2084,12 @@
     "rounds": [
       {
         "courseId": "tpc-scottsdale-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pebble-beach-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2104,12 +2104,12 @@
     "rounds": [
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2124,12 +2124,12 @@
     "rounds": [
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "seminole",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2144,12 +2144,12 @@
     "rounds": [
       {
         "courseId": "east-lake-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "old-sandwich-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2164,12 +2164,12 @@
     "rounds": [
       {
         "courseId": "chambers-bay",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "peachtree-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2184,12 +2184,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sand-valley",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2204,12 +2204,12 @@
     "rounds": [
       {
         "courseId": "friars-head",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bandon-trails",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2224,12 +2224,12 @@
     "rounds": [
       {
         "courseId": "augusta-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cypress-point",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2244,12 +2244,12 @@
     "rounds": [
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2264,12 +2264,12 @@
     "rounds": [
       {
         "courseId": "tpc-scottsdale-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-san-antonio-oaks-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2284,12 +2284,12 @@
     "rounds": [
       {
         "courseId": "erin-hills",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "silverado-resort-north-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2304,12 +2304,12 @@
     "rounds": [
       {
         "courseId": "greenbrier-old-white",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pete-dye-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2324,12 +2324,12 @@
     "rounds": [
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2344,12 +2344,12 @@
     "rounds": [
       {
         "courseId": "trump-national-golf-club-bedminster",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "whistling-straits",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2364,12 +2364,12 @@
     "rounds": [
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "oakland-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2384,12 +2384,12 @@
     "rounds": [
       {
         "courseId": "we-ko-pa-saguaro",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "spyglass-hill",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2404,12 +2404,12 @@
     "rounds": [
       {
         "courseId": "tpc-deere-run",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "valhalla-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2424,12 +2424,12 @@
     "rounds": [
       {
         "courseId": "inverness-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "calusa-pines-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2444,12 +2444,12 @@
     "rounds": [
       {
         "courseId": "greenbrier-old-white",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2464,12 +2464,12 @@
     "rounds": [
       {
         "courseId": "crystal-downs",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2484,12 +2484,12 @@
     "rounds": [
       {
         "courseId": "tpc-harding-park",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2504,12 +2504,12 @@
     "rounds": [
       {
         "courseId": "east-lake-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2524,12 +2524,12 @@
     "rounds": [
       {
         "courseId": "trump-national-golf-club-bedminster",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pine-valley",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2544,12 +2544,12 @@
     "rounds": [
       {
         "courseId": "friars-head",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "kiawah-island-ocean-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2564,12 +2564,12 @@
     "rounds": [
       {
         "courseId": "tpc-southwind",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sand-valley",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2584,12 +2584,12 @@
     "rounds": [
       {
         "courseId": "bandon-dunes",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "maidstone-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2604,12 +2604,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "yeamans-hall-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2624,12 +2624,12 @@
     "rounds": [
       {
         "courseId": "winged-foot-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sea-island-golf-club-seaside",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2644,12 +2644,12 @@
     "rounds": [
       {
         "courseId": "bandon-trails",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "national-golf-links",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2664,12 +2664,12 @@
     "rounds": [
       {
         "courseId": "greenbrier-old-white",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sage-valley-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2684,12 +2684,12 @@
     "rounds": [
       {
         "courseId": "caves-valley-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "old-macdonald",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2704,12 +2704,12 @@
     "rounds": [
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2724,12 +2724,12 @@
     "rounds": [
       {
         "courseId": "torrey-pines-south-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-deere-run",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2744,12 +2744,12 @@
     "rounds": [
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "inverness-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2764,12 +2764,12 @@
     "rounds": [
       {
         "courseId": "tpc-louisiana",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pga-national-champion-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2784,12 +2784,12 @@
     "rounds": [
       {
         "courseId": "friars-head",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "prairie-dunes",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2804,12 +2804,12 @@
     "rounds": [
       {
         "courseId": "augusta-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2824,12 +2824,12 @@
     "rounds": [
       {
         "courseId": "congressional-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "shinnecock-hills-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2844,12 +2844,12 @@
     "rounds": [
       {
         "courseId": "pasatiempo",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "camargo",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2864,12 +2864,12 @@
     "rounds": [
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bay-hill-club-and-lodge",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2884,12 +2884,12 @@
     "rounds": [
       {
         "courseId": "pga-west-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "atlantic-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2904,12 +2904,12 @@
     "rounds": [
       {
         "courseId": "sheep-ranch",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "milwaukee-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2924,12 +2924,12 @@
     "rounds": [
       {
         "courseId": "pine-valley",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2944,12 +2944,12 @@
     "rounds": [
       {
         "courseId": "bandon-dunes",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "muirfield-village-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2964,12 +2964,12 @@
     "rounds": [
       {
         "courseId": "harbour-town-golf-links",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-summerlin",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -2984,12 +2984,12 @@
     "rounds": [
       {
         "courseId": "pasatiempo",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "pete-dye-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3004,12 +3004,12 @@
     "rounds": [
       {
         "courseId": "shoreacres",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "winged-foot-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3024,12 +3024,12 @@
     "rounds": [
       {
         "courseId": "sand-hills",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "erin-hills",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3044,12 +3044,12 @@
     "rounds": [
       {
         "courseId": "valhalla-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "trump-national-golf-club-bedminster",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3064,12 +3064,12 @@
     "rounds": [
       {
         "courseId": "torrey-pines-south-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "liberty-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3084,12 +3084,12 @@
     "rounds": [
       {
         "courseId": "medinah-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-craig-ranch",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3104,12 +3104,12 @@
     "rounds": [
       {
         "courseId": "sage-valley-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "innisbrook-copperhead-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3124,12 +3124,12 @@
     "rounds": [
       {
         "courseId": "crooked-stick-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "bellerive-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3144,12 +3144,12 @@
     "rounds": [
       {
         "courseId": "southern-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cog-hill-dubsdread",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3164,12 +3164,12 @@
     "rounds": [
       {
         "courseId": "streamsong-red",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3184,12 +3184,12 @@
     "rounds": [
       {
         "courseId": "east-lake-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-harding-park",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3204,12 +3204,12 @@
     "rounds": [
       {
         "courseId": "los-angeles-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-honors-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3224,12 +3224,12 @@
     "rounds": [
       {
         "courseId": "merion-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "old-macdonald",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3244,12 +3244,12 @@
     "rounds": [
       {
         "courseId": "winged-foot-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "silverado-resort-north-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3264,12 +3264,12 @@
     "rounds": [
       {
         "courseId": "tpc-sawgrass-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "chicago-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3284,12 +3284,12 @@
     "rounds": [
       {
         "courseId": "tpc-summerlin",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-deere-run",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3304,12 +3304,12 @@
     "rounds": [
       {
         "courseId": "sheep-ranch",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "baltusrol-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3324,12 +3324,12 @@
     "rounds": [
       {
         "courseId": "secession-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "olympic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3344,12 +3344,12 @@
     "rounds": [
       {
         "courseId": "tpc-scottsdale-stadium-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sedgefield-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3364,12 +3364,12 @@
     "rounds": [
       {
         "courseId": "harbour-town-golf-links",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "winged-foot-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3384,12 +3384,12 @@
     "rounds": [
       {
         "courseId": "quail-hollow-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "oakland-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3404,12 +3404,12 @@
     "rounds": [
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "congaree-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3424,12 +3424,12 @@
     "rounds": [
       {
         "courseId": "shadow-creek",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-sawgrass-stadium-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3444,12 +3444,12 @@
     "rounds": [
       {
         "courseId": "cog-hill-dubsdread",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "medinah-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3464,12 +3464,12 @@
     "rounds": [
       {
         "courseId": "liberty-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "somerset-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3484,12 +3484,12 @@
     "rounds": [
       {
         "courseId": "camargo",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "hazeltine-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3504,12 +3504,12 @@
     "rounds": [
       {
         "courseId": "tpc-river-highlands",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-scottsdale-stadium-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3524,12 +3524,12 @@
     "rounds": [
       {
         "courseId": "greenbrier-old-white",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "trump-national-golf-club-bedminster",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3544,12 +3544,12 @@
     "rounds": [
       {
         "courseId": "wade-hampton-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sand-hills",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3564,12 +3564,12 @@
     "rounds": [
       {
         "courseId": "bay-hill-club-and-lodge",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "valhalla-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3584,12 +3584,12 @@
     "rounds": [
       {
         "courseId": "pinehurst-no-2",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "we-ko-pa-saguaro",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3604,12 +3604,12 @@
     "rounds": [
       {
         "courseId": "piedmont-driving-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "des-moines-golf-and-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3624,12 +3624,12 @@
     "rounds": [
       {
         "courseId": "tpc-sugarloaf",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-twin-cities",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3644,12 +3644,12 @@
     "rounds": [
       {
         "courseId": "scenic-heights-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "broadmoor-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3664,12 +3664,12 @@
     "rounds": [
       {
         "courseId": "scottsdale-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "monterey-peninsula-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3684,12 +3684,12 @@
     "rounds": [
       {
         "courseId": "cherry-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "atlanta-athletic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3704,12 +3704,12 @@
     "rounds": [
       {
         "courseId": "elk-valley-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "philadelphia-cricket-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3724,12 +3724,12 @@
     "rounds": [
       {
         "courseId": "beechwood-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-potomac-at-avenel-farm",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3744,12 +3744,12 @@
     "rounds": [
       {
         "courseId": "warwick-hills-golf-and-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "desert-forest-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3764,12 +3764,12 @@
     "rounds": [
       {
         "courseId": "des-moines-golf-and-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "coeur-dalene-resort",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3784,12 +3784,12 @@
     "rounds": [
       {
         "courseId": "pinnacle-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "valencia-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3804,12 +3804,12 @@
     "rounds": [
       {
         "courseId": "victoria-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "detroit-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3824,12 +3824,12 @@
     "rounds": [
       {
         "courseId": "mission-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "culbertson-hills-golf-resort",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3844,12 +3844,12 @@
     "rounds": [
       {
         "courseId": "the-ridge-at-crab-apple",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "yale-golf-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3864,12 +3864,12 @@
     "rounds": [
       {
         "courseId": "lake-shore-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "desert-forest-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3884,12 +3884,12 @@
     "rounds": [
       {
         "courseId": "industry-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-twin-cities",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3904,12 +3904,12 @@
     "rounds": [
       {
         "courseId": "valencia-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "jekyll-island-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3924,12 +3924,12 @@
     "rounds": [
       {
         "courseId": "mound-grove-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cherry-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3944,12 +3944,12 @@
     "rounds": [
       {
         "courseId": "philadelphia-cricket-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "omaha-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3964,12 +3964,12 @@
     "rounds": [
       {
         "courseId": "callaway-gardens",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "broadmoor-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -3984,12 +3984,12 @@
     "rounds": [
       {
         "courseId": "champions-retreat-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "dunes-golf-and-beach-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4004,12 +4004,12 @@
     "rounds": [
       {
         "courseId": "tehama-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "victoria-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4024,12 +4024,12 @@
     "rounds": [
       {
         "courseId": "monterey-peninsula-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cordevalle",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4044,12 +4044,12 @@
     "rounds": [
       {
         "courseId": "scottsdale-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-ridge-at-crab-apple",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4064,12 +4064,12 @@
     "rounds": [
       {
         "courseId": "memorial-park-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "troon-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4084,12 +4084,12 @@
     "rounds": [
       {
         "courseId": "druid-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "omaha-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4104,12 +4104,12 @@
     "rounds": [
       {
         "courseId": "warwick-hills-golf-and-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "detroit-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4124,12 +4124,12 @@
     "rounds": [
       {
         "courseId": "the-woodlands-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "des-moines-golf-and-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4144,12 +4144,12 @@
     "rounds": [
       {
         "courseId": "lake-nona-golf-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "atlanta-athletic-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4164,12 +4164,12 @@
     "rounds": [
       {
         "courseId": "lake-merced-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "big-spring-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4184,12 +4184,12 @@
     "rounds": [
       {
         "courseId": "piedmont-driving-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-ridge-at-crab-apple",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4204,12 +4204,12 @@
     "rounds": [
       {
         "courseId": "lawrence-park-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "philadelphia-cricket-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4224,12 +4224,12 @@
     "rounds": [
       {
         "courseId": "yale-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "warwick-hills-golf-and-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4244,12 +4244,12 @@
     "rounds": [
       {
         "courseId": "valencia-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "mission-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4264,12 +4264,12 @@
     "rounds": [
       {
         "courseId": "champions-retreat-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "scottsdale-national-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4284,12 +4284,12 @@
     "rounds": [
       {
         "courseId": "blessings-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "green-meadows-golf-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4304,12 +4304,12 @@
     "rounds": [
       {
         "courseId": "tacoma-country-and-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-estancia-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4324,12 +4324,12 @@
     "rounds": [
       {
         "courseId": "lake-shore-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "philadelphia-cricket-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4344,12 +4344,12 @@
     "rounds": [
       {
         "courseId": "downing-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-potomac-at-avenel-farm",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4364,12 +4364,12 @@
     "rounds": [
       {
         "courseId": "lake-nona-golf-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "lawrence-park-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4384,12 +4384,12 @@
     "rounds": [
       {
         "courseId": "valencia-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "piedmont-driving-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4404,12 +4404,12 @@
     "rounds": [
       {
         "courseId": "san-francisco-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "big-spring-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4424,12 +4424,12 @@
     "rounds": [
       {
         "courseId": "tpc-sugarloaf",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tpc-twin-cities",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4444,12 +4444,12 @@
     "rounds": [
       {
         "courseId": "philadelphia-cricket-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "cordevalle",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4464,12 +4464,12 @@
     "rounds": [
       {
         "courseId": "industry-hills-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "hurstbourne-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4484,12 +4484,12 @@
     "rounds": [
       {
         "courseId": "lake-merced-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "mission-hills-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4504,12 +4504,12 @@
     "rounds": [
       {
         "courseId": "dunes-golf-and-beach-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "sherwood-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4524,12 +4524,12 @@
     "rounds": [
       {
         "courseId": "the-gallery-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "callaway-gardens",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4544,12 +4544,12 @@
     "rounds": [
       {
         "courseId": "tpc-potomac-at-avenel-farm",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-ridge-at-crab-apple",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4564,12 +4564,12 @@
     "rounds": [
       {
         "courseId": "tpc-las-vegas",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "detroit-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4584,12 +4584,12 @@
     "rounds": [
       {
         "courseId": "green-meadows-golf-course",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "druid-hills-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4604,12 +4604,12 @@
     "rounds": [
       {
         "courseId": "broadmoor-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "scenic-heights-golf-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4624,12 +4624,12 @@
     "rounds": [
       {
         "courseId": "tahoe-mountain-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "champions-retreat-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4644,12 +4644,12 @@
     "rounds": [
       {
         "courseId": "warwick-hills-golf-and-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "piedmont-driving-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4664,12 +4664,12 @@
     "rounds": [
       {
         "courseId": "the-kahkwa-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "tacoma-country-and-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4684,12 +4684,12 @@
     "rounds": [
       {
         "courseId": "cherry-hills-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "jekyll-island-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4704,12 +4704,12 @@
     "rounds": [
       {
         "courseId": "victoria-national-golf-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "primm-valley-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4724,12 +4724,12 @@
     "rounds": [
       {
         "courseId": "lake-view-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "lake-nona-golf-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4744,12 +4744,12 @@
     "rounds": [
       {
         "courseId": "tpc-potomac-at-avenel-farm",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "yale-golf-course",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4764,12 +4764,12 @@
     "rounds": [
       {
         "courseId": "the-woodlands-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "the-gallery-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
@@ -4784,12 +4784,12 @@
     "rounds": [
       {
         "courseId": "warwick-hills-golf-and-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
         "courseId": "desert-forest-golf-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "medium"
       },
       {
