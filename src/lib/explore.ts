@@ -92,7 +92,12 @@ export const ERIE_COURSE_IDS: string[] = [
   "scenic-heights-golf-course",
   "beechwood-golf-club",
   "green-meadows-golf-course",
-  "culbertson-hills-golf-resort",
+  "culbertson-hills-golf-club",
+  "riverside-golf",
+  "peakn-peak-upper-course",
+  "north-hills-golf-course",
+  "union-city-golf-course",
+  "country-club-of-meadville",
 ];
 
 /** Build region sets from course data. */

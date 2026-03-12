@@ -6924,6 +6924,228 @@
     }
   },
   {
+    "id": "riverside-golf",
+    "name": "Riverside Golf",
+    "location": {
+      "city": "Cambridge Springs",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.8165,
+      "longitude": -80.0487
+    },
+    "details": {
+      "type": "public",
+      "architect": "Herbert Lagerblade",
+      "yearOpened": 1915,
+      "par": 71,
+      "yardage": 6332,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Herbert Lagerblade",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Riverside Golf Club opened in 1915 as a 9-hole course commissioned by William Baird of the Riverside Hotel. Herbert Lagerblade, a former Donald Ross assistant, designed it. A second nine was added in 1923, making it the first public 18-hole course in Northwest Pennsylvania."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course sits along French Creek with a classic parkland layout. The front nine dates to 1915; the back nine was added in 1923.",
+      "description": "Riverside Golf is an 18-hole public course in Cambridge Springs designed by Herbert Lagerblade. Opened in 1915, it was the first public 18-hole course in Northwest Pennsylvania."
+    },
+    "images": {
+      "aerialTight": "courses/riverside-golf/aerial-tight.jpg",
+      "aerialMedium": "courses/riverside-golf/aerial-medium.jpg",
+      "aerialWide": "courses/riverside-golf/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "peakn-peak-upper-course",
+    "name": "Peak'n Peak (Upper Course)",
+    "location": {
+      "city": "Findley Lake",
+      "state": "New York",
+      "region": "Mid Atlantic",
+      "latitude": 42.0625,
+      "longitude": -79.7367
+    },
+    "details": {
+      "type": "resort",
+      "architect": "John Exley",
+      "yearOpened": 1997,
+      "par": 72,
+      "yardage": 6888,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Resort",
+      "architectHint": "John Exley",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Peak'n Peak's Upper Course was designed by John Exley and opened in 1997. The 18-hole resort layout plays 6,888 yards with bent grass greens and a course rating of 72.5. The resort also features a Lower Course and is a popular ski destination in Western New York."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The Upper Course features rolling terrain with bent grass throughout. The resort setting offers views of the surrounding Chautauqua County hills.",
+      "description": "Peak'n Peak (Upper Course) is an 18-hole resort course in Findley Lake, NY designed by John Exley. The 6,888-yard par-72 layout opened in 1997 and features bent grass greens."
+    },
+    "images": {
+      "aerialTight": "courses/peakn-peak-upper-course/aerial-tight.jpg",
+      "aerialMedium": "courses/peakn-peak-upper-course/aerial-medium.jpg",
+      "aerialWide": "courses/peakn-peak-upper-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "north-hills-golf-course",
+    "name": "North Hills Golf Course",
+    "location": {
+      "city": "Corry",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.9427,
+      "longitude": -79.643
+    },
+    "details": {
+      "type": "public",
+      "architect": null,
+      "yearOpened": 1967,
+      "par": 71,
+      "yardage": 6108,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Municipal design",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "North Hills Municipal Golf Course opened in 1967 as a 9-hole facility and expanded to 18 holes in 1971. The course is owned by the City of Corry and has been described as a hidden gem attracting golfers from northwestern Pennsylvania, Western New York, and Northeastern Ohio."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features bent grass greens and a regulation layout. Located on Route 426 north of Route 6, it offers affordable public golf in the Erie region.",
+      "description": "North Hills Golf Course is an 18-hole municipal course in Corry owned by the City of Corry. The 6,108-yard par-71 layout opened in 1967 and expanded to 18 holes in 1971."
+    },
+    "images": {
+      "aerialTight": "courses/north-hills-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/north-hills-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/north-hills-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "culbertson-hills-golf-club",
+    "name": "Culbertson Hills Golf Club",
+    "location": {
+      "city": "Edinboro",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.8762,
+      "longitude": -80.14
+    },
+    "details": {
+      "type": "public",
+      "architect": "Thomas Bendelow",
+      "yearOpened": 1931,
+      "par": 72,
+      "yardage": 6813,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Thomas Bendelow",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Culbertson Hills was founded in 1931 by A.A. Culbertson and designed by Thomas Bendelow, who also designed Medinah No. 3 and Butler Country Club. The course features fast bent greens and towering hardwoods. Also known as Culbertson Hills Golf Resort."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "Holes 7-9 feature water and create a memorable stretch. The traditional layout includes tree-lined fairways with towering hardwoods and pines.",
+      "description": "Culbertson Hills Golf Club is a public course in Edinboro designed by Thomas Bendelow. The 6,813-yard par-72 layout opened in 1931 and features bent grass throughout. Also operates as Culbertson Hills Golf Resort."
+    },
+    "images": {
+      "aerialTight": "courses/culbertson-hills-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/culbertson-hills-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/culbertson-hills-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "union-city-golf-course",
+    "name": "Union City Golf Course",
+    "location": {
+      "city": "Union City",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.8995,
+      "longitude": -79.8453
+    },
+    "details": {
+      "type": "public",
+      "architect": "John Ponko",
+      "yearOpened": 1960,
+      "par": 72,
+      "yardage": 6295,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "John Ponko",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Union City Country Club's original nine holes opened in 1960, with the back nine added in the fall of 2000. John Ponko designed the course. The facility operates as a public golf course."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The 18-hole layout features a traditional parkland design. The course is accessible to the public and offers a variety of tee options.",
+      "description": "Union City Golf Course (Union City Country Club) is an 18-hole public course in Union City designed by John Ponko. The original nine opened in 1960; the back nine was added in 2000."
+    },
+    "images": {
+      "aerialTight": "courses/union-city-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/union-city-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/union-city-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "country-club-of-meadville",
+    "name": "The Country Club of Meadville",
+    "location": {
+      "city": "Meadville",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.685,
+      "longitude": -80.08
+    },
+    "details": {
+      "type": "private",
+      "architect": null,
+      "yearOpened": 1905,
+      "par": 72,
+      "yardage": 6551,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Early 20th century design",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "The Country Club of Meadville was established in 1905, making it one of the oldest courses in continuous existence in the United States. A 103-acre farm was purchased and the pasture land was developed into a nine-hole golf course, with the clubhouse and links opening in June 1906."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course sits on Route 86 north of Meadville. The layout has evolved over more than a century while maintaining its traditional character.",
+      "description": "The Country Club of Meadville is a private 18-hole championship course established in 1905. Located on Route 86 north of Meadville, it is one of the oldest courses in continuous existence in the United States."
+    },
+    "images": {
+      "aerialTight": "courses/country-club-of-meadville/aerial-tight.jpg",
+      "aerialMedium": "courses/country-club-of-meadville/aerial-medium.jpg",
+      "aerialWide": "courses/country-club-of-meadville/aerial-wide.jpg"
+    }
+  },
+  {
     "id": "newport-country-club",
     "name": "Newport Country Club",
     "location": {
