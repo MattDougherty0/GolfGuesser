@@ -208,7 +208,7 @@ function PlayContent() {
   const currentRound = state.puzzle?.rounds[state.roundIndex];
   const currentCourse = state.courses[state.roundIndex];
 
-  const imageKey = currentRound?.imageKey ?? "aerialWide";
+  const imageKey = currentRound?.imageKey ?? "aerialMedium";
   const imageSrc = currentCourse?.images[imageKey] ?? "";
 
   const canSubmit = state.pin !== null;

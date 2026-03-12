@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const viewport: Viewport = {
   width: "device-width",
-  initialScale: 1, // default for entrance/home; play pages override to 1.15 on mobile via PlayViewportEffect
+  initialScale: 1,
 };
 
 const inter = Inter({
