@@ -1,15 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import type { CourseClues } from "@/lib/types";
-import { HINT_COSTS } from "@/lib/scoring";
 
 interface HintPanelProps {
   clues: CourseClues;
   onHintsUsedChange: (count: number, penalty: number) => void;
 }
 
-const HINT_CONFIG = [
+/** Option 3 costs: all variants sum to 300. */
+const HINT_COSTS_5 = [85, 45, 20, 105, 45] as const;
+const HINT_COSTS_6 = [55, 30, 15, 85, 35, 80] as const; // one optional
+const HINT_COSTS_7 = [55, 30, 15, 85, 35, 45, 35] as const; // both optional
+
+const BASE_HINTS = [
   { key: "region" as const, label: "Region" },
   { key: "typeHint" as const, label: "Type" },
   { key: "architectHint" as const, label: "Architect" },
@@ -17,7 +21,29 @@ const HINT_CONFIG = [
   { key: "didYouKnow" as const, label: "Fun Fact" },
 ] satisfies { key: keyof CourseClues; label: string }[];
 
+const OPTIONAL_HINTS = [
+  { key: "mostRecentWinnerHint" as const, label: "Recent Winner" },
+  { key: "mostWinsHint" as const, label: "Most Wins" },
+] satisfies { key: keyof CourseClues; label: string }[];
+
+function buildHintConfig(clues: CourseClues): { key: keyof CourseClues; label: string; cost: number }[] {
+  const hasRecent = !!clues.mostRecentWinnerHint;
+  const hasWins = !!clues.mostWinsHint;
+  const optionalCount = (hasRecent ? 1 : 0) + (hasWins ? 1 : 0);
+  const costs = optionalCount === 0 ? HINT_COSTS_5 : optionalCount === 1 ? HINT_COSTS_6 : HINT_COSTS_7;
+
+  const config: { key: keyof CourseClues; label: string; cost: number }[] = BASE_HINTS.map(
+    (h, i) => ({ ...h, cost: costs[i] })
+  );
+
+  if (hasRecent) config.push({ ...OPTIONAL_HINTS[0], cost: hasWins ? 45 : 80 });
+  if (hasWins) config.push({ ...OPTIONAL_HINTS[1], cost: 35 });
+
+  return config;
+}
+
 export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) {
+  const hintConfig = useMemo(() => buildHintConfig(clues), [clues]);
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
 
   function revealHint(index: number) {
@@ -25,8 +51,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
     const next = new Set(revealed);
     next.add(index);
     setRevealed(next);
-    let penalty = 0;
-    for (const idx of next) penalty += HINT_COSTS[idx];
+    const penalty = [...next].reduce((sum, i) => sum + hintConfig[i].cost, 0);
     onHintsUsedChange(next.size, penalty);
   }
 
@@ -34,7 +59,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
     <div className="min-w-0 w-full max-w-full space-y-3">
       {/* Hint buttons */}
       <div className="flex flex-wrap justify-center gap-2">
-        {HINT_CONFIG.map((hint, i) => {
+        {hintConfig.map((hint, i) => {
           const isRevealed = revealed.has(i);
 
           return (
@@ -52,7 +77,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
             >
               {hint.label}
               {!isRevealed && (
-                <span className="ml-1.5 text-[10px] text-accent">-{HINT_COSTS[i]}</span>
+                <span className="ml-1.5 text-[10px] text-accent">-{hint.cost}</span>
               )}
             </button>
           );
@@ -63,10 +88,10 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
       {revealed.size > 0 && (
         <div className="rounded-xl border border-cream/8 bg-card/40 px-4 py-3">
           <div className="space-y-2.5">
-            {HINT_CONFIG.map((hint, i) =>
+            {hintConfig.map((hint, i) =>
               revealed.has(i) ? (
                 <div key={hint.key} className="text-sm leading-relaxed">
-                  <span className="font-medium text-accent/80">{hint.label} <span className="text-accent">(-{HINT_COSTS[i]})</span>: </span>
+                  <span className="font-medium text-accent/80">{hint.label} <span className="text-accent">(-{hint.cost})</span>: </span>
                   <span className="text-cream/70">{clues[hint.key]}</span>
                 </div>
               ) : null

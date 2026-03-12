@@ -23,6 +23,10 @@ export interface CourseClues {
   architectHint: string;
   tournamentHint: string;
   didYouKnow: string;
+  /** Optional – PGA Tour courses only. */
+  mostRecentWinnerHint?: string;
+  /** Optional – PGA Tour courses only. */
+  mostWinsHint?: string;
 }
 
 export interface CourseReveal {
