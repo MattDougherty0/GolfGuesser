@@ -24,7 +24,7 @@ export function searchCourses(query: string): Course[] {
   return courses.filter((c) => c.name.toLowerCase().includes(lower));
 }
 
-export const MAX_SUGGESTIONS = 30;
+export const MAX_SUGGESTIONS = 3;
 
 export type SearchResult = { id: string; name: string } | { id: null; name: string };
 

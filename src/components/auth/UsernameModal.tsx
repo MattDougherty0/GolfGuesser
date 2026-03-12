@@ -51,7 +51,7 @@ export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) 
             placeholder="Your name"
             maxLength={20}
             autoFocus
-            className="w-full rounded-lg border border-cream/15 bg-primary px-4 py-3 text-sm text-cream placeholder:text-cream/30 outline-none focus:border-accent/40"
+            className="w-full rounded-lg border border-cream/15 bg-primary px-4 py-3 text-base text-cream placeholder:text-cream/30 outline-none focus:border-accent/40"
           />
 
           {error && <p className="text-xs text-red-400">{error}</p>}

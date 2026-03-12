@@ -91,7 +91,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
         disabled={disabled}
         placeholder="Type a course name…"
         className={`
-          flex-1 min-w-0 w-full rounded-lg border bg-card px-4 py-3 text-sm text-cream
+          flex-1 min-w-0 w-full rounded-lg border bg-card px-4 py-3 text-base text-cream
           placeholder:text-cream/30 outline-none transition-colors
           ${hasSelection
             ? "border-accent/40 bg-accent/5"
@@ -109,7 +109,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
       )}
 
       {isOpen && (
-        <ul className="absolute z-[1000] mt-1 w-full max-h-60 overflow-y-auto rounded-lg border border-cream/15 bg-card shadow-xl">
+        <ul className="absolute top-full left-0 right-0 z-[1000] mt-1 w-full max-h-60 overflow-y-auto rounded-lg border border-cream/15 bg-card shadow-xl">
           {results.map((course, i) => (
             <li key={course.id ?? `decoy-${course.name}`}>
               <button
