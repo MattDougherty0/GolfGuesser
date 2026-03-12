@@ -24,7 +24,7 @@
     "rounds": [
       {
         "courseId": "riviera-country-club",
-        "imageKey": "aerialTight",
+        "imageKey": "aerialMedium",
         "difficulty": "easy"
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "courseId": "crooked-stick-golf-club",
-        "imageKey": "aerialWide",
+        "imageKey": "aerialMedium",
         "difficulty": "hard"
       }
     ]
