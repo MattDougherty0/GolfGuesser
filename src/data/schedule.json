@@ -3,28 +3,8 @@
     "date": "2026-03-11",
     "rounds": [
       {
-        "courseId": "torrey-pines-south-course",
-        "imageKey": "aerialWide",
-        "difficulty": "hard"
-      },
-      {
-        "courseId": "augusta-national-golf-club",
-        "imageKey": "aerialMedium",
-        "difficulty": "medium"
-      },
-      {
-        "courseId": "tpc-sawgrass-stadium-course",
+        "courseId": "los-angeles-country-club",
         "imageKey": "aerialTight",
-        "difficulty": "easy"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-12",
-    "rounds": [
-      {
-        "courseId": "riviera-country-club",
-        "imageKey": "aerialMedium",
         "difficulty": "easy"
       },
       {
@@ -34,7 +14,27 @@
       },
       {
         "courseId": "crooked-stick-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "rounds": [
+      {
+        "courseId": "blackwolf-run-river-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "augusta-national-golf-club",
         "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "torrey-pines-south-course",
+        "imageKey": "aerialWide",
         "difficulty": "hard"
       }
     ]
@@ -43,7 +43,7 @@
     "date": "2026-03-13",
     "rounds": [
       {
-        "courseId": "blackwolf-run-river-course",
+        "courseId": "colonial-country-club",
         "imageKey": "aerialTight",
         "difficulty": "easy"
       },
@@ -183,7 +183,7 @@
     "date": "2026-03-20",
     "rounds": [
       {
-        "courseId": "colonial-country-club",
+        "courseId": "riviera-country-club",
         "imageKey": "aerialTight",
         "difficulty": "easy"
       },
@@ -3594,6 +3594,1206 @@
       },
       {
         "courseId": "sawgrass-country-club-east-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-07",
+    "rounds": [
+      {
+        "courseId": "piedmont-driving-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "worcester-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "rounds": [
+      {
+        "courseId": "tpc-sugarloaf",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-twin-cities",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "yale-golf-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "rounds": [
+      {
+        "courseId": "scenic-heights-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "broadmoor-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "jekyll-island-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "rounds": [
+      {
+        "courseId": "scottsdale-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "monterey-peninsula-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "dunes-golf-and-beach-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "rounds": [
+      {
+        "courseId": "cherry-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "atlanta-athletic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "lawrence-park-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "rounds": [
+      {
+        "courseId": "elk-valley-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tahoe-mountain-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "rounds": [
+      {
+        "courseId": "beechwood-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-potomac-at-avenel-farm",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "lake-nona-golf-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "rounds": [
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "desert-forest-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "cordevalle",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "rounds": [
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "coeur-dalene-resort",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "champions-retreat-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "rounds": [
+      {
+        "courseId": "pinnacle-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "broadmoor-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "rounds": [
+      {
+        "courseId": "victoria-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "detroit-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "scottsdale-national-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "rounds": [
+      {
+        "courseId": "mission-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "culbertson-hills-golf-resort",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlanta-athletic-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "rounds": [
+      {
+        "courseId": "the-ridge-at-crab-apple",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "yale-golf-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "monterey-peninsula-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "rounds": [
+      {
+        "courseId": "lake-shore-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "desert-forest-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "hurstbourne-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "rounds": [
+      {
+        "courseId": "industry-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-twin-cities",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "big-spring-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "rounds": [
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "jekyll-island-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "wannamoisett-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "rounds": [
+      {
+        "courseId": "mound-grove-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cherry-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "rounds": [
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "omaha-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "rounds": [
+      {
+        "courseId": "callaway-gardens",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "broadmoor-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "primm-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "rounds": [
+      {
+        "courseId": "champions-retreat-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "dunes-golf-and-beach-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "lake-view-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "rounds": [
+      {
+        "courseId": "tehama-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "victoria-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "blessings-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "rounds": [
+      {
+        "courseId": "monterey-peninsula-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cordevalle",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "rounds": [
+      {
+        "courseId": "scottsdale-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-ridge-at-crab-apple",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "jekyll-island-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "rounds": [
+      {
+        "courseId": "memorial-park-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "troon-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "rounds": [
+      {
+        "courseId": "druid-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "omaha-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "the-gallery-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "rounds": [
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "detroit-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "industry-hills-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "rounds": [
+      {
+        "courseId": "the-woodlands-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "coeur-dalene-resort",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "rounds": [
+      {
+        "courseId": "lake-nona-golf-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "atlanta-athletic-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "hurstbourne-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "rounds": [
+      {
+        "courseId": "lake-merced-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "big-spring-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "lake-shore-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "rounds": [
+      {
+        "courseId": "piedmont-driving-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-ridge-at-crab-apple",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-las-vegas",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "rounds": [
+      {
+        "courseId": "lawrence-park-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "dunes-golf-and-beach-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "rounds": [
+      {
+        "courseId": "yale-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "cordevalle",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "rounds": [
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "mission-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "waverley-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "rounds": [
+      {
+        "courseId": "champions-retreat-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "scottsdale-national-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "primm-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "rounds": [
+      {
+        "courseId": "blessings-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "green-meadows-golf-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "rounds": [
+      {
+        "courseId": "tacoma-country-and-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-estancia-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tehama-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "rounds": [
+      {
+        "courseId": "lake-shore-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "the-kahkwa-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "rounds": [
+      {
+        "courseId": "downing-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-potomac-at-avenel-farm",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "pinnacle-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "rounds": [
+      {
+        "courseId": "lake-nona-golf-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "lawrence-park-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "worcester-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "rounds": [
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "piedmont-driving-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "memorial-park-golf-course",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "rounds": [
+      {
+        "courseId": "san-francisco-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "big-spring-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "monterey-peninsula-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "rounds": [
+      {
+        "courseId": "tpc-sugarloaf",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tpc-twin-cities",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "coeur-dalene-resort",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "rounds": [
+      {
+        "courseId": "philadelphia-cricket-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "cordevalle",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "primm-valley-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "rounds": [
+      {
+        "courseId": "industry-hills-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "hurstbourne-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "mound-grove-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "rounds": [
+      {
+        "courseId": "lake-merced-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "mission-hills-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlanta-athletic-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "rounds": [
+      {
+        "courseId": "dunes-golf-and-beach-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "sherwood-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "des-moines-golf-and-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "rounds": [
+      {
+        "courseId": "the-gallery-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "callaway-gardens",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "lawrence-park-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "rounds": [
+      {
+        "courseId": "tpc-potomac-at-avenel-farm",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-ridge-at-crab-apple",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "world-woods-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-25",
+    "rounds": [
+      {
+        "courseId": "tpc-las-vegas",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "detroit-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "whispering-woods-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "rounds": [
+      {
+        "courseId": "green-meadows-golf-course",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "druid-hills-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "desert-forest-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "rounds": [
+      {
+        "courseId": "broadmoor-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "scenic-heights-golf-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tehama-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "rounds": [
+      {
+        "courseId": "tahoe-mountain-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "champions-retreat-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "valencia-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "rounds": [
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "piedmont-driving-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "cordevalle",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "rounds": [
+      {
+        "courseId": "the-kahkwa-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "tacoma-country-and-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "hurstbourne-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "rounds": [
+      {
+        "courseId": "cherry-hills-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "jekyll-island-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "tpc-las-vegas",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "rounds": [
+      {
+        "courseId": "victoria-national-golf-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "primm-valley-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "atlanta-athletic-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "rounds": [
+      {
+        "courseId": "lake-view-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "lake-nona-golf-country-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "mound-grove-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "rounds": [
+      {
+        "courseId": "tpc-potomac-at-avenel-farm",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "yale-golf-course",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "worcester-country-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "rounds": [
+      {
+        "courseId": "the-woodlands-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "the-gallery-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "industry-hills-golf-club",
+        "imageKey": "aerialWide",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "rounds": [
+      {
+        "courseId": "warwick-hills-golf-and-country-club",
+        "imageKey": "aerialTight",
+        "difficulty": "easy"
+      },
+      {
+        "courseId": "desert-forest-golf-club",
+        "imageKey": "aerialMedium",
+        "difficulty": "medium"
+      },
+      {
+        "courseId": "omaha-country-club",
         "imageKey": "aerialWide",
         "difficulty": "hard"
       }

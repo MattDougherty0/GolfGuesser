@@ -40,6 +40,24 @@ export const PGA_TOUR_2025_COURSE_IDS: string[] = [
   "east-lake-golf-club",
 ];
 
+/** Erie, PA area courses - its own Explore set. */
+export const ERIE_COURSE_IDS: string[] = [
+  "lake-shore-country-club",
+  "elk-valley-golf-course",
+  "lawrence-park-golf-club",
+  "lake-view-country-club",
+  "the-kahkwa-club",
+  "over-lake-golf-course",
+  "downing-golf-course",
+  "whispering-woods-golf-club",
+  "the-ridge-at-crab-apple",
+  "mound-grove-golf-club",
+  "scenic-heights-golf-course",
+  "beechwood-golf-club",
+  "green-meadows-golf-course",
+  "culbertson-hills-golf-resort",
+];
+
 /** Build region sets from course data. */
 function buildRegionSets(): Record<string, string[]> {
   const courses = getAllCourses();
@@ -54,6 +72,7 @@ function buildRegionSets(): Record<string, string[]> {
 
 export const EXPLORE_SETS: Record<string, string[]> = {
   pga2025: PGA_TOUR_2025_COURSE_IDS,
+  erie: ERIE_COURSE_IDS,
   ...buildRegionSets(),
 };
 

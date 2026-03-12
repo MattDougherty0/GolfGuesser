@@ -14,6 +14,11 @@ const EXPLORE_OPTIONS = [
     title: "2025 PGA Tour",
     description: "Courses from the 2025 PGA Tour schedule (lower 48)",
   },
+  {
+    id: "erie",
+    title: "Erie",
+    description: "Courses in the Erie, PA area",
+  },
   ...REGIONS.map((region) => ({
     id: `region-${region}` as const,
     title: region,
@@ -23,6 +28,7 @@ const EXPLORE_OPTIONS = [
 
 const EXPLORE_CARD_IMAGES: Record<string, string> = {
   pga2025: "/images/explore/pga2025.jpg",
+  erie: "/images/explore/erie.jpg",
   "region-West": "/images/explore/west.jpg",
   "region-Southwest": "/images/explore/southwest.jpg",
   "region-Midwest": "/images/explore/midwest.jpg",
@@ -92,7 +98,11 @@ function ExploreContent() {
               const imageSrc = EXPLORE_CARD_IMAGES[opt.id];
               const isRegion = opt.id.startsWith("region-");
               const regionName = isRegion ? opt.id.replace("region-", "") : null;
-              const statesStr = regionName ? getStatesAbbrevForRegion(regionName) : null;
+              const statesStr = opt.id === "erie"
+                ? "Erie, PA"
+                : regionName
+                  ? getStatesAbbrevForRegion(regionName)
+                  : null;
               return (
                 <button
                   key={opt.id}

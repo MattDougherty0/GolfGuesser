@@ -22,6 +22,8 @@
       "typeHint": "Public",
       "architectHint": "Jack Neville & Douglas Grant",
       "tournamentHint": "Hosts the PGA Tour's annual celebrity pro-am and has hosted six U.S. Opens",
+      "mostWinsHint": "Mark O'Meara & Phil Mickelson (5 each)",
+      "mostRecentWinnerHint": "Rory McIlroy (2025)",
       "didYouKnow": "The course was designed by two amateur golfers, Jack Neville and Douglas Grant, neither of whom had ever designed a golf course before—yet their creation consistently ranks among the greatest courses in the world."
     },
     "reveal": {
@@ -35,7 +37,11 @@
         "Jack Nicklaus hit the flagstick with a 1-iron on the par-3 17th hole in the 1972 U.S. Open"
       ],
       "signatureHole": "Hole 7: A dramatic 106-yard par 3 that plays sharply downhill to a tiny green perched on a rocky promontory jutting into Carmel Bay, often regarded as one of the most photographed holes in golf.",
-      "description": "Pebble Beach Golf Links hugs the rugged coastline of the Monterey Peninsula, offering some of the most breathtaking ocean views in all of golf. With eight holes running along the Pacific, the course blends raw natural beauty with strategic championship-caliber design, making it a bucket-list destination for golfers worldwide."
+      "description": "Pebble Beach Golf Links hugs the rugged coastline of the Monterey Peninsula, offering some of the most breathtaking ocean views in all of golf. With eight holes running along the Pacific, the course blends raw natural beauty with strategic championship-caliber design, making it a bucket-list destination for golfers worldwide.",
+      "videos": [
+        { "label": "2000 U.S. Open Final Round – Tiger's 15-stroke record win", "url": "https://www.youtube.com/watch?v=r8RzfyDs5aY", "year": 2000 },
+        { "label": "Tom Watson's chip-in on 17 to beat Jack Nicklaus (1982)", "url": "https://www.youtube.com/watch?v=3q_fgUYbua0", "year": 1982 }
+      ]
     },
     "images": {
       "aerialTight": "courses/pebble-beach-golf-links/aerial-tight.jpg",
@@ -66,6 +72,8 @@
       "typeHint": "Private",
       "architectHint": "Alister MacKenzie & Bobby Jones",
       "tournamentHint": "Home of The Masters, golf's most prestigious invitational tournament",
+      "mostWinsHint": "Jack Nicklaus (6)",
+      "mostRecentWinnerHint": "Rory McIlroy (2025)",
       "didYouKnow": "This course was built on the site of Fruitland Nurseries, a former commercial plant nursery, which is why the course is adorned with flowering plants and every hole is named after a tree or shrub."
     },
     "reveal": {
@@ -78,7 +86,12 @@
         "Tiger Woods completed one of sport's greatest comebacks by winning the 2019 Masters, his first major in 11 years"
       ],
       "signatureHole": "Hole 12: 'Golden Bell,' a 155-yard par 3 at the heart of Amen Corner. The deceptively short hole plays over Rae's Creek, with swirling winds that make club selection agonizing and have produced some of the most dramatic moments in Masters history.",
-      "description": "Augusta National is the cathedral of American golf, a meticulously manicured private club that hosts The Masters each April. Co-designed by Bobby Jones and Alister MacKenzie, the course features dramatic elevation changes, blazing-fast greens, and the iconic Amen Corner stretch that has defined championship golf for nearly a century."
+      "description": "Augusta National is the cathedral of American golf, a meticulously manicured private club that hosts The Masters each April. Co-designed by Bobby Jones and Alister MacKenzie, the course features dramatic elevation changes, blazing-fast greens, and the iconic Amen Corner stretch that has defined championship golf for nearly a century.",
+      "videos": [
+        { "label": "Tiger Woods' chip on 16 (2005 Masters)", "url": "https://www.youtube.com/watch?v=B_tkJEAGMDE", "year": 2005 },
+        { "label": "2019 Masters Final Round – Tiger's comeback victory", "url": "https://www.youtube.com/watch?v=oqYbG8Zhoag", "year": 2019 },
+        { "label": "1997 Masters Final Round – Tiger's record 12-stroke win", "url": "https://www.youtube.com/watch?v=4P5_Ld07sMA", "year": 1997 }
+      ]
     },
     "images": {
       "aerialTight": "courses/augusta-national-golf-club/aerial-tight.jpg",
@@ -109,6 +122,8 @@
       "typeHint": "Public",
       "architectHint": "Pete Dye",
       "tournamentHint": "Home of The Players Championship, often called golf's 'fifth major'",
+      "mostWinsHint": "Jack Nicklaus, Fred Couples, Tiger Woods, Davis Love III, Hal Sutton (2 each)",
+      "mostRecentWinnerHint": "Scottie Scheffler (2025)",
       "didYouKnow": "Approximately 120,000 golf balls are retrieved from the water surrounding the famous island green 17th hole each year."
     },
     "reveal": {
@@ -121,7 +136,11 @@
         "Fred Couples hit one of the most memorable shots in tournament history, holing out from the fairway on 18 to win in 1996"
       ],
       "signatureHole": "Hole 17: The most famous par 3 in golf, a 137-yard shot to a small island green surrounded entirely by water. It produces more drama per square foot than any hole in professional golf.",
-      "description": "TPC Sawgrass is the home of the PGA Tour and the annual Players Championship. Pete Dye's Stadium Course pioneered the concept of spectator-friendly golf architecture, with mounding and amphitheater-style viewing areas throughout. The island green 17th hole is arguably the most recognizable single hole in the sport."
+      "description": "TPC Sawgrass is the home of the PGA Tour and the annual Players Championship. Pete Dye's Stadium Course pioneered the concept of spectator-friendly golf architecture, with mounding and amphitheater-style viewing areas throughout. The island green 17th hole is arguably the most recognizable single hole in the sport.",
+      "videos": [
+        { "label": "Tiger Woods' 'Better than most' putt on 17 (2001 Players)", "url": "https://www.youtube.com/watch?v=qrvP02Oit04", "year": 2001 },
+        { "label": "Rickie Fowler's 2015 Players Championship playoff win", "url": "https://www.youtube.com/watch?v=8hX4VR4qIM4", "year": 2015 }
+      ]
     },
     "images": {
       "aerialTight": "courses/tpc-sawgrass-stadium-course/aerial-tight.jpg",
@@ -166,7 +185,10 @@
         "Michael Campbell upset Tiger Woods to win the 2005 U.S. Open"
       ],
       "signatureHole": "Hole 5: A 478-yard par 4 that Donald Ross reportedly considered his finest creation, featuring one of his signature crowned greens that repels anything less than a perfectly struck approach shot.",
-      "description": "Pinehurst No. 2 is Donald Ross's masterpiece and the crown jewel of the Pinehurst Resort's nine courses. Set among the longleaf pines and sandy wiregrass of the North Carolina Sandhills, the course is defined by its famous crowned greens—convex putting surfaces that demand precision and creativity around the greens."
+      "description": "Pinehurst No. 2 is Donald Ross's masterpiece and the crown jewel of the Pinehurst Resort's nine courses. Set among the longleaf pines and sandy wiregrass of the North Carolina Sandhills, the course is defined by its famous crowned greens—convex putting surfaces that demand precision and creativity around the greens.",
+      "videos": [
+        { "label": "Payne Stewart's winning putt (1999 U.S. Open)", "url": "https://www.youtube.com/shorts/tD1ZKHIgoN4", "year": 1999 }
+      ]
     },
     "images": {
       "aerialTight": "courses/pinehurst-no-2/aerial-tight.jpg",
@@ -197,6 +219,8 @@
       "typeHint": "Private",
       "architectHint": "Henry Fownes",
       "tournamentHint": "Has hosted more U.S. Opens than any other course in history (nine times)",
+      "mostWinsHint": "Willie Anderson (4)",
+      "mostRecentWinnerHint": "Dustin Johnson (2016)",
       "didYouKnow": "The course's famous Church Pews bunker complex between the 3rd and 4th fairways contains a series of twelve grass-covered ridges inside a massive sand trap, creating one of golf's most unique and intimidating hazards."
     },
     "reveal": {
@@ -210,7 +234,11 @@
         "Ben Hogan defeated Sam Snead in an 18-hole playoff to win the 1953 U.S. Open"
       ],
       "signatureHole": "Hole 3: A 428-yard par 4 bordered by the legendary Church Pews bunker complex on the left, a massive hazard featuring twelve parallel rows of grassy ridges that can trap and punish even the slightest miss.",
-      "description": "Oakmont Country Club is widely regarded as the toughest course in America, a relentless test of precision featuring lightning-fast greens, deep furrowed bunkers, and almost no rough relief. Founded in 1903 by Henry Fownes, it has hosted more combined major championships than any other American venue."
+      "description": "Oakmont Country Club is widely regarded as the toughest course in America, a relentless test of precision featuring lightning-fast greens, deep furrowed bunkers, and almost no rough relief. Founded in 1903 by Henry Fownes, it has hosted more combined major championships than any other American venue.",
+      "videos": [
+        { "label": "1973 U.S. Open: Johnny Miller shoots 63 in Final Round at Oakmont", "url": "https://www.youtube.com/watch?v=01kGpNbpVmU", "year": 1973 },
+        { "label": "Miracle at Oakmont – 1973 U.S. Open film", "url": "https://www.youtube.com/watch?v=aGhfFe4VPJE", "year": 1973 }
+      ]
     },
     "images": {
       "aerialTight": "courses/oakmont-country-club/aerial-tight.jpg",
@@ -241,6 +269,8 @@
       "typeHint": "Public",
       "architectHint": "William Bell Sr.",
       "tournamentHint": "Home of the Farmers Insurance Open and site of Tiger Woods' legendary 2008 U.S. Open victory",
+      "mostWinsHint": "Tiger Woods (7)",
+      "mostRecentWinnerHint": "Harris English (2025)",
       "didYouKnow": "As a municipal course owned by the City of San Diego, any golfer can play The course for a green fee, making it arguably the most accessible major championship venue in golf."
     },
     "reveal": {
@@ -254,7 +284,11 @@
         "Tiger Woods has won the Farmers Insurance Open (and predecessor events) a record eight times at Torrey Pines"
       ],
       "signatureHole": "Hole 3: A 200-yard par 3 perched atop the coastal bluffs with sweeping views of the Pacific Ocean 300 feet below, requiring a precise tee shot over a deep ravine to a green guarded by bunkers.",
-      "description": "Torrey Pines South Course sits on dramatic coastal bluffs overlooking the Pacific Ocean in La Jolla, California. Redesigned by Rees Jones for the 2008 U.S. Open, the municipal course proves that public golf can produce world-class championship conditions, combining stunning ocean panoramas with a demanding, links-influenced layout."
+      "description": "Torrey Pines South Course sits on dramatic coastal bluffs overlooking the Pacific Ocean in La Jolla, California. Redesigned by Rees Jones for the 2008 U.S. Open, the municipal course proves that public golf can produce world-class championship conditions, combining stunning ocean panoramas with a demanding, links-influenced layout.",
+      "videos": [
+        { "label": "2008 U.S. Open Playoff – Tiger vs Rocco Mediate (full broadcast)", "url": "https://www.youtube.com/watch?v=aJ9JuExKH7c", "year": 2008 },
+        { "label": "A Duel for the Ages – 2008 U.S. Open film", "url": "https://www.youtube.com/watch?v=VWZy75JGnG4", "year": 2008 }
+      ]
     },
     "images": {
       "aerialTight": "courses/torrey-pines-south-course/aerial-tight.jpg",
@@ -418,6 +452,8 @@
       "typeHint": "Public",
       "architectHint": "Tom Weiskopf & Jay Morrish",
       "tournamentHint": "Home of the WM Phoenix Open, the best-attended event in all of golf",
+      "mostWinsHint": "Arnold Palmer, Johnny Miller, Mark Calcavecchia, Phil Mickelson (2 each)",
+      "mostRecentWinnerHint": "Thomas Detry (2025)",
       "didYouKnow": "The 16th hole during the WM Phoenix Open features a temporary stadium holding over 20,000 spectators, creating the rowdiest atmosphere in professional golf—more akin to a football game than a golf tournament."
     },
     "reveal": {
@@ -430,7 +466,11 @@
         "The WM Phoenix Open regularly draws over 700,000 spectators for the week, making it the best-attended sporting event in the world"
       ],
       "signatureHole": "Hole 16: A 163-yard par 3 enclosed by a massive temporary stadium grandstand that transforms it into the loudest, most electric hole in golf during the WM Phoenix Open. Players are cheered, jeered, and serenaded like rock stars.",
-      "description": "TPC Scottsdale's Stadium Course is the home of the WM Phoenix Open, golf's biggest party. Set in the Sonoran Desert with views of the McDowell Mountains, the course was designed to accommodate enormous galleries, but it's the raucous 16th hole stadium that has made this venue a cultural phenomenon in professional golf."
+      "description": "TPC Scottsdale's Stadium Course is the home of the WM Phoenix Open, golf's biggest party. Set in the Sonoran Desert with views of the McDowell Mountains, the course was designed to accommodate enormous galleries, but it's the raucous 16th hole stadium that has made this venue a cultural phenomenon in professional golf.",
+      "videos": [
+        { "label": "ACES & DRAMA – Electric moments on No. 16 at WM Phoenix Open", "url": "https://www.youtube.com/watch?v=N-Q5wzftDc8" },
+        { "label": "WM Phoenix Open Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=jxhg-I88HeE", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/tpc-scottsdale-stadium-course/aerial-tight.jpg",
@@ -1039,6 +1079,8 @@
       "typeHint": "Private",
       "architectHint": "George Cobb",
       "tournamentHint": "Home of the Wells Fargo Championship and host of the 2017 PGA Championship in Charlotte",
+      "mostWinsHint": "Rory McIlroy (4)",
+      "mostRecentWinnerHint": "Rory McIlroy (2024)",
       "didYouKnow": "The final three holes at the course—known as the 'Green Mile'—are statistically among the most difficult closing stretches on the entire PGA Tour, named after the nearby Mecklenburg County jail."
     },
     "reveal": {
@@ -1053,7 +1095,11 @@
         "Tiger Woods won the Wachovia Championship at Quail Hollow in 2007, one of 82 career PGA Tour victories"
       ],
       "signatureHole": "Hole 17: A 195-yard par 3 in the heart of the 'Green Mile,' with water fronting the green and thick rough surrounding it. This penultimate hole has ruined countless final-round charges and is one of the most feared par 3s on the PGA Tour.",
-      "description": "Quail Hollow Club in Charlotte, North Carolina, has risen from a respected PGA Tour stop to a bona fide major championship venue. Originally designed by George Cobb and later renovated by Tom Fazio, the course is defined by its fearsome 'Green Mile' closing stretch—three brutally difficult finishing holes that have produced some of the PGA Tour's most dramatic conclusions."
+      "description": "Quail Hollow Club in Charlotte, North Carolina, has risen from a respected PGA Tour stop to a bona fide major championship venue. Originally designed by George Cobb and later renovated by Tom Fazio, the course is defined by its fearsome 'Green Mile' closing stretch—three brutally difficult finishing holes that have produced some of the PGA Tour's most dramatic conclusions.",
+      "videos": [
+        { "label": "Wyndham Clark's 1st PGA Tour win at Wells Fargo Championship (2023)", "url": "https://www.youtube.com/watch?v=63VLs1Xh_w8", "year": 2023 },
+        { "label": "Rory McIlroy wins Wells Fargo Championship (2015)", "url": "https://www.youtube.com/watch?v=1O3TTi9hcok", "year": 2015 }
+      ]
     },
     "images": {
       "aerialTight": "courses/quail-hollow-club/aerial-tight.jpg",
@@ -1395,6 +1441,8 @@
       "typeHint": "Resort",
       "architectHint": "Pete Dye and Jack Nicklaus",
       "tournamentHint": "Annual home of the RBC Heritage, played the week after the Masters",
+      "mostWinsHint": "Davis Love III (5)",
+      "mostRecentWinnerHint": "Scottie Scheffler (2025)",
       "didYouKnow": "The iconic red-and-white striped lighthouse behind the 18th green is one of the most recognizable landmarks in all of golf"
     },
     "reveal": {
@@ -1406,7 +1454,11 @@
         "Davis Love III won the Heritage five times, becoming the tournament's all-time winningest player"
       ],
       "signatureHole": "Hole 18: A 472-yard par 4 hugging the Calibogue Sound with the iconic red-and-white lighthouse standing sentinel behind the green, providing one of golf's most photographed finishing holes",
-      "description": "Harbour Town Golf Links is a Pete Dye and Jack Nicklaus collaboration on Hilton Head Island that revolutionized golf course design with its tight fairways, small greens, and strategic demands. The course rewards precision over power and is crowned by the iconic lighthouse behind the 18th green, one of the most recognizable images in golf."
+      "description": "Harbour Town Golf Links is a Pete Dye and Jack Nicklaus collaboration on Hilton Head Island that revolutionized golf course design with its tight fairways, small greens, and strategic demands. The course rewards precision over power and is crowned by the iconic lighthouse behind the 18th green, one of the most recognizable images in golf.",
+      "videos": [
+        { "label": "RBC Heritage Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=lpWLfU8nYqk", "year": 2025 },
+        { "label": "Scottie Scheffler Round 1 at RBC Heritage (2025)", "url": "https://www.youtube.com/watch?v=wCOTjkUThrY", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/harbour-town-golf-links/aerial-tight.jpg",
@@ -1437,6 +1489,8 @@
       "typeHint": "Resort",
       "architectHint": "Dick Wilson",
       "tournamentHint": "Home of the Arnold Palmer Invitational, one of the PGA Tour's signature events",
+      "mostWinsHint": "Tiger Woods (8)",
+      "mostRecentWinnerHint": "Scottie Scheffler (2025)",
       "didYouKnow": "Arnold Palmer first played the course in 1965 and loved it so much he bought the club in 1970, making it his winter home for the rest of his life"
     },
     "reveal": {
@@ -1448,7 +1502,11 @@
         "Arnold Palmer hosted and shaped the tournament at his beloved Bay Hill for over four decades until his passing in 2016"
       ],
       "signatureHole": "Hole 18: A 458-yard par 4 with a large lake running the entire length of the right side and guarding the green, demanding a bold approach shot over water to a peninsula green",
-      "description": "Bay Hill Club and Lodge is Arnold Palmer's personal course in Orlando, a Dick Wilson design that the King purchased in 1970 and transformed into one of the PGA Tour's most beloved annual stops. The demanding finishing stretch along the lakes of central Florida provides some of the Tour's most dramatic moments each spring."
+      "description": "Bay Hill Club and Lodge is Arnold Palmer's personal course in Orlando, a Dick Wilson design that the King purchased in 1970 and transformed into one of the PGA Tour's most beloved annual stops. The demanding finishing stretch along the lakes of central Florida provides some of the Tour's most dramatic moments each spring.",
+      "videos": [
+        { "label": "Arnold Palmer Invitational Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=PBj_Y3cGJmo", "year": 2025 },
+        { "label": "Arnold Palmer Invitational highlights | Golf Channel", "url": "https://www.youtube.com/watch?v=RNTFFT2ulck" }
+      ]
     },
     "images": {
       "aerialTight": "courses/bay-hill-club-and-lodge/aerial-tight.jpg",
@@ -1479,6 +1537,8 @@
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Permanent home of the PGA Tour's season-ending Tour Championship",
+      "mostWinsHint": "Tiger Woods (2)",
+      "mostRecentWinnerHint": "Tommy Fleetwood (2025)",
       "didYouKnow": "This course is where Bobby Jones learned to play golf as a child, growing up in a house adjacent to the course that would produce the greatest amateur golfer of all time"
     },
     "reveal": {
@@ -1492,7 +1552,11 @@
         "Bobby Jones grew up playing East Lake and honed his legendary game on these fairways before becoming the only player to complete the Grand Slam"
       ],
       "signatureHole": "Hole 18: A 475-yard par 4 wrapping around East Lake with water down the entire left side, providing a dramatic amphitheater finish for the Tour Championship",
-      "description": "East Lake Golf Club is the historic home course of Bobby Jones and the permanent venue for the PGA Tour's season-ending Tour Championship. Originally designed by Tom Bendelow and refined by Donald Ross, the course was restored by Rees Jones and sits as a cornerstone of Atlanta's golfing heritage and community revitalization."
+      "description": "East Lake Golf Club is the historic home course of Bobby Jones and the permanent venue for the PGA Tour's season-ending Tour Championship. Originally designed by Tom Bendelow and refined by Donald Ross, the course was restored by Rees Jones and sits as a cornerstone of Atlanta's golfing heritage and community revitalization.",
+      "videos": [
+        { "label": "Scottie Scheffler captures FedExCup | Tour Championship Round 4 (2024)", "url": "https://www.youtube.com/watch?v=xjiaGrflkzI", "year": 2024 },
+        { "label": "TOUR Championship Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=e16zucsLSd4", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/east-lake-golf-club/aerial-tight.jpg",
@@ -1523,6 +1587,8 @@
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "Annual host of the Memorial Tournament, Jack Nicklaus's prestigious invitational",
+      "mostWinsHint": "Tiger Woods (5)",
+      "mostRecentWinnerHint": "Scottie Scheffler (2025)",
       "didYouKnow": "Jack Nicklaus named the club after the course in Scotland, where he won his first Open Championship in 1966, considering it the finest course he had ever played"
     },
     "reveal": {
@@ -1537,7 +1603,11 @@
         "The United States won the 1987 Ryder Cup at Muirfield Village, the first time Europe had ever competed on Jack Nicklaus-designed course"
       ],
       "signatureHole": "Hole 12: A 184-yard par 3 playing over a creek to a shallow green backed by Nicklaus's meticulous bunkering, a hole that demands precision under tournament pressure",
-      "description": "Muirfield Village Golf Club is Jack Nicklaus's crown jewel, a course he designed and continually refines in his hometown of Dublin, Ohio. Home to the prestigious Memorial Tournament since 1976, the layout showcases Nicklaus's design philosophy of dramatic risk-reward holes set amid the rolling terrain and mature hardwoods of central Ohio."
+      "description": "Muirfield Village Golf Club is Jack Nicklaus's crown jewel, a course he designed and continually refines in his hometown of Dublin, Ohio. Home to the prestigious Memorial Tournament since 1976, the layout showcases Nicklaus's design philosophy of dramatic risk-reward holes set amid the rolling terrain and mature hardwoods of central Ohio.",
+      "videos": [
+        { "label": "Memorial Tournament Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=7DXkH3K_CXA", "year": 2025 },
+        { "label": "Scottie Scheffler grinds out victory | Memorial Tournament (2024)", "url": "https://www.youtube.com/watch?v=tuM7S0s6J2Y", "year": 2024 }
+      ]
     },
     "images": {
       "aerialTight": "courses/muirfield-village-golf-club/aerial-tight.jpg",
@@ -1612,6 +1682,8 @@
       "typeHint": "Private",
       "architectHint": "John Bredemus and Perry Maxwell",
       "tournamentHint": "Home of the Charles Schwab Challenge, one of the PGA Tour's oldest and most prestigious invitationals",
+      "mostWinsHint": "Ben Hogan (5)",
+      "mostRecentWinnerHint": "Davis Riley (2024)",
       "didYouKnow": "This course is known as 'Hogan's Alley' because Ben Hogan won the course National Invitation Tournament five times and grew up in nearby Dublin, Texas"
     },
     "reveal": {
@@ -1624,7 +1696,11 @@
         "The 'Wall of Champions' along the 18th fairway displays the handprints of every Colonial champion, one of golf's most unique traditions"
       ],
       "signatureHole": "Hole 5: A 470-yard par 4 along the Trinity River, the most demanding hole in the 'Horrible Horseshoe' stretch of holes 3-5 that has defined Colonial's championship character",
-      "description": "Colonial Country Club in Fort Worth is 'Hogan's Alley,' a Perry Maxwell design along the winding Trinity River that demands shotmaking precision over raw power. Home to one of the PGA Tour's longest-running events since 1946, the course is defined by its tight tree-lined fairways, small sloping greens, and the infamous 'Horrible Horseshoe' stretch."
+      "description": "Colonial Country Club in Fort Worth is 'Hogan's Alley,' a Perry Maxwell design along the winding Trinity River that demands shotmaking precision over raw power. Home to one of the PGA Tour's longest-running events since 1946, the course is defined by its tight tree-lined fairways, small sloping greens, and the infamous 'Horrible Horseshoe' stretch.",
+      "videos": [
+        { "label": "Charles Schwab Challenge Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=_6K6gKhNKV8", "year": 2025 },
+        { "label": "Charles Schwab Challenge Round 1 highlights | Golf Channel", "url": "https://www.youtube.com/watch?v=JP128-JibkE", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/colonial-country-club/aerial-tight.jpg",
@@ -1699,6 +1775,8 @@
       "typeHint": "Public",
       "architectHint": "Pete Dye",
       "tournamentHint": "Annual host of the Travelers Championship on the PGA Tour",
+      "mostWinsHint": "Billy Casper (4)",
+      "mostRecentWinnerHint": "Keegan Bradley (2025)",
       "didYouKnow": "Jim Furyk shot a 58 at the course in 2016, the lowest single round in PGA Tour history"
     },
     "reveal": {
@@ -1710,7 +1788,11 @@
         "Bubba Watson won the Travelers Championship three times, making it one of his most successful venues"
       ],
       "signatureHole": "Hole 15: A driveable 296-yard par 4 perched above the Connecticut River, tempting players to go for the green while water and bunkers punish aggressive misses",
-      "description": "TPC River Highlands is a Pete Dye design along the banks of the Connecticut River in Cromwell, hosting the Travelers Championship each summer. Despite being one of the shortest courses on the PGA Tour, it produces exciting finishes with its reachable par 4s and risk-reward closing stretch that has yielded the lowest round in Tour history."
+      "description": "TPC River Highlands is a Pete Dye design along the banks of the Connecticut River in Cromwell, hosting the Travelers Championship each summer. Despite being one of the shortest courses on the PGA Tour, it produces exciting finishes with its reachable par 4s and risk-reward closing stretch that has yielded the lowest round in Tour history.",
+      "videos": [
+        { "label": "Jordan Spieth's incredible playoff win (2017 Travelers)", "url": "https://www.youtube.com/watch?v=pJme5eeiNig", "year": 2017 },
+        { "label": "Jim Furyk shoots 58 – lowest round in PGA Tour history (2016)", "url": "https://www.youtube.com/watch?v=5-1ITqsOUbE", "year": 2016 }
+      ]
     },
     "images": {
       "aerialTight": "courses/tpc-river-highlands/aerial-tight.jpg",
@@ -1783,6 +1865,8 @@
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Home of the Wyndham Championship, the final event of the PGA Tour regular season",
+      "mostWinsHint": "Sam Snead (8)",
+      "mostRecentWinnerHint": "Aaron Rai (2024)",
       "didYouKnow": "The Wyndham Championship at This course is the PGA Tour's fourth-oldest event, dating back to 1938 as the Greater Greensboro Open"
     },
     "reveal": {
@@ -1825,6 +1909,8 @@
       "typeHint": "Private",
       "architectHint": "Ron Prichard",
       "tournamentHint": "Home of the FedEx St. Jude Championship, a premier FedExCup Playoffs event",
+      "mostWinsHint": "Dustin Johnson (3)",
+      "mostRecentWinnerHint": "Hideki Matsuyama (2024)",
       "didYouKnow": "This course was elevated from a regular PGA Tour event to a World Golf Championship and then to a FedExCup Playoff event, one of the biggest jumps in status for any Tour venue"
     },
     "reveal": {
@@ -1837,7 +1923,11 @@
         "The course's island-green 11th hole has produced dramatic moments reminiscent of TPC Sawgrass's famous 17th"
       ],
       "signatureHole": "Hole 11: A 163-yard par 3 to a near-island green surrounded by water on three sides, demanding a precise tee shot under intense playoff pressure",
-      "description": "TPC Southwind is a Ron Prichard design in Memphis that has risen from a regular PGA Tour stop to one of the most important venues in the FedExCup Playoffs. The tree-lined layout features strategic water hazards, most notably the island-green par-3 11th, and provides a stern test for the world's best players."
+      "description": "TPC Southwind is a Ron Prichard design in Memphis that has risen from a regular PGA Tour stop to one of the most important venues in the FedExCup Playoffs. The tree-lined layout features strategic water hazards, most notably the island-green par-3 11th, and provides a stern test for the world's best players.",
+      "videos": [
+        { "label": "FedEx St. Jude Championship Round 4 highlights (2025)", "url": "https://www.youtube.com/watch?v=hUxNHAfEJDI", "year": 2025 },
+        { "label": "Justin Rose wins FedEx St. Jude in epic 3-hole playoff (2025)", "url": "https://www.youtube.com/watch?v=GkwmxhA5IZk", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/tpc-southwind/aerial-tight.jpg",
@@ -1911,6 +2001,8 @@
       "typeHint": "Resort",
       "architectHint": "Pete Dye",
       "tournamentHint": "Part of The American Express tournament rotation in the California desert",
+      "mostWinsHint": "Arnold Palmer (5)",
+      "mostRecentWinnerHint": "Nick Dunlap (2024)",
       "didYouKnow": "Lee Trevino called The course 'Star Wars golf' when it opened because of Pete Dye's extreme design features, including the famous island-green par 3 nicknamed 'Alcatraz'"
     },
     "reveal": {
@@ -1922,7 +2014,11 @@
         "The 'Alcatraz' 17th hole has claimed countless balls and provided dramatic moments during The American Express tournament"
       ],
       "signatureHole": "Hole 17: 'Alcatraz,' a 168-yard par 3 to a tiny island green surrounded entirely by water and rocks, one of the most intimidating shots in all of golf",
-      "description": "PGA West's Stadium Course is Pete Dye at his most diabolical, set against the dramatic backdrop of the Santa Rosa Mountains in the California desert. Known for extreme features like the island-green 'Alcatraz' 17th hole and deep pot bunkers, the course pushes the boundaries of golf architecture and has become a bucket-list destination for adventurous golfers."
+      "description": "PGA West's Stadium Course is Pete Dye at his most diabolical, set against the dramatic backdrop of the Santa Rosa Mountains in the California desert. Known for extreme features like the island-green 'Alcatraz' 17th hole and deep pot bunkers, the course pushes the boundaries of golf architecture and has become a bucket-list destination for adventurous golfers.",
+      "videos": [
+        { "label": "All-time greatest shots at PGA West", "url": "https://www.youtube.com/watch?v=HZ9HuZHzv-U" },
+        { "label": "The American Express Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=OOPGgt84orY", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/pga-west-stadium-course/aerial-tight.jpg",
@@ -2040,6 +2136,7 @@
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosted the 2021 BMW Championship, a FedExCup Playoff event",
+      "mostRecentWinnerHint": "Patrick Cantlay (2021)",
       "didYouKnow": "This course was named after the natural limestone the course and valleys found throughout the property in the rolling hills northwest of Baltimore"
     },
     "reveal": {
@@ -2083,6 +2180,8 @@
       "typeHint": "Public",
       "architectHint": "Tom Weiskopf",
       "tournamentHint": "Current home of the CJ Cup Byron Nelson on the PGA Tour",
+      "mostWinsHint": "Sam Snead (4)",
+      "mostRecentWinnerHint": "Taylor Pendrith (2024)",
       "didYouKnow": "This course became the Byron Nelson's new home in 2021 after the tournament moved from Trinity Forest and the TPC Four Seasons, marking a new chapter for one of the Tour's storied events"
     },
     "reveal": {
@@ -2125,6 +2224,8 @@
       "typeHint": "Public",
       "architectHint": "D.A. Weibring",
       "tournamentHint": "Home of the John the course Classic on the PGA Tour",
+      "mostWinsHint": "Steve Stricker (3)",
+      "mostRecentWinnerHint": "Davis Thompson (2024)",
       "didYouKnow": "Jordan Spieth won the 2013 John the course Classic at age 19 on a sponsor's exemption, becoming the first teenager to win on the PGA Tour in 82 years"
     },
     "reveal": {
@@ -2379,6 +2480,8 @@
       "typeHint": "Public",
       "architectHint": "Robert Trent Jones Sr.",
       "tournamentHint": "Part of the AT&T Pebble Beach Pro-Am rotation",
+      "mostWinsHint": "Mark O'Meara & Phil Mickelson (5 each)",
+      "mostRecentWinnerHint": "Rory McIlroy (2025)",
       "didYouKnow": "This course is named after locations in Robert Louis Stevenson's 'Treasure Island,' and each hole carries a name from the novel, as Stevenson once wandered the Monterey Peninsula's forests and dunes."
     },
     "reveal": {
@@ -3319,6 +3422,8 @@
       "typeHint": "Resort",
       "architectHint": "Tom Fazio & Jack Nicklaus",
       "tournamentHint": "Long-time home of the Honda Classic on the PGA Tour",
+      "mostWinsHint": "Jack Nicklaus, Johnny Miller, Mark Calcavecchia, Pádraig Harrington (2 each)",
+      "mostRecentWinnerHint": "Joe Highsmith (2025)",
       "didYouKnow": "The infamous 'Bear Trap' — holes 15, 16, and 17 — was named after Jack Nicklaus who redesigned the course and is statistically one of the most difficult three-hole stretches on the entire PGA Tour."
     },
     "reveal": {
@@ -3333,7 +3438,11 @@
         "Padraig Harrington survived the Bear Trap to win the 2015 Honda Classic after a four-shot comeback on the final day"
       ],
       "signatureHole": "Hole 15: Par 3, 179 yards, the start of the Bear Trap, requiring a carry over water to a green surrounded by bunkers and spectator mounds",
-      "description": "PGA National's Champion Course is a demanding South Florida layout originally designed by Tom and George Fazio in 1981, later redesigned by Jack Nicklaus. Home to the Honda Classic for decades, the course is defined by its punishing water hazards and the legendary Bear Trap stretch that has derailed countless PGA Tour contenders."
+      "description": "PGA National's Champion Course is a demanding South Florida layout originally designed by Tom and George Fazio in 1981, later redesigned by Jack Nicklaus. Home to the Honda Classic for decades, the course is defined by its punishing water hazards and the legendary Bear Trap stretch that has derailed countless PGA Tour contenders.",
+      "videos": [
+        { "label": "Cognizant Classic Round 4 highlights (2026)", "url": "https://www.youtube.com/watch?v=kKXFSuTQyLU", "year": 2026 },
+        { "label": "Cognizant Classic Final Round highlights (2025)", "url": "https://www.youtube.com/watch?v=PBj_Y3cGJmo", "year": 2025 }
+      ]
     },
     "images": {
       "aerialTight": "courses/pga-national-champion-course/aerial-tight.jpg",
@@ -3364,6 +3473,8 @@
       "typeHint": "Resort",
       "architectHint": "Greg Norman",
       "tournamentHint": "Host of the Valero Texas Open on the PGA Tour",
+      "mostWinsHint": "Arnold Palmer (3)",
+      "mostRecentWinnerHint": "Brian Harman (2025)",
       "didYouKnow": "Sergio Garcia served as player consultant during the design process, contributing insights that shaped several of the course's strategic angles and green complexes."
     },
     "reveal": {
@@ -3375,7 +3486,11 @@
         "Corey Conners Monday-qualified and then won the 2019 Valero Texas Open, one of the rarest feats in modern PGA Tour history"
       ],
       "signatureHole": "Hole 16: Par 3, 180 yards, featuring a dramatic downhill approach to an island-style green framed by native Texas Hill Country oaks and limestone outcroppings",
-      "description": "TPC San Antonio's AT&T Oaks Course is a Greg Norman design carved through the Texas Hill Country, featuring rolling terrain, mature oak trees, and dramatic elevation changes. The course has served as the permanent home of the Valero Texas Open since 2010 and offers one of the most scenic PGA Tour stops."
+      "description": "TPC San Antonio's AT&T Oaks Course is a Greg Norman design carved through the Texas Hill Country, featuring rolling terrain, mature oak trees, and dramatic elevation changes. The course has served as the permanent home of the Valero Texas Open since 2010 and offers one of the most scenic PGA Tour stops.",
+      "videos": [
+        { "label": "Valero Texas Open Final Round highlights (2024)", "url": "https://www.youtube.com/watch?v=IS_lYLbseNw", "year": 2024 },
+        { "label": "Jordan Spieth wins 2021 Valero Texas Open", "url": "https://www.youtube.com/watch?v=IS_lYLbseNw", "year": 2021 }
+      ]
     },
     "images": {
       "aerialTight": "courses/tpc-san-antonio-oaks-course/aerial-tight.jpg",
@@ -3406,6 +3521,8 @@
       "typeHint": "Resort",
       "architectHint": "Larry Packard",
       "tournamentHint": "Home of the Valspar Championship on the PGA Tour",
+      "mostWinsHint": "K.J. Choi, Retief Goosen, Paul Casey (2 each)",
+      "mostRecentWinnerHint": "Viktor Hovland (2025)",
       "didYouKnow": "The treacherous finishing stretch of holes 16-18 is known as the 'Snake Pit,' named for the course snakes that inhabit the surrounding pine forests and wetlands of the course resort."
     },
     "reveal": {
@@ -5373,6 +5490,7 @@
       "typeHint": "Private",
       "architectHint": "Arnold Palmer",
       "tournamentHint": "3M Championship, 3M Open",
+      "mostRecentWinnerHint": "Jhonattan Vegas (2024)",
       "didYouKnow": "18-hole championship course designed by Arnold Palmer in consultation with Tom Lehman."
     },
     "reveal": {
@@ -6053,6 +6171,8 @@
       "typeHint": "Municipal",
       "architectHint": "John Bredemus",
       "tournamentHint": "Texas Children's Houston Open",
+      "mostWinsHint": "Curtis Strange (2)",
+      "mostRecentWinnerHint": "Min Woo Lee (2025)",
       "didYouKnow": "The ashes of tour professional Dave Marr were spread over the course, where the 1965 PGA Championship winner learned to play."
     },
     "reveal": {
@@ -6137,6 +6257,7 @@
       "typeHint": "Resort",
       "architectHint": "Robert Trent Jones",
       "tournamentHint": "Myrtle Beach Classic",
+      "mostRecentWinnerHint": "Chris Gotterup (2024)",
       "didYouKnow": "One of the founding courses of the Myrtle Beach golf scene. Hosted the PGA Tour's Myrtle Beach Classic debut in 2024."
     },
     "reveal": {
@@ -6178,6 +6299,7 @@
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Rocket Mortgage Classic",
+      "mostRecentWinnerHint": "Cameron Davis (2024)",
       "didYouKnow": "A bent tree between the 7th and 8th hole on the North Course was bent by Native Americans as a marker for the original Indian Trail between Detroit and Pontiac."
     },
     "reveal": {
@@ -6258,6 +6380,7 @@
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "Barracuda Championship",
+      "mostRecentWinnerHint": "Nick Dunlap (2024)",
       "didYouKnow": "The Barracuda Championship uses Modified Stableford scoring, the only format of its kind on the PGA Tour. The tournament moved to Old Greenwood in 2020."
     },
     "reveal": {
@@ -6275,6 +6398,529 @@
       "aerialTight": "courses/tahoe-mountain-club/aerial-tight.jpg",
       "aerialMedium": "courses/tahoe-mountain-club/aerial-medium.jpg",
       "aerialWide": "courses/tahoe-mountain-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "lake-shore-country-club",
+    "name": "Lake Shore Country Club",
+    "location": {
+      "city": "Erie",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0805,
+      "longitude": -80.2186
+    },
+    "details": {
+      "type": "private",
+      "architect": "Tom Bendelow",
+      "yearOpened": 1929,
+      "par": 72,
+      "yardage": 6634,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Tom Bendelow",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Lake Shore Country Club opened in 1929 on the shores of Lake Erie. The course was designed by Tom Bendelow, a prolific early 20th-century architect who designed hundreds of courses across America."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features several holes with views of Lake Erie. The layout takes advantage of the lakeside setting with strategic bunkering and tree-lined fairways.",
+      "description": "Lake Shore Country Club is a private club on the shore of Lake Erie, featuring an 18-hole championship course designed by Tom Bendelow. The course offers lake views and a classic parkland layout."
+    },
+    "images": {
+      "aerialTight": "courses/lake-shore-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/lake-shore-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/lake-shore-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "elk-valley-golf-course",
+    "name": "Elk Valley Golf Course",
+    "location": {
+      "city": "Girard",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.9824,
+      "longitude": -80.2119
+    },
+    "details": {
+      "type": "public",
+      "architect": "Luther & Cruze",
+      "yearOpened": 1975,
+      "par": 72,
+      "yardage": 6500,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Luther & Cruze",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Elk Valley was designed by Luther & Cruze and opened in 1975. The course features four tee areas to accommodate all skill levels and bent grass greens."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features water hazards and sand bunkers throughout, with a layout that challenges experienced golfers from the blue tees while remaining fair for beginners.",
+      "description": "Elk Valley Golf Course is an 18-hole public facility in Girard with 6,500 yards from the back tees. It offers a driving range, practice areas, and rental clubs."
+    },
+    "images": {
+      "aerialTight": "courses/elk-valley-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/elk-valley-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/elk-valley-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "lawrence-park-golf-club",
+    "name": "Lawrence Park Golf Club",
+    "location": {
+      "city": "Erie",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.1578,
+      "longitude": -80.0269
+    },
+    "details": {
+      "type": "private",
+      "architect": "Alfred H. Tull",
+      "yearOpened": 1921,
+      "par": 72,
+      "yardage": 6494,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Alfred H. Tull",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Lawrence Park Golf Club was designed by Alfred H. Tull, ASGCA, and opened in 1921. It features views of Lake Erie and operates as a private equity facility with an Accompanied By Member guest policy."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features water hazards and sand bunkers with a classic parkland layout. Several holes offer views of Lake Erie.",
+      "description": "Lawrence Park Golf Club is a private 18-hole course in Erie designed by Alfred H. Tull. The 6,494-yard layout features bent grass, water hazards, and lake views."
+    },
+    "images": {
+      "aerialTight": "courses/lawrence-park-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/lawrence-park-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/lawrence-park-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "lake-view-country-club",
+    "name": "Lake View Country Club",
+    "location": {
+      "city": "North East",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.1805,
+      "longitude": -79.8222
+    },
+    "details": {
+      "type": "private",
+      "architect": "James Gillmore Harrison",
+      "yearOpened": 1959,
+      "par": 72,
+      "yardage": 6883,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "James Gillmore Harrison",
+      "tournamentHint": "Hosted West Penn Amateur Championship and Pennsylvania State Amateur Championship",
+      "didYouKnow": "Lake View was designed by James Gillmore Harrison, a Donald Ross protégé who worked with Ross in the early 1920s. The first round was played on Memorial Day 1959."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "West Penn Amateur Championship",
+        "Pennsylvania State Amateur Championship"
+      ],
+      "famousMoments": [],
+      "signatureHole": "The course stretches 6,883 yards through the North East wine country. Harrison's design reflects his Ross training with strategic bunkering and green complexes.",
+      "description": "Lake View Country Club in North East is a private club designed by James Gillmore Harrison. The 18-hole course has hosted the West Penn Amateur and Pennsylvania State Amateur."
+    },
+    "images": {
+      "aerialTight": "courses/lake-view-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/lake-view-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/lake-view-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "the-kahkwa-club",
+    "name": "The Kahkwa Club",
+    "location": {
+      "city": "Erie",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0553,
+      "longitude": -80.2096
+    },
+    "details": {
+      "type": "private",
+      "architect": "Donald Ross",
+      "yearOpened": 1918,
+      "par": 72,
+      "yardage": 6600,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Hosted 2016 U.S. Women's Mid-Amateur Championship",
+      "didYouKnow": "Kahkwa members hired Scottish professional Charlie Hymers in 1915, who recommended Donald Ross to design the course. Ross began designing in May 1916; the first nine opened in May 1918."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Women's Mid-Amateur Championship (2016)"
+      ],
+      "famousMoments": [],
+      "signatureHole": "Hole 16: 'The Elbow' - a strategic par 4 that bends around natural terrain. Ross returned in 1927 to add hazards and bunkers to make Kahkwa championship-caliber.",
+      "description": "The Kahkwa Club is northwestern Pennsylvania's premier country club. Donald Ross designed the 18-hole course in 1916-1918; it has hosted multiple USGA championships."
+    },
+    "images": {
+      "aerialTight": "courses/the-kahkwa-club/aerial-tight.jpg",
+      "aerialMedium": "courses/the-kahkwa-club/aerial-medium.jpg",
+      "aerialWide": "courses/the-kahkwa-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "over-lake-golf-course",
+    "name": "Over Lake Golf Course",
+    "location": {
+      "city": "Girard",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.9898,
+      "longitude": -80.3553
+    },
+    "details": {
+      "type": "public",
+      "architect": "Robert Elwinger",
+      "yearOpened": 1960,
+      "par": 70,
+      "yardage": 5933,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Robert Elwinger",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Over Lake Golf Course was designed by Robert Elwinger and opened in 1960. The par-70 layout is one of the shorter courses in the Erie area, making it accessible for all skill levels."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features a compact layout with an onsite driving range. The par-70 design emphasizes accuracy over length.",
+      "description": "Over Lake Golf Course is an 18-hole public facility in Girard designed by Robert Elwinger. The 5,933-yard par-70 course offers a driving range and practice tees."
+    },
+    "images": {
+      "aerialTight": "courses/over-lake-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/over-lake-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/over-lake-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "downing-golf-course",
+    "name": "Downing Golf Course",
+    "location": {
+      "city": "Harborcreek",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.1663,
+      "longitude": -79.9648
+    },
+    "details": {
+      "type": "municipal",
+      "architect": "Unknown",
+      "yearOpened": 1962,
+      "par": 72,
+      "yardage": 7092,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Municipal",
+      "architectHint": "Unknown",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Downing Golf Course opened in 1962 as a municipal facility. At 7,092 yards, it is one of the longest public courses in the Erie area, with wide fairways and water on two holes."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features flat terrain with numerous trees and water hazards on two holes. The length from the back tees provides a stern test for long hitters.",
+      "description": "Downing Golf Course is an 18-hole municipal course in Harborcreek. At 7,092 yards with a par of 72, it offers one of the longest public layouts in northwestern Pennsylvania."
+    },
+    "images": {
+      "aerialTight": "courses/downing-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/downing-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/downing-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "whispering-woods-golf-club",
+    "name": "Whispering Woods Golf Club",
+    "location": {
+      "city": "Erie",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0372,
+      "longitude": -80.1534
+    },
+    "details": {
+      "type": "public",
+      "architect": "John Exley",
+      "yearOpened": 2007,
+      "par": 72,
+      "yardage": 6726,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "John Exley",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Whispering Woods opened May 25, 2007 and has been voted top-5 in Pennsylvania by GolfAdvisor and top-10 public course in PA by PGA.com. It has won Best Golf Course in Erie's business awards since 2010."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features five tee options and a premier practice facility completed in 2009. John Exley's design emphasizes strategic play and variety.",
+      "description": "Whispering Woods Golf Club is Erie's top-rated public course, designed by John Exley and opened in 2007. The 6,726-yard layout has won numerous local and state accolades."
+    },
+    "images": {
+      "aerialTight": "courses/whispering-woods-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/whispering-woods-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/whispering-woods-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "the-ridge-at-crab-apple",
+    "name": "The Ridge at Crab Apple",
+    "location": {
+      "city": "Waterford",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0029,
+      "longitude": -80.0341
+    },
+    "details": {
+      "type": "public",
+      "architect": "White Construction Company",
+      "yearOpened": 1998,
+      "par": 72,
+      "yardage": 6109,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "White Construction Company",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "The Ridge at Crab Apple (also known as Crab Apple Ridge) was built by White Construction Company and opened in 1998. It features bent grass greens and ranks among Pennsylvania's best public courses."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course offers a rolling layout with bent grass throughout. The design provides a fair challenge for golfers of all abilities.",
+      "description": "The Ridge at Crab Apple is an 18-hole public course in Waterford that opened in 1998. The 6,109-yard par-72 layout features bent grass greens and a driving range."
+    },
+    "images": {
+      "aerialTight": "courses/the-ridge-at-crab-apple/aerial-tight.jpg",
+      "aerialMedium": "courses/the-ridge-at-crab-apple/aerial-medium.jpg",
+      "aerialWide": "courses/the-ridge-at-crab-apple/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "mound-grove-golf-club",
+    "name": "Mound Grove Golf Club",
+    "location": {
+      "city": "Waterford",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0084,
+      "longitude": -79.9751
+    },
+    "details": {
+      "type": "public",
+      "architect": "Biebel Family",
+      "yearOpened": 1990,
+      "par": 72,
+      "yardage": 6293,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Biebel Family",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Mound Grove was designed and built by the Biebel Family and opened in 1990. Paul Biebel serves as President. Local golfers praise it for having the nicest greens in the area."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course sits in a valley with gently rolling terrain and fairways that vary in width. The well-maintained greens are a standout feature.",
+      "description": "Mound Grove Golf Club is an 18-hole public course in Waterford designed by the Biebel Family. The 6,293-yard layout features a driving range, banquet hall, and bar."
+    },
+    "images": {
+      "aerialTight": "courses/mound-grove-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/mound-grove-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/mound-grove-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "scenic-heights-golf-course",
+    "name": "Scenic Heights Golf Course",
+    "location": {
+      "city": "Wattsburg",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0844,
+      "longitude": -79.8918
+    },
+    "details": {
+      "type": "public",
+      "architect": "Unknown",
+      "yearOpened": 1997,
+      "par": 72,
+      "yardage": 6004,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Unknown",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Scenic Heights opened in 1997 and ranks as one of Pennsylvania's best public courses. The course is fully drain-tiled for optimal play after rain and offers beautiful panoramic views."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course features four sets of tees, low-cut roughs, and well-maintained fairways. The natural, lush surroundings provide a scenic round.",
+      "description": "Scenic Heights Golf Course is an 18-hole public facility in Wattsburg that opened in 1997. The 6,004-yard par-72 layout offers a driving range and picnic pavilion."
+    },
+    "images": {
+      "aerialTight": "courses/scenic-heights-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/scenic-heights-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/scenic-heights-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "beechwood-golf-club",
+    "name": "Beechwood Golf Club",
+    "location": {
+      "city": "Fairview",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.0183,
+      "longitude": -80.1847
+    },
+    "details": {
+      "type": "public",
+      "architect": "Frank Chernak",
+      "yearOpened": 1995,
+      "par": 73,
+      "yardage": 6485,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Frank Chernak",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Beechwood was designed by Frank Chernak and opened in 1994-1995. The course offers three indoor golf simulators and a bar and grill called Shanks and Slices."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The 18-hole layout features a par of 73 with multiple rating and slope options. The challenging design accommodates various skill levels.",
+      "description": "Beechwood Golf Club is an 18-hole public course in Fairview designed by Frank Chernak. The 6,485-yard par-73 layout is located just off I-90 at Exit 18."
+    },
+    "images": {
+      "aerialTight": "courses/beechwood-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/beechwood-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/beechwood-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "green-meadows-golf-course",
+    "name": "Green Meadows Golf Course",
+    "location": {
+      "city": "North East",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 42.2031,
+      "longitude": -79.8812
+    },
+    "details": {
+      "type": "public",
+      "architect": "Bob Boyd, Sr. and Jr.",
+      "yearOpened": 1975,
+      "par": 71,
+      "yardage": 6008,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Bob Boyd, Sr. and Jr.",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Green Meadows was designed by Bob Boyd, Sr. and Jr. and opened in 1975. It has been family-owned and operated since then, located in the wine country along Lake Erie shores."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "The course offers four sets of tees for any age and skill level. The layout takes advantage of the North East wine country setting.",
+      "description": "Green Meadows Golf Course is a family-owned 18-hole public course in North East, designed by the Boyd family. The 6,008-yard par-71 layout opened in 1975."
+    },
+    "images": {
+      "aerialTight": "courses/green-meadows-golf-course/aerial-tight.jpg",
+      "aerialMedium": "courses/green-meadows-golf-course/aerial-medium.jpg",
+      "aerialWide": "courses/green-meadows-golf-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "culbertson-hills-golf-resort",
+    "name": "Culbertson Hills Golf Resort",
+    "location": {
+      "city": "Edinboro",
+      "state": "Pennsylvania",
+      "region": "Mid Atlantic",
+      "latitude": 41.8762,
+      "longitude": -80.14
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Thomas Bendelow",
+      "yearOpened": 1931,
+      "par": 72,
+      "yardage": 6813,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Resort",
+      "architectHint": "Thomas Bendelow",
+      "tournamentHint": "No major professional events",
+      "didYouKnow": "Culbertson Hills was founded in 1931 by A.A. Culbertson and designed by Thomas Bendelow, who also designed Medinah No. 3 and Butler Country Club. The course features fast bent greens and towering hardwoods."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [],
+      "signatureHole": "Holes 7-9 feature water and create a memorable stretch. The traditional layout includes tree-lined fairways with towering hardwoods and pines.",
+      "description": "Culbertson Hills Golf Resort is a lakeside resort course in Edinboro designed by Thomas Bendelow. The 6,813-yard par-72 layout opened in 1931 and features bent grass throughout."
+    },
+    "images": {
+      "aerialTight": "courses/culbertson-hills-golf-resort/aerial-tight.jpg",
+      "aerialMedium": "courses/culbertson-hills-golf-resort/aerial-medium.jpg",
+      "aerialWide": "courses/culbertson-hills-golf-resort/aerial-wide.jpg"
     }
   }
 ]
