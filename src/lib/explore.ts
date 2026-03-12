@@ -101,9 +101,10 @@ export function buildExplorePuzzle(
   const take = Math.min(count, shuffled.length);
   const selected = shuffled.slice(0, take);
 
+  const imageKey = setId === "erie" ? "aerialWide" : "aerialTight";
   const rounds: PuzzleRound[] = selected.map((courseId) => ({
     courseId,
-    imageKey: "aerialTight",
+    imageKey,
     difficulty: "medium",
   }));
 
