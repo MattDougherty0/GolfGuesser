@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import MainWithSidebar from "@/components/layout/MainWithSidebar";
 import { getExploreSetCount } from "@/lib/explore";
+import { REGIONS } from "@/lib/regions";
 import { getLocalPlayerId, getPlayer, type Player } from "@/lib/db";
 
 const EXPLORE_OPTIONS = [
@@ -13,6 +14,11 @@ const EXPLORE_OPTIONS = [
     title: "2025 PGA Tour",
     description: "Courses from the 2025 PGA Tour schedule (lower 48)",
   },
+  ...REGIONS.map((region) => ({
+    id: `region-${region}` as const,
+    title: region,
+    description: `Courses in the ${region} region`,
+  })),
 ];
 
 const COUNT_OPTIONS = [5, 10] as const;

@@ -1,4 +1,6 @@
 import type { PuzzleRound } from "./types";
+import { getAllCourses } from "./courses";
+import { REGIONS } from "./regions";
 
 /**
  * 2025 PGA Tour schedule - lower 48 venues only.
@@ -38,8 +40,21 @@ export const PGA_TOUR_2025_COURSE_IDS: string[] = [
   "east-lake-golf-club",
 ];
 
+/** Build region sets from course data. */
+function buildRegionSets(): Record<string, string[]> {
+  const courses = getAllCourses();
+  const sets: Record<string, string[]> = {};
+  for (const region of REGIONS) {
+    sets[`region-${region}`] = courses
+      .filter((c) => c.location.region === region)
+      .map((c) => c.id);
+  }
+  return sets;
+}
+
 export const EXPLORE_SETS: Record<string, string[]> = {
   pga2025: PGA_TOUR_2025_COURSE_IDS,
+  ...buildRegionSets(),
 };
 
 /** Fisher-Yates shuffle. */

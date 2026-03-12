@@ -5,7 +5,7 @@
     "location": {
       "city": "Pebble Beach",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.5697,
       "longitude": -121.9498
     },
@@ -18,7 +18,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Jack Neville & Douglas Grant",
       "tournamentHint": "Hosts the PGA Tour's annual celebrity pro-am and has hosted six U.S. Opens",
@@ -49,7 +49,7 @@
     "location": {
       "city": "Augusta",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.5021,
       "longitude": -82.0226
     },
@@ -62,7 +62,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Alister MacKenzie & Bobby Jones",
       "tournamentHint": "Home of The Masters, golf's most prestigious invitational tournament",
@@ -92,7 +92,7 @@
     "location": {
       "city": "Ponte Vedra Beach",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 30.198,
       "longitude": -81.3955
     },
@@ -105,7 +105,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Public",
       "architectHint": "Pete Dye",
       "tournamentHint": "Home of The Players Championship, often called golf's 'fifth major'",
@@ -135,7 +135,7 @@
     "location": {
       "city": "Pinehurst",
       "state": "North Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 35.1904,
       "longitude": -79.4678
     },
@@ -148,7 +148,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Donald Ross",
       "tournamentHint": "First course to host back-to-back U.S. Open and U.S. Women's Open in the same year (2014)",
@@ -180,7 +180,7 @@
     "location": {
       "city": "Oakmont",
       "state": "Pennsylvania",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.5259,
       "longitude": -79.8269
     },
@@ -193,7 +193,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Henry Fownes",
       "tournamentHint": "Has hosted more U.S. Opens than any other course in history (nine times)",
@@ -224,7 +224,7 @@
     "location": {
       "city": "La Jolla",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 32.9025,
       "longitude": -117.2463
     },
@@ -237,7 +237,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "William Bell Sr.",
       "tournamentHint": "Home of the Farmers Insurance Open and site of Tiger Woods' legendary 2008 U.S. Open victory",
@@ -268,7 +268,7 @@
     "location": {
       "city": "Farmingdale",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.7429,
       "longitude": -73.4551
     },
@@ -281,7 +281,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Public",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "First publicly owned course to host the U.S. Open in the modern era (2002)",
@@ -313,7 +313,7 @@
     "location": {
       "city": "Southampton",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.894,
       "longitude": -72.4397
     },
@@ -326,7 +326,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "William Flynn",
       "tournamentHint": "One of the five founding member clubs of the USGA, hosted one of the earliest U.S. Opens in 1896",
@@ -356,7 +356,7 @@
     "location": {
       "city": "Louisville",
       "state": "Kentucky",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 38.2426,
       "longitude": -85.472
     },
@@ -369,7 +369,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "A frequent PGA Championship venue designed by the Golden Bear specifically for major championships",
@@ -444,7 +444,7 @@
     "location": {
       "city": "Mamaroneck",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.9577,
       "longitude": -73.7535
     },
@@ -457,7 +457,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "Site of the 'Massacre at the course' and six U.S. Opens on its famed West Course",
@@ -489,7 +489,7 @@
     "location": {
       "city": "Ardmore",
       "state": "Pennsylvania",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.0019,
       "longitude": -75.3118
     },
@@ -502,7 +502,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Hugh Wilson",
       "tournamentHint": "Where Bobby Jones completed the Grand Slam in 1930 and Ben Hogan hit his famous 1-iron in 1950",
@@ -533,7 +533,7 @@
     "location": {
       "city": "Bethesda",
       "state": "Maryland",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 38.9962,
       "longitude": -77.1764
     },
@@ -546,7 +546,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Devereux Emmet",
       "tournamentHint": "Washington D.C.'s premier championship venue, where Rory McIlroy set a U.S. Open scoring record in 2011",
@@ -578,7 +578,7 @@
     "location": {
       "city": "Tulsa",
       "state": "Oklahoma",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 36.0745,
       "longitude": -95.9548
     },
@@ -591,7 +591,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Private",
       "architectHint": "Perry Maxwell",
       "tournamentHint": "Oklahoma's premier major championship venue, hosting multiple U.S. Opens and PGA Championships",
@@ -622,7 +622,7 @@
     "location": {
       "city": "Springfield",
       "state": "New Jersey",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.705,
       "longitude": -74.328
     },
@@ -635,7 +635,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "Historic New Jersey club that has hosted seven U.S. Opens and multiple PGA Championships on its Lower Course",
@@ -666,7 +666,7 @@
     "location": {
       "city": "San Francisco",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.7094,
       "longitude": -122.4946
     },
@@ -679,7 +679,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Sam Whiting",
       "tournamentHint": "Known as the 'Graveyard of Champions' for its history of stunning U.S. Open upsets",
@@ -711,7 +711,7 @@
     "location": {
       "city": "Medinah",
       "state": "Illinois",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 41.9664,
       "longitude": -88.048
     },
@@ -724,7 +724,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Tom Bendelow",
       "tournamentHint": "Site of Europe's 'Miracle at the course' 2012 Ryder Cup comeback and three U.S. Opens",
@@ -756,7 +756,7 @@
     "location": {
       "city": "Chaska",
       "state": "Minnesota",
-      "region": "Northern Plains",
+      "region": "Midwest",
       "latitude": 44.8337,
       "longitude": -93.5908
     },
@@ -769,7 +769,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northern Plains",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones Sr.",
       "tournamentHint": "Hosted the 2016 Ryder Cup, multiple PGA Championships, and U.S. Opens in Minnesota",
@@ -801,7 +801,7 @@
     "location": {
       "city": "Erin",
       "state": "Wisconsin",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 43.2455,
       "longitude": -88.3947
     },
@@ -814,7 +814,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Public",
       "architectHint": "Michael Hurdzan, Dana Fry & Ron Whitten",
       "tournamentHint": "Hosted the 2017 U.S. Open, one of the newest courses to ever host the championship",
@@ -845,7 +845,7 @@
     "location": {
       "city": "University Place",
       "state": "Washington",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 47.2003,
       "longitude": -122.5708
     },
@@ -858,7 +858,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Robert Trent Jones Jr.",
       "tournamentHint": "Hosted the 2015 U.S. Open, the first major championship held in the Pacific Northwest",
@@ -889,7 +889,7 @@
     "location": {
       "city": "Haven",
       "state": "Wisconsin",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 43.851,
       "longitude": -87.7354
     },
@@ -902,7 +902,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Public",
       "architectHint": "Pete Dye",
       "tournamentHint": "Hosted three PGA Championships and the record-setting 2021 Ryder Cup along the shores of Lake Michigan",
@@ -933,7 +933,7 @@
     "location": {
       "city": "Kiawah Island",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.6118,
       "longitude": -80.0233
     },
@@ -946,7 +946,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Pete Dye",
       "tournamentHint": "Site of the dramatic 'War by the Shore' 1991 Ryder Cup and multiple PGA Championships",
@@ -1022,7 +1022,7 @@
     "location": {
       "city": "Charlotte",
       "state": "North Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 35.1164,
       "longitude": -80.8425
     },
@@ -1035,7 +1035,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "George Cobb",
       "tournamentHint": "Home of the Wells Fargo Championship and host of the 2017 PGA Championship in Charlotte",
@@ -1112,7 +1112,7 @@
     "location": {
       "city": "Bloomfield Hills",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 42.5439,
       "longitude": -83.2777
     },
@@ -1125,7 +1125,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Has hosted six U.S. Opens, three PGA Championships, and a Ryder Cup",
@@ -1156,7 +1156,7 @@
     "location": {
       "city": "Toledo",
       "state": "Ohio",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 41.6518,
       "longitude": -83.651
     },
@@ -1169,7 +1169,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Has hosted four U.S. Opens and two PGA Championships",
@@ -1200,7 +1200,7 @@
     "location": {
       "city": "Los Angeles",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 34.0694,
       "longitude": -118.4233
     },
@@ -1213,7 +1213,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "George C. Thomas Jr.",
       "tournamentHint": "Hosted its first U.S. Open in 2023 after decades as one of golf's most exclusive and secretive clubs",
@@ -1243,7 +1243,7 @@
     "location": {
       "city": "Olympia Fields",
       "state": "Illinois",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 41.5213,
       "longitude": -87.6873
     },
@@ -1256,7 +1256,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Willie Park Jr.",
       "tournamentHint": "Hosted the U.S. Open in 1928 and again in 2003",
@@ -1333,7 +1333,7 @@
     "location": {
       "city": "Pacific Palisades",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 34.0498,
       "longitude": -118.5013
     },
@@ -1346,7 +1346,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "George C. Thomas Jr.",
       "tournamentHint": "Annual host of the Genesis Invitational and has hosted a U.S. Open and PGA Championship",
@@ -1378,7 +1378,7 @@
     "location": {
       "city": "Hilton Head Island",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.1355,
       "longitude": -80.8102
     },
@@ -1391,7 +1391,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Pete Dye and Jack Nicklaus",
       "tournamentHint": "Annual home of the RBC Heritage, played the week after the Masters",
@@ -1420,7 +1420,7 @@
     "location": {
       "city": "Orlando",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 28.4583,
       "longitude": -81.5106
     },
@@ -1433,7 +1433,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Dick Wilson",
       "tournamentHint": "Home of the Arnold Palmer Invitational, one of the PGA Tour's signature events",
@@ -1462,7 +1462,7 @@
     "location": {
       "city": "Atlanta",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.7434,
       "longitude": -84.3028
     },
@@ -1475,7 +1475,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Permanent home of the PGA Tour's season-ending Tour Championship",
@@ -1506,7 +1506,7 @@
     "location": {
       "city": "Dublin",
       "state": "Ohio",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 40.1399,
       "longitude": -83.1421
     },
@@ -1519,7 +1519,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "Annual host of the Memorial Tournament, Jack Nicklaus's prestigious invitational",
@@ -1551,7 +1551,7 @@
     "location": {
       "city": "San Francisco",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.7248,
       "longitude": -122.4932
     },
@@ -1564,7 +1564,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Willie Watson and Sam Whiting",
       "tournamentHint": "Hosted the 2020 PGA Championship and 2009 Presidents Cup",
@@ -1595,7 +1595,7 @@
     "location": {
       "city": "Fort Worth",
       "state": "Texas",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 32.716,
       "longitude": -97.3725
     },
@@ -1608,7 +1608,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Private",
       "architectHint": "John Bredemus and Perry Maxwell",
       "tournamentHint": "Home of the Charles Schwab Challenge, one of the PGA Tour's oldest and most prestigious invitationals",
@@ -1638,7 +1638,7 @@
     "location": {
       "city": "Akron",
       "state": "Ohio",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 41.0078,
       "longitude": -81.5078
     },
@@ -1651,7 +1651,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Bert Way, redesigned by Robert Trent Jones Sr.",
       "tournamentHint": "Longtime home of the WGC-Bridgestone Invitational and has hosted three PGA Championships",
@@ -1724,7 +1724,7 @@
     "location": {
       "city": "Las Vegas",
       "state": "Nevada",
-      "region": "Southwest",
+      "region": "West",
       "latitude": 36.1885,
       "longitude": -115.2982
     },
@@ -1737,7 +1737,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southwest",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Bobby Weed",
       "tournamentHint": "Home of the Shriners Children's Open on the PGA Tour",
@@ -1766,7 +1766,7 @@
     "location": {
       "city": "Greensboro",
       "state": "North Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 36.0144,
       "longitude": -79.8868
     },
@@ -1779,7 +1779,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Home of the Wyndham Championship, the final event of the PGA Tour regular season",
@@ -1808,7 +1808,7 @@
     "location": {
       "city": "Memphis",
       "state": "Tennessee",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 35.0573,
       "longitude": -89.7792
     },
@@ -1821,7 +1821,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Ron Prichard",
       "tournamentHint": "Home of the FedEx St. Jude Championship, a premier FedExCup Playoffs event",
@@ -1851,7 +1851,7 @@
     "location": {
       "city": "Ridgeland",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.6017,
       "longitude": -80.9945
     },
@@ -1864,7 +1864,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "A newer PGA Tour venue that hosted the CJ Cup and the Palmetto Championship",
@@ -1894,7 +1894,7 @@
     "location": {
       "city": "La Quinta",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 33.6417,
       "longitude": -116.2587
     },
@@ -1907,7 +1907,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Pete Dye",
       "tournamentHint": "Part of The American Express tournament rotation in the California desert",
@@ -1936,7 +1936,7 @@
     "location": {
       "city": "Lemont",
       "state": "Illinois",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 41.6774,
       "longitude": -87.9529
     },
@@ -1949,7 +1949,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Public",
       "architectHint": "Dick Wilson and Joe Lee",
       "tournamentHint": "Former home of the Western Open and BMW Championship on the PGA Tour",
@@ -1979,7 +1979,7 @@
     "location": {
       "city": "Jersey City",
       "state": "New Jersey",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.6949,
       "longitude": -74.0725
     },
@@ -1992,7 +1992,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Tom Kite and Bob Cupp",
       "tournamentHint": "Has hosted multiple FedExCup Playoff events and the 2017 Presidents Cup",
@@ -2023,7 +2023,7 @@
     "location": {
       "city": "Owings Mills",
       "state": "Maryland",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 39.4519,
       "longitude": -76.7445
     },
@@ -2036,7 +2036,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosted the 2021 BMW Championship, a FedExCup Playoff event",
@@ -2066,7 +2066,7 @@
     "location": {
       "city": "McKinney",
       "state": "Texas",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 33.1408,
       "longitude": -96.7197
     },
@@ -2079,7 +2079,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Public",
       "architectHint": "Tom Weiskopf",
       "tournamentHint": "Current home of the CJ Cup Byron Nelson on the PGA Tour",
@@ -2150,7 +2150,7 @@
     "location": {
       "city": "Napa",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 38.3492,
       "longitude": -122.2657
     },
@@ -2163,7 +2163,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Robert Trent Jones Jr.",
       "tournamentHint": "Home of the Fortinet Championship, the PGA Tour's fall season opener",
@@ -2193,7 +2193,7 @@
     "location": {
       "city": "Bandon",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 43.1879,
       "longitude": -124.3903
     },
@@ -2206,7 +2206,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "David McLay Kidd",
       "tournamentHint": "No major professional tournaments, but home to numerous USGA amateur events",
@@ -2236,7 +2236,7 @@
     "location": {
       "city": "Bandon",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 43.1936,
       "longitude": -124.3899
     },
@@ -2249,7 +2249,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Tom Doak",
       "tournamentHint": "No major professional events; consistently ranked as the top public-access course in America",
@@ -2278,7 +2278,7 @@
     "location": {
       "city": "Bowling Green",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 27.6929,
       "longitude": -81.9343
     },
@@ -2291,7 +2291,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "No major professional tournaments; widely recognized as a top resort destination",
@@ -2320,7 +2320,7 @@
     "location": {
       "city": "Nekoosa",
       "state": "Wisconsin",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 44.1755,
       "longitude": -89.8554
     },
@@ -2333,7 +2333,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Resort",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "No major professional events; quickly became one of the highest-ranked public courses in America",
@@ -2362,7 +2362,7 @@
     "location": {
       "city": "Pebble Beach",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.5824,
       "longitude": -121.9583
     },
@@ -2375,7 +2375,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Robert Trent Jones Sr.",
       "tournamentHint": "Part of the AT&T Pebble Beach Pro-Am rotation",
@@ -2404,7 +2404,7 @@
     "location": {
       "city": "North Las Vegas",
       "state": "Nevada",
-      "region": "Southwest",
+      "region": "West",
       "latitude": 36.2584,
       "longitude": -115.1073
     },
@@ -2417,7 +2417,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southwest",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosted the CJ Cup and a high-profile Tiger vs. Phil match",
@@ -2447,7 +2447,7 @@
     "location": {
       "city": "Arcadia",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 44.4567,
       "longitude": -86.2425
     },
@@ -2460,7 +2460,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Public",
       "architectHint": "Warren Henderson & Rick Smith",
       "tournamentHint": "No major professional events; celebrated as one of the top public courses in the Midwest",
@@ -2489,7 +2489,7 @@
     "location": {
       "city": "Santa Cruz",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.0042,
       "longitude": -122.026
     },
@@ -2502,7 +2502,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Alister MacKenzie",
       "tournamentHint": "Hosted numerous USGA amateur championships",
@@ -2532,7 +2532,7 @@
     "location": {
       "city": "Bowling Green",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 27.6777,
       "longitude": -81.9325
     },
@@ -2545,7 +2545,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Tom Doak",
       "tournamentHint": "No major professional events; debuted alongside the Red Course as one of the best new courses in the country",
@@ -2616,7 +2616,7 @@
     "location": {
       "city": "Pebble Beach",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.5802,
       "longitude": -121.9741
     },
@@ -2629,7 +2629,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Alister MacKenzie",
       "tournamentHint": "Former AT&T Pebble Beach Pro-Am rotation course; hosted Walker Cup",
@@ -2659,7 +2659,7 @@
     "location": {
       "city": "Pine Valley",
       "state": "New Jersey",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 39.792,
       "longitude": -74.9722
     },
@@ -2672,7 +2672,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "George Crump & H.S. Colt",
       "tournamentHint": "Hosted the Walker Cup and Crump Cup invitational",
@@ -2702,7 +2702,7 @@
     "location": {
       "city": "Southampton",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.9137,
       "longitude": -72.4536
     },
@@ -2715,7 +2715,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Charles Blair Macdonald",
       "tournamentHint": "Hosted the Walker Cup and early USGA championships",
@@ -2745,7 +2745,7 @@
     "location": {
       "city": "Juno Beach",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 26.8628,
       "longitude": -80.0513
     },
@@ -2758,7 +2758,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Hosted the 2021 Walker Cup and The Match featuring Tiger vs. Peyton Manning and Phil vs. Tom Brady",
@@ -2788,7 +2788,7 @@
     "location": {
       "city": "Frankfort",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 44.7024,
       "longitude": -86.2346
     },
@@ -2801,7 +2801,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Alister MacKenzie & Perry Maxwell",
       "tournamentHint": "No major professional events; consistently ranked among the top 10-20 courses in the world",
@@ -2830,7 +2830,7 @@
     "location": {
       "city": "Hutchinson",
       "state": "Kansas",
-      "region": "Southern Plains",
+      "region": "Midwest",
       "latitude": 38.0914,
       "longitude": -97.848
     },
@@ -2843,7 +2843,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Perry Maxwell",
       "tournamentHint": "Hosted the U.S. Women's Open and U.S. Senior Open",
@@ -2874,7 +2874,7 @@
     "location": {
       "city": "Mullen",
       "state": "Nebraska",
-      "region": "Northern Plains",
+      "region": "Midwest",
       "latitude": 41.8553,
       "longitude": -101.0928
     },
@@ -2887,7 +2887,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northern Plains",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "No major professional events; consistently ranked among the top 10 courses in America",
@@ -2960,7 +2960,7 @@
     "location": {
       "city": "Fishers Island",
       "state": "New York",
-      "region": "New England",
+      "region": "Mid Atlantic",
       "latitude": 41.28,
       "longitude": -71.9476
     },
@@ -2973,7 +2973,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "New England",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Seth Raynor",
       "tournamentHint": "No major professional events; accessible only by ferry or private boat",
@@ -3044,7 +3044,7 @@
     "location": {
       "city": "Garden City",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.7257,
       "longitude": -73.6432
     },
@@ -3057,7 +3057,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Devereux Emmet (redesigned by Walter Travis)",
       "tournamentHint": "Hosted multiple U.S. Amateurs and other USGA events",
@@ -3087,7 +3087,7 @@
     "location": {
       "city": "Newtown Square",
       "state": "Pennsylvania",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.0117,
       "longitude": -75.409
     },
@@ -3100,7 +3100,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Hosted the BMW Championship and PGA Championship",
@@ -3131,7 +3131,7 @@
     "location": {
       "city": "Baiting Hollow",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.9659,
       "longitude": -72.7275
     },
@@ -3144,7 +3144,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "No major professional events; rocketed into the top 100 immediately upon opening",
@@ -3173,7 +3173,7 @@
     "location": {
       "city": "Avondale",
       "state": "Louisiana",
-      "region": "Southern Plains",
+      "region": "South",
       "latitude": 29.9024,
       "longitude": -90.1892
     },
@@ -3186,7 +3186,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "South",
       "typeHint": "Public",
       "architectHint": "Pete Dye",
       "tournamentHint": "Home of the Zurich Classic of New Orleans, the PGA Tour's only team event",
@@ -3215,7 +3215,7 @@
     "location": {
       "city": "White Sulphur Springs",
       "state": "West Virginia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 37.7869,
       "longitude": -80.3143
     },
@@ -3228,7 +3228,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "C.B. Macdonald & Seth Raynor",
       "tournamentHint": "Former home of the PGA Tour's 'A Military Tribute at the course'",
@@ -3259,7 +3259,7 @@
     "location": {
       "city": "St. Simons Island",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 31.1384,
       "longitude": -81.4064
     },
@@ -3272,7 +3272,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Home of the RSM Classic on the PGA Tour",
@@ -3302,7 +3302,7 @@
     "location": {
       "city": "Palm Beach Gardens",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 26.8284,
       "longitude": -80.1422
     },
@@ -3315,7 +3315,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Tom Fazio & Jack Nicklaus",
       "tournamentHint": "Long-time home of the Honda Classic on the PGA Tour",
@@ -3347,7 +3347,7 @@
     "location": {
       "city": "San Antonio",
       "state": "Texas",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 29.6659,
       "longitude": -98.3956
     },
@@ -3360,7 +3360,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Resort",
       "architectHint": "Greg Norman",
       "tournamentHint": "Host of the Valero Texas Open on the PGA Tour",
@@ -3389,7 +3389,7 @@
     "location": {
       "city": "Palm Harbor",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 28.1117,
       "longitude": -82.7562
     },
@@ -3402,7 +3402,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Larry Packard",
       "tournamentHint": "Home of the Valspar Championship on the PGA Tour",
@@ -3432,7 +3432,7 @@
     "location": {
       "city": "Kohler",
       "state": "Wisconsin",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 43.7269,
       "longitude": -87.7759
     },
@@ -3445,7 +3445,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Resort",
       "architectHint": "Pete Dye",
       "tournamentHint": "Part of the composite course used for the 2012 Ryder Cup, also hosted the 1998 U.S. Women's Open",
@@ -3475,7 +3475,7 @@
     "location": {
       "city": "Bridgehampton",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.9446,
       "longitude": -72.3345
     },
@@ -3488,7 +3488,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Rees Jones",
       "tournamentHint": "Has not hosted a major professional tournament; ultra-exclusive Hamptons club",
@@ -3515,7 +3515,7 @@
     "location": {
       "city": "Graniteville",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.6052,
       "longitude": -81.8263
     },
@@ -3528,7 +3528,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosts the Junior Invitational at the course, a prestigious amateur event for the world's top junior golfers",
@@ -3557,7 +3557,7 @@
     "location": {
       "city": "Hanahan",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.9263,
       "longitude": -79.9779
     },
@@ -3570,7 +3570,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Seth Raynor",
       "tournamentHint": "Has not hosted a major professional tournament; revered as one of Raynor's Southern masterpieces",
@@ -3597,7 +3597,7 @@
     "location": {
       "city": "Naples",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 26.2636,
       "longitude": -81.6664
     },
@@ -3610,7 +3610,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Jerry Pate",
       "tournamentHint": "Has not hosted a major professional tournament; regarded as one of the finest private clubs in Florida",
@@ -3637,7 +3637,7 @@
     "location": {
       "city": "Bridgeport",
       "state": "West Virginia",
-      "region": "Mid-Atlantic",
+      "region": "South",
       "latitude": 39.3293,
       "longitude": -80.301
     },
@@ -3650,7 +3650,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Pete Dye",
       "tournamentHint": "Has not hosted a major professional tournament; the only course the course named after himself",
@@ -3677,7 +3677,7 @@
     "location": {
       "city": "East Hampton",
       "state": "New York",
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "latitude": 40.9516,
       "longitude": -72.1746
     },
@@ -3690,7 +3690,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northeast",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Willie Park Jr.",
       "tournamentHint": "Has not hosted a major professional tournament; one of the oldest and most exclusive clubs on Long Island",
@@ -3717,7 +3717,7 @@
     "location": {
       "city": "Bandon",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 43.1846,
       "longitude": -124.3911
     },
@@ -3730,7 +3730,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "Part of the course Dunes Golf Resort; has hosted the course Dunes Cup and various amateur events",
@@ -3759,7 +3759,7 @@
     "location": {
       "city": "Bandon",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 43.2022,
       "longitude": -124.3835
     },
@@ -3772,7 +3772,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Tom Doak & Jim Urbina",
       "tournamentHint": "Part of the Bandon Dunes Golf Resort; hosts various amateur and resort events",
@@ -3801,7 +3801,7 @@
     "location": {
       "city": "Bandon",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 43.221,
       "longitude": -124.3888
     },
@@ -3814,7 +3814,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Bill Coore & Ben Crenshaw",
       "tournamentHint": "The newest addition to Bandon Dunes Golf Resort; hosts resort and amateur events",
@@ -3841,7 +3841,7 @@
     "location": {
       "city": "Bedminster",
       "state": "New Jersey",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.6538,
       "longitude": -74.697
     },
@@ -3854,7 +3854,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosted the 2017 U.S. Women's Open; was originally scheduled to host the 2022 PGA Championship",
@@ -3884,7 +3884,7 @@
     "location": {
       "city": "Ponte Vedra Beach",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 30.188,
       "longitude": -81.3702
     },
@@ -3897,7 +3897,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Ed Seay",
       "tournamentHint": "Sister club to the adjacent TPC the course; the original the course development predates the famous Players Stadium Course",
@@ -3924,7 +3924,7 @@
     "location": {
       "city": "Ooltewah",
       "state": "Tennessee",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 35.0873,
       "longitude": -85.0441
     },
@@ -3937,7 +3937,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Pete Dye",
       "tournamentHint": "Has hosted the U.S. Amateur, Curtis Cup, U.S. Mid-Amateur, and NCAA Championship — one of the most prolific USGA host venues of the modern era",
@@ -3970,7 +3970,7 @@
     "location": {
       "city": "Cashiers",
       "state": "North Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 35.0902,
       "longitude": -83.0749
     },
@@ -3983,7 +3983,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Has not hosted a major professional tournament; consistently ranked among the top private clubs in America",
@@ -4010,7 +4010,7 @@
     "location": {
       "city": "Beaufort",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.3954,
       "longitude": -80.6512
     },
@@ -4023,7 +4023,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Gil Hanse",
       "tournamentHint": "Has not hosted a major professional tournament; one of the most exclusive and highly ranked private clubs in the Lowcountry",
@@ -4050,7 +4050,7 @@
     "location": {
       "city": "Atlanta",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.8772,
       "longitude": -84.3273
     },
@@ -4063,7 +4063,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones Sr. & Bobby Jones",
       "tournamentHint": "Hosted the 1989 Walker Cup; Bobby Jones' home club after Augusta National",
@@ -4092,7 +4092,7 @@
     "location": {
       "city": "Lake Bluff",
       "state": "Illinois",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 42.2978,
       "longitude": -87.8358
     },
@@ -4105,7 +4105,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Seth Raynor",
       "tournamentHint": "Has not hosted a major professional tournament; widely regarded as Seth Raynor's inland masterpiece",
@@ -4132,7 +4132,7 @@
     "location": {
       "city": "Kingsley",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 44.6051,
       "longitude": -85.5634
     },
@@ -4145,7 +4145,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Mike DeVries",
       "tournamentHint": "Has not hosted a major professional tournament; celebrated as a minimalist design gem in northern Michigan",
@@ -4172,7 +4172,7 @@
     "location": {
       "city": "River Hills",
       "state": "Wisconsin",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 43.1634,
       "longitude": -87.9393
     },
@@ -4185,7 +4185,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "C.H. Alison",
       "tournamentHint": "One of the oldest golf clubs in the Midwest; hosted early Western Open championships",
@@ -4254,7 +4254,7 @@
     "location": {
       "city": "Bernardsville",
       "state": "New Jersey",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 40.7233,
       "longitude": -74.5884
     },
@@ -4267,7 +4267,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "Hosted the 1990 U.S. Senior Open",
@@ -4494,7 +4494,7 @@
     "location": {
       "city": "Johnson",
       "state": "Arkansas",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 36.1329,
       "longitude": -94.2011
     },
@@ -4507,7 +4507,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones, Jr.",
       "tournamentHint": "Hosted 2019 NCAA Division I Women's and Men's Golf Championships",
@@ -4536,7 +4536,7 @@
     "location": {
       "city": "Rogers",
       "state": "Arkansas",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 36.297,
       "longitude": -94.1988
     },
@@ -4549,7 +4549,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Don Sechrest and Bruce Lietzke",
       "tournamentHint": "Hosts Walmart NW Arkansas Championship on LPGA Tour since 2007",
@@ -4575,7 +4575,7 @@
     "location": {
       "city": "Cherry Hills Village",
       "state": "Colorado",
-      "region": "Mountain West",
+      "region": "West",
       "latitude": 39.643,
       "longitude": -104.9621
     },
@@ -4588,7 +4588,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mountain West",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "William Flynn",
       "tournamentHint": "Hosted PGA Championship, U.S. Open, U.S. Women's Open, U.S. Amateur, U.S. Senior Open, BMW Championship",
@@ -4619,7 +4619,7 @@
     "location": {
       "city": "Colorado Springs",
       "state": "Colorado",
-      "region": "Mountain West",
+      "region": "West",
       "latitude": 38.7895,
       "longitude": -104.8495
     },
@@ -4632,7 +4632,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mountain West",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Donald Ross",
       "tournamentHint": "Hosted U.S. Women's Open, U.S. Senior Open, U.S. Amateur",
@@ -4706,7 +4706,7 @@
     "location": {
       "city": "Brooksville",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 28.6834,
       "longitude": -82.4799
     },
@@ -4719,7 +4719,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Tom Fazio",
       "tournamentHint": "No major professional events",
@@ -4743,7 +4743,7 @@
     "location": {
       "city": "Orlando",
       "state": "Florida",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 28.415,
       "longitude": -81.2621
     },
@@ -4756,7 +4756,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Tom Fazio",
       "tournamentHint": "Hosted inaugural Solheim Cup, World Cup of Golf, LPGA events",
@@ -4785,7 +4785,7 @@
     "location": {
       "city": "Duluth",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.9977,
       "longitude": -84.1091
     },
@@ -4798,7 +4798,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Greg Norman",
       "tournamentHint": "Hosted AT&T Classic, Mitsubishi Electric Classic",
@@ -4825,7 +4825,7 @@
     "location": {
       "city": "Atlanta",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.7754,
       "longitude": -84.3313
     },
@@ -4838,7 +4838,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Herbert H. Barker",
       "tournamentHint": "Hosts Dogwood Invitational, U.S. Women's Open qualifying",
@@ -4867,7 +4867,7 @@
     "location": {
       "city": "Duluth",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 34.0049,
       "longitude": -84.1928
     },
@@ -4880,7 +4880,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones",
       "tournamentHint": "Hosted U.S. Open, PGA Championship, Ryder Cup",
@@ -4912,7 +4912,7 @@
     "location": {
       "city": "Atlanta",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.788,
       "longitude": -84.3774
     },
@@ -4925,7 +4925,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Rees Jones",
       "tournamentHint": "Hosted 2014 US Amateur Qualifier, 2018 Georgia Mid-Amateur Championship",
@@ -4952,7 +4952,7 @@
     "location": {
       "city": "Evans",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.5961,
       "longitude": -82.1648
     },
@@ -4965,7 +4965,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus, Arnold Palmer, Gary Player",
       "tournamentHint": "Co-hosts Augusta National Women's Amateur",
@@ -4991,7 +4991,7 @@
     "location": {
       "city": "Pine Mountain",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 32.8395,
       "longitude": -84.8561
     },
@@ -5004,7 +5004,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "J.B. McGovern",
       "tournamentHint": "Hosted Buick Challenge on Mountain View Course",
@@ -5032,7 +5032,7 @@
     "location": {
       "city": "Jekyll Island",
       "state": "Georgia",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 31.0686,
       "longitude": -81.4176
     },
@@ -5045,7 +5045,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Walter Travis",
       "tournamentHint": "No major professional events",
@@ -5071,7 +5071,7 @@
     "location": {
       "city": "Coeur d'Alene",
       "state": "Idaho",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 47.6641,
       "longitude": -116.7558
     },
@@ -5084,7 +5084,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Scott Miller",
       "tournamentHint": "No major professional events",
@@ -5190,7 +5190,7 @@
     "location": {
       "city": "Louisville",
       "state": "Kentucky",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 38.2319,
       "longitude": -85.6482
     },
@@ -5203,7 +5203,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Tom Winton (original); Rees Jones (2004 redesign)",
       "tournamentHint": "Hosted 1952 PGA Championship",
@@ -5231,7 +5231,7 @@
     "location": {
       "city": "Potomac",
       "state": "Maryland",
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "latitude": 38.9889,
       "longitude": -77.2026
     },
@@ -5244,7 +5244,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Mid-Atlantic",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "Ed Ault, Tom Clark, Ed Sneed",
       "tournamentHint": "Former host of Booz Allen Classic (Kemper Open)",
@@ -5314,7 +5314,7 @@
     "location": {
       "city": "Grand Blanc",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 42.9013,
       "longitude": -83.6006
     },
@@ -5327,7 +5327,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "James Gilmore Harrison (original); Joe Lee (redesign)",
       "tournamentHint": "Buick Open 1958-2009, Ally Challenge since 2018",
@@ -5356,7 +5356,7 @@
     "location": {
       "city": "Blaine",
       "state": "Minnesota",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 45.1772,
       "longitude": -93.2132
     },
@@ -5369,7 +5369,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Arnold Palmer",
       "tournamentHint": "3M Championship, 3M Open",
@@ -5396,7 +5396,7 @@
     "location": {
       "city": "Omaha",
       "state": "Nebraska",
-      "region": "Northern Plains",
+      "region": "Midwest",
       "latitude": 41.3299,
       "longitude": -96.0179
     },
@@ -5409,7 +5409,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Northern Plains",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Perry Maxwell",
       "tournamentHint": "U.S. Senior Open",
@@ -5439,7 +5439,7 @@
     "location": {
       "city": "Las Vegas",
       "state": "Nevada",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.1765,
       "longitude": -115.3124
     },
@@ -5452,7 +5452,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "Bobby Weed",
       "tournamentHint": "Las Vegas Senior Classic",
@@ -5478,7 +5478,7 @@
     "location": {
       "city": "Primm",
       "state": "Nevada",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 35.5518,
       "longitude": -115.4233
     },
@@ -5491,7 +5491,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Resort",
       "architectHint": "Tom Fazio",
       "tournamentHint": "No major professional events",
@@ -5557,7 +5557,7 @@
     "location": {
       "city": "Portland",
       "state": "Oregon",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 45.4491,
       "longitude": -122.6526
     },
@@ -5570,7 +5570,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Herbert Barker, H. Chandler Egan; Gil Hanse (restoration)",
       "tournamentHint": "No major professional events",
@@ -5594,7 +5594,7 @@
     "location": {
       "city": "The Woodlands",
       "state": "Texas",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 30.1891,
       "longitude": -95.519
     },
@@ -5607,7 +5607,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Private",
       "architectHint": "Robert von Hagge, Bruce Devlin",
       "tournamentHint": "Houston Open, Insperity Invitational",
@@ -5635,7 +5635,7 @@
     "location": {
       "city": "Lakewood",
       "state": "Washington",
-      "region": "Pacific Northwest",
+      "region": "West",
       "latitude": 47.1369,
       "longitude": -122.5338
     },
@@ -5648,7 +5648,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Pacific Northwest",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Alexander Baillie & H.J. Bremner (original); Stanley Thompson (1905)",
       "tournamentHint": "No major professional events",
@@ -5672,7 +5672,7 @@
     "location": {
       "city": "San Francisco",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.7122,
       "longitude": -122.4775
     },
@@ -5685,7 +5685,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "No major professional events",
@@ -5709,7 +5709,7 @@
     "location": {
       "city": "Pebble Beach",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.6016,
       "longitude": -121.947
     },
@@ -5722,7 +5722,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Seth Raynor",
       "tournamentHint": "AT&T Pebble Beach Pro-Am",
@@ -5750,7 +5750,7 @@
     "location": {
       "city": "Thousand Oaks",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 34.132,
       "longitude": -118.8847
     },
@@ -5763,7 +5763,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "Shark Shootout, World Challenge, Zozo Championship",
@@ -5793,7 +5793,7 @@
     "location": {
       "city": "Daly City",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.696,
       "longitude": -122.4721
     },
@@ -5806,7 +5806,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Willie Locke",
       "tournamentHint": "LPGA Mediheal Championship, Swinging Skirts LPGA Classic",
@@ -5835,7 +5835,7 @@
     "location": {
       "city": "Santa Clarita",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 34.4192,
       "longitude": -118.578
     },
@@ -5848,7 +5848,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones, Sr",
       "tournamentHint": "Los Angeles Open, AT&T Champions Classic",
@@ -5875,7 +5875,7 @@
     "location": {
       "city": "City of Industry",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 34.0203,
       "longitude": -117.927
     },
@@ -5888,7 +5888,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Public",
       "architectHint": "William Francis Bell",
       "tournamentHint": "Kia Classic, California Open",
@@ -5917,7 +5917,7 @@
     "location": {
       "city": "San Martin",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 37.0676,
       "longitude": -121.6329
     },
@@ -5930,7 +5930,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Robert Trent Jones Jr.",
       "tournamentHint": "Frys.com Open, U.S. Women's Open",
@@ -5957,7 +5957,7 @@
     "location": {
       "city": "Carmel",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 36.561,
       "longitude": -121.8354
     },
@@ -5970,7 +5970,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Jay Morrish",
       "tournamentHint": "No major professional events",
@@ -5994,7 +5994,7 @@
     "location": {
       "city": "Rancho Mirage",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 33.7979,
       "longitude": -116.433
     },
@@ -6007,7 +6007,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Desmond Muirhead",
       "tournamentHint": "Chevron Championship, Galleri Classic",
@@ -6036,7 +6036,7 @@
     "location": {
       "city": "Houston",
       "state": "Texas",
-      "region": "Southern Plains",
+      "region": "Southwest",
       "latitude": 29.7731,
       "longitude": -95.4333
     },
@@ -6049,7 +6049,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southern Plains",
+      "region": "Southwest",
       "typeHint": "Municipal",
       "architectHint": "John Bredemus",
       "tournamentHint": "Texas Children's Houston Open",
@@ -6077,7 +6077,7 @@
     "location": {
       "city": "Philadelphia",
       "state": "Pennsylvania",
-      "region": "Midwest",
+      "region": "Mid Atlantic",
       "latitude": 40.1081,
       "longitude": -75.2241
     },
@@ -6090,7 +6090,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Midwest",
+      "region": "Mid Atlantic",
       "typeHint": "Private",
       "architectHint": "A.W. Tillinghast",
       "tournamentHint": "Truist Championship",
@@ -6120,7 +6120,7 @@
     "location": {
       "city": "Myrtle Beach",
       "state": "South Carolina",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 33.7579,
       "longitude": -78.7962
     },
@@ -6133,7 +6133,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Resort",
       "architectHint": "Robert Trent Jones",
       "tournamentHint": "Myrtle Beach Classic",
@@ -6161,7 +6161,7 @@
     "location": {
       "city": "Detroit",
       "state": "Michigan",
-      "region": "Great Lakes",
+      "region": "Midwest",
       "latitude": 42.4263,
       "longitude": -83.1262
     },
@@ -6174,7 +6174,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Great Lakes",
+      "region": "Midwest",
       "typeHint": "Private",
       "architectHint": "Donald Ross",
       "tournamentHint": "Rocket Mortgage Classic",
@@ -6202,7 +6202,7 @@
     "location": {
       "city": "Louisville",
       "state": "Kentucky",
-      "region": "Southeast",
+      "region": "South",
       "latitude": 38.2406,
       "longitude": -85.5908
     },
@@ -6215,7 +6215,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "Southeast",
+      "region": "South",
       "typeHint": "Private",
       "architectHint": "Chic Adams (original); Keith Foster (2005 renovation)",
       "tournamentHint": "ISCO Championship",
@@ -6241,7 +6241,7 @@
     "location": {
       "city": "Truckee",
       "state": "California",
-      "region": "West Coast",
+      "region": "West",
       "latitude": 39.3442,
       "longitude": -120.1441
     },
@@ -6254,7 +6254,7 @@
       "courseRating": null
     },
     "clues": {
-      "region": "West Coast",
+      "region": "West",
       "typeHint": "Private",
       "architectHint": "Jack Nicklaus",
       "tournamentHint": "Barracuda Championship",
