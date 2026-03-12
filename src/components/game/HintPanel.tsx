@@ -52,7 +52,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
             >
               {hint.label}
               {!isRevealed && (
-                <span className="ml-1.5 text-[10px] opacity-50">-{HINT_COSTS[i]}</span>
+                <span className="ml-1.5 text-[10px] text-accent">-{HINT_COSTS[i]}</span>
               )}
             </button>
           );
@@ -66,7 +66,7 @@ export default function HintPanel({ clues, onHintsUsedChange }: HintPanelProps) 
             {HINT_CONFIG.map((hint, i) =>
               revealed.has(i) ? (
                 <div key={hint.key} className="text-sm leading-relaxed">
-                  <span className="font-medium text-accent/80">{hint.label} <span className="text-accent/50">(-{HINT_COSTS[i]})</span>: </span>
+                  <span className="font-medium text-accent/80">{hint.label} <span className="text-accent">(-{HINT_COSTS[i]})</span>: </span>
                   <span className="text-cream/70">{clues[hint.key]}</span>
                 </div>
               ) : null

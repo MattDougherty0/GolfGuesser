@@ -73,7 +73,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
   }
 
   return (
-    <div ref={containerRef} className="relative min-w-0 w-full">
+    <div ref={containerRef} className="relative min-w-0 w-full flex items-center gap-2">
       <input
         ref={inputRef}
         type="text"
@@ -84,9 +84,9 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
           if (results.length > 0 && !selectedId) setIsOpen(true);
         }}
         disabled={disabled}
-        placeholder="Type a course name… (optional)"
+        placeholder="Type a course name…"
         className={`
-          w-full rounded-lg border bg-card px-4 py-3 text-sm text-cream
+          flex-1 min-w-0 w-full rounded-lg border bg-card px-4 py-3 text-sm text-cream
           placeholder:text-cream/30 outline-none transition-colors
           ${selectedId
             ? "border-accent/40 bg-accent/5"
@@ -95,6 +95,7 @@ export default function GuessInput({ onChange, disabled = false }: GuessInputPro
           ${disabled ? "opacity-50 cursor-not-allowed" : ""}
         `}
       />
+      {!selectedId && <span className="shrink-0 text-sm font-medium text-accent">(+300)</span>}
 
       {selectedId && (
         <div className="absolute right-3 top-1/2 -translate-y-1/2 text-accent text-sm">

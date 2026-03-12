@@ -92,7 +92,7 @@ export default function AboutPage() {
                 className="rounded-full border border-cream/10 bg-card/60 px-3.5 py-1.5 text-xs text-cream/80"
               >
                 {h.label}{" "}
-                <span className="text-accent/60 font-medium">-{h.cost}</span>
+                <span className="text-accent font-medium">-{h.cost}</span>
               </span>
             ))}
           </div>
