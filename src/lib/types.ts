@@ -29,11 +29,19 @@ export interface CourseClues {
   mostWinsHint?: string;
 }
 
+export interface RevealVideo {
+  label: string;
+  url: string;
+  year?: number;
+}
+
 export interface CourseReveal {
   notableTournaments: string[];
   famousMoments: string[];
   signatureHole: string;
   description: string;
+  /** Optional – PGA Tour courses with iconic moment links. */
+  videos?: RevealVideo[];
 }
 
 export interface CourseImages {

@@ -49,6 +49,32 @@ export default function CourseProfile({ course }: CourseProfileProps) {
         </Section>
       )}
 
+      {/* Watch – iconic moment videos (PGA Tour courses only) */}
+      {reveal.videos && reveal.videos.length > 0 && (
+        <Section title="Watch">
+          <ul className="space-y-2">
+            {reveal.videos.map((v, i) => (
+              <li key={i}>
+                <a
+                  href={v.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-accent hover:text-accent/80 hover:underline transition-colors"
+                >
+                  <span aria-hidden className="text-accent/70">
+                    ▶
+                  </span>
+                  {v.label}
+                  {v.year != null && (
+                    <span className="text-cream/50 text-xs">({v.year})</span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
       {/* Signature Hole */}
       <Section title="Signature Hole">
         <p className="text-sm text-cream/70">{reveal.signatureHole}</p>
