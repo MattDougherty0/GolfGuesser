@@ -75,3 +75,36 @@ export const STATE_TO_REGION: Record<string, string> = {
 export function getRegionForState(state: string): string {
   return STATE_TO_REGION[state] ?? "Unknown";
 }
+
+/** Region to states mapping (inverse of STATE_TO_REGION). */
+export const REGION_TO_STATES: Record<string, string[]> = Object.entries(
+  STATE_TO_REGION
+).reduce<Record<string, string[]>>((acc, [state, region]) => {
+  if (!acc[region]) acc[region] = [];
+  acc[region].push(state);
+  return acc;
+}, {});
+
+export function getStatesForRegion(region: string): string[] {
+  return REGION_TO_STATES[region] ?? [];
+}
+
+/** State name to 2-letter abbreviation. */
+export const STATE_ABBREV: Record<string, string> = {
+  Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA",
+  Colorado: "CO", Connecticut: "CT", Delaware: "DE", "District of Columbia": "DC",
+  Florida: "FL", Georgia: "GA", Hawaii: "HI", Idaho: "ID", Illinois: "IL",
+  Indiana: "IN", Iowa: "IA", Kansas: "KS", Kentucky: "KY", Louisiana: "LA",
+  Maine: "ME", Maryland: "MD", Massachusetts: "MA", Michigan: "MI", Minnesota: "MN",
+  Mississippi: "MS", Missouri: "MO", Montana: "MT", Nebraska: "NE", Nevada: "NV",
+  "New Hampshire": "NH", "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY",
+  "North Carolina": "NC", "North Dakota": "ND", Ohio: "OH", Oklahoma: "OK",
+  Oregon: "OR", Pennsylvania: "PA", "Rhode Island": "RI", "South Carolina": "SC",
+  "South Dakota": "SD", Tennessee: "TN", Texas: "TX", Utah: "UT", Vermont: "VT",
+  Virginia: "VA", Washington: "WA", "West Virginia": "WV", Wisconsin: "WI", Wyoming: "WY",
+};
+
+export function getStatesAbbrevForRegion(region: string): string {
+  const states = getStatesForRegion(region);
+  return states.map((s) => STATE_ABBREV[s] ?? s).join(", ");
+}

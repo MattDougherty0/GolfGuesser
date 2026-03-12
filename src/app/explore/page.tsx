@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import MainWithSidebar from "@/components/layout/MainWithSidebar";
 import { getExploreSetCount } from "@/lib/explore";
-import { REGIONS } from "@/lib/regions";
+import { REGIONS, getStatesAbbrevForRegion } from "@/lib/regions";
 import { getLocalPlayerId, getPlayer, type Player } from "@/lib/db";
 
 const EXPLORE_OPTIONS = [
@@ -20,6 +20,16 @@ const EXPLORE_OPTIONS = [
     description: `Courses in the ${region} region`,
   })),
 ];
+
+const EXPLORE_CARD_IMAGES: Record<string, string> = {
+  pga2025: "/images/explore/pga2025.jpg",
+  "region-West": "/images/explore/west.jpg",
+  "region-Southwest": "/images/explore/southwest.jpg",
+  "region-Midwest": "/images/explore/midwest.jpg",
+  "region-South": "/images/explore/south.jpg",
+  "region-Mid Atlantic": "/images/explore/mid-atlantic.jpg",
+  "region-New England": "/images/explore/new-england.jpg",
+};
 
 const COUNT_OPTIONS = [5, 10] as const;
 
@@ -77,21 +87,43 @@ function ExploreContent() {
         )}
 
         {!selectedSet ? (
-          <div className="mt-8 space-y-4">
-            {EXPLORE_OPTIONS.map((opt) => (
-              <button
-                key={opt.id}
-                type="button"
-                onClick={() => handleCardClick(opt.id)}
-                className="w-full rounded-xl border border-cream/10 bg-card px-6 py-5 text-left transition-all hover:border-accent/30 hover:bg-accent/5"
-              >
-                <h2 className="font-semibold text-cream">{opt.title}</h2>
-                <p className="mt-1 text-sm text-cream/50">{opt.description}</p>
-                <p className="mt-2 text-xs text-accent">
-                  {getExploreSetCount(opt.id)} courses
-                </p>
-              </button>
-            ))}
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {EXPLORE_OPTIONS.map((opt) => {
+              const imageSrc = EXPLORE_CARD_IMAGES[opt.id];
+              const isRegion = opt.id.startsWith("region-");
+              const regionName = isRegion ? opt.id.replace("region-", "") : null;
+              const statesStr = regionName ? getStatesAbbrevForRegion(regionName) : null;
+              return (
+                <button
+                  key={opt.id}
+                  type="button"
+                  onClick={() => handleCardClick(opt.id)}
+                  className="group relative aspect-[4/3] w-full min-w-0 overflow-hidden rounded-xl border border-cream/10 transition-all hover:scale-[1.02] hover:border-accent/30 focus:outline-none focus:ring-2 focus:ring-accent/50"
+                >
+                  <div
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
+                    style={{
+                      backgroundImage: imageSrc ? `url(${imageSrc})` : undefined,
+                      backgroundColor: !imageSrc ? "var(--color-card)" : undefined,
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+                  <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-5 text-left">
+                    <h2 className="font-serif text-xl font-semibold text-cream sm:text-2xl">
+                      {opt.title}
+                    </h2>
+                    {statesStr && (
+                      <p className="mt-1 text-xs text-cream/70 sm:text-sm">
+                        {statesStr}
+                      </p>
+                    )}
+                    <p className="mt-2 text-xs font-medium text-accent">
+                      {getExploreSetCount(opt.id)} courses
+                    </p>
+                  </div>
+                </button>
+              );
+            })}
           </div>
         ) : (
           <div className="mt-8">
