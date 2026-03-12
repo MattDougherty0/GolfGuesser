@@ -87,7 +87,7 @@ function ExploreContent() {
         )}
 
         {!selectedSet ? (
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
             {EXPLORE_OPTIONS.map((opt) => {
               const imageSrc = EXPLORE_CARD_IMAGES[opt.id];
               const isRegion = opt.id.startsWith("region-");
