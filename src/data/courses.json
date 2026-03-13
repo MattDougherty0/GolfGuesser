@@ -7457,5 +7457,1148 @@
       "aerialMedium": "courses/tpc-boston/aerial-medium.jpg",
       "aerialWide": "courses/tpc-boston/aerial-wide.jpg"
     }
+  },
+  {
+    "id": "gozzer-ranch-golf-lake-club",
+    "name": "Gozzer Ranch Golf & Lake Club",
+    "location": {
+      "city": "Coeur d'Alene",
+      "state": "Idaho",
+      "region": "West",
+      "latitude": 47.6171,
+      "longitude": -116.7662
+    },
+    "details": {
+      "type": "private",
+      "architect": "Tom Fazio",
+      "yearOpened": 2007,
+      "par": 72,
+      "yardage": 7317,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Private",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Ranked among America's 100 Greatest; Golf Digest Best New Course 2008",
+      "didYouKnow": "Gozzer Ranch was Tom Fazio's 13th Best New Course award winner. The course features distinctive 'comfort stations' staffed with an executive chef."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Won Golf Digest Best New Course 2008—Fazio's 13th such award",
+        "Carved through Northern Idaho pine trees and giant basalt rock formations with panoramic Lake Coeur d'Alene views"
+      ],
+      "signatureHole": "Hole 15: A 431-yard par 4 with panoramic views of Lake Coeur d'Alene, featuring Fazio's signature jagged-edged bunkers and dramatic lakefront positioning.",
+      "description": "Gozzer Ranch Golf & Lake Club sits on 700 acres overlooking Lake Coeur d'Alene in northern Idaho. Tom Fazio's design winds through pines and basalt formations, with bentgrass greens and strategic bunkering.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/gozzer-ranch-golf-lake-club/aerial-tight.jpg",
+      "aerialMedium": "courses/gozzer-ranch-golf-lake-club/aerial-medium.jpg",
+      "aerialWide": "courses/gozzer-ranch-golf-lake-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "pinehurst-no-8",
+    "name": "Pinehurst No. 8",
+    "location": {
+      "city": "Pinehurst",
+      "state": "North Carolina",
+      "region": "South",
+      "latitude": 35.1895,
+      "longitude": -79.4678
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Tom Fazio",
+      "yearOpened": 1996,
+      "par": 72,
+      "yardage": 7099,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Resort",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Opened as 'The Centennial Course' for Pinehurst's 100th anniversary; Audubon Sanctuary",
+      "didYouKnow": "No. 8 is the only Pinehurst course with no residential properties nearby, creating a secluded feel."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Opened in 1996 as 'The Centennial Course' to celebrate Pinehurst's first 100 years",
+        "Design deliberately differs from other Pinehurst courses with water, waste areas, and dramatic elevation changes"
+      ],
+      "signatureHole": "Hole 14: A standout risk-reward par 4 requiring a carry over marsh from the tee, with large greens and dramatic contours amid longleaf pines.",
+      "description": "Pinehurst No. 8 sits on an Audubon Sanctuary about a mile north of the main resort. Tom Fazio's Centennial Course uses water hazards, elevation changes, and large greens in a secluded, walkable setting.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/pinehurst-no-8/aerial-tight.jpg",
+      "aerialMedium": "courses/pinehurst-no-8/aerial-medium.jpg",
+      "aerialWide": "courses/pinehurst-no-8/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "conway-farms-golf-club",
+    "name": "Conway Farms Golf Club",
+    "location": {
+      "city": "Lake Forest",
+      "state": "Illinois",
+      "region": "Midwest",
+      "latitude": 42.231,
+      "longitude": -87.892
+    },
+    "details": {
+      "type": "private",
+      "architect": "Tom Fazio",
+      "yearOpened": 1991,
+      "par": 71,
+      "yardage": 7233,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Private",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Hosted BMW Championship three times (2013, 2015, 2017)",
+      "mostWinsHint": "Zach Johnson (2013), Jason Day (2015), Marc Leishman (2017)",
+      "mostRecentWinnerHint": "Marc Leishman (2017 BMW Championship)",
+      "didYouKnow": "Jim Furyk shot a 59 here in the 2013 BMW Championship—the sixth sub-60 round in PGA Tour history."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "BMW Championship (2013, 2015, 2017)",
+        "NCAA Division I Men's Championship (1997)",
+        "U.S. Junior Amateur (1998)",
+        "U.S. Mid-Amateur (2012)",
+        "Western Amateur (2009)"
+      ],
+      "famousMoments": [
+        "Jim Furyk shot 59 in the 2013 BMW Championship—sixth player in PGA Tour history to break 60",
+        "Furyk holed out from 115 yards for eagle on the par-4 15th during his 59"
+      ],
+      "signatureHole": "Hole 8: At 600 yards, the longest par 5 on the course, with distinctive par 3s and a layout inspired by St. Andrews and Shinnecock Hills.",
+      "description": "Conway Farms is a private Tom Fazio design in Lake Forest, Illinois. It has hosted the BMW Championship three times and major amateur events. The course is known for its long par 5s and difficult par 3s.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/conway-farms-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/conway-farms-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/conway-farms-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "edgewood-tahoe",
+    "name": "Edgewood Tahoe",
+    "location": {
+      "city": "Stateline",
+      "state": "Nevada",
+      "region": "West",
+      "latitude": 38.968,
+      "longitude": -119.946
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Tom Fazio",
+      "yearOpened": 1968,
+      "par": 72,
+      "yardage": 7379,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "American Century Championship since 1990; U.S. Senior Open (1985)",
+      "didYouKnow": "The 17th hole runs along Lake Tahoe's shoreline—fans watch from boats and the beach during the celebrity tournament."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "American Century Championship (annually since 1990)",
+        "U.S. Senior Open (1985)",
+        "U.S. Public Links Championship (1980)",
+        "NHL Outdoors at Lake Tahoe (2021)"
+      ],
+      "famousMoments": [
+        "Host of the American Century Championship celebrity golf tournament since 1990",
+        "NHL played outdoor games on a rink built on the course in February 2021"
+      ],
+      "signatureHole": "Hole 17: A 207-yard par 3 along Lake Tahoe's shoreline. Known for its party atmosphere during the American Century Championship, with fans on the beach and in boats.",
+      "description": "Edgewood Tahoe sits on the south shore of Lake Tahoe in Stateline, Nevada. Originally designed by George Fazio (1968), Tom Fazio has renovated it extensively. It hosts the American Century Championship and ranks among America's 100 Greatest Public Courses.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/edgewood-tahoe/aerial-tight.jpg",
+      "aerialMedium": "courses/edgewood-tahoe/aerial-medium.jpg",
+      "aerialWide": "courses/edgewood-tahoe/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "karsten-creek-golf-club",
+    "name": "Karsten Creek Golf Club",
+    "location": {
+      "city": "Stillwater",
+      "state": "Oklahoma",
+      "region": "Southwest",
+      "latitude": 36.1025,
+      "longitude": -97.1853
+    },
+    "details": {
+      "type": "public",
+      "architect": "Tom Fazio",
+      "yearOpened": 1994,
+      "par": 72,
+      "yardage": 7449,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Southwest",
+      "typeHint": "Public",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Oklahoma State home course; NCAA Men's Championship (2003, 2011, 2018)",
+      "didYouKnow": "Named for Karsten Solheim (PING founder) and his wife Louise. One of only ten U.S. courses to earn Golf Digest's five-star rating in 1998."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "NCAA Men's Golf Championship (2003, 2011, 2018)",
+        "NCAA Women's Golf Championship (2018)",
+        "First course to host both NCAA Men's and Women's Championships in the same year (2018)"
+      ],
+      "famousMoments": [
+        "Golf Digest Best New Public Course 1994",
+        "Ranked best college golf course in America by Travel & Leisure Golf"
+      ],
+      "signatureHole": "Hole 17: Part of the demanding 15–18 stretch. The second-hardest hole (handicap 2), with 110-acre Lake Louise in play on many holes.",
+      "description": "Karsten Creek is Oklahoma State's home course, six miles west of Stillwater. Tom Fazio's design winds through blackjack oaks around Lake Louise. It has hosted the NCAA Championship three times.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/karsten-creek-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/karsten-creek-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/karsten-creek-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "hudson-national-golf-club",
+    "name": "Hudson National Golf Club",
+    "location": {
+      "city": "Croton-on-Hudson",
+      "state": "New York",
+      "region": "Mid Atlantic",
+      "latitude": 41.2209,
+      "longitude": -73.8983
+    },
+    "details": {
+      "type": "private",
+      "architect": "Tom Fazio",
+      "yearOpened": 1996,
+      "par": 70,
+      "yardage": 7326,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Hosts Squire Cup; Fazio Design renovation completed 2024",
+      "didYouKnow": "Over 100,000 cubic yards of rock were blasted to build the course on 260 acres of challenging terrain above the Hudson River."
+    },
+    "reveal": {
+      "notableTournaments": ["Squire Cup"],
+      "famousMoments": [
+        "Built on 260 acres requiring blasting over 100,000 cubic yards of rock",
+        "2024 renovation by Fazio Design: 75+ bunkers rebuilt, new bentgrass greens"
+      ],
+      "signatureHole": "Hole 5: A 430-yard par 4 downhill with the Hudson River behind the tee and historic Hessian Hills clubhouse ruins. Risk-reward tee shot with extra roll on the left.",
+      "description": "Hudson National sits above the Hudson River in Croton-on-Hudson, New York. Tom Fazio's 1996 design was heavily renovated in 2024. The 16th is a 250-yard par 3 with views of Manhattan.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/hudson-national-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/hudson-national-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/hudson-national-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "pelican-hill-ocean-north",
+    "name": "Pelican Hill Golf Club (Ocean North)",
+    "location": {
+      "city": "Newport Coast",
+      "state": "California",
+      "region": "West",
+      "latitude": 33.588,
+      "longitude": -117.8436
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Tom Fazio",
+      "yearOpened": 1993,
+      "par": 71,
+      "yardage": 6945,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Ranked among Golf Digest 100 Greatest Public Courses",
+      "didYouKnow": "Tom Fazio has more credits on Golf Digest's 100 Greatest than any other living designer. Pelican Hill's marketing: 'Every hole is a signature.'"
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Ocean views from every hole on both courses",
+        "Nearly 300 days of sunshine per year"
+      ],
+      "signatureHole": "Ocean views from every tee and green; open canyons, elevated plateaus, and Pacific backdrop on all 18 holes.",
+      "description": "Pelican Hill is a 36-hole Tom Fazio resort in Newport Coast, California. Ocean North (1993) offers Pacific views, wide fairways, and large greens. Public play with advance reservations.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/pelican-hill-ocean-north/aerial-tight.jpg",
+      "aerialMedium": "courses/pelican-hill-ocean-north/aerial-medium.jpg",
+      "aerialWide": "courses/pelican-hill-ocean-north/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "oak-hill-country-club-east",
+    "name": "Oak Hill Country Club (East Course)",
+    "location": {
+      "city": "Pittsford",
+      "state": "New York",
+      "region": "Mid Atlantic",
+      "latitude": 43.113,
+      "longitude": -77.533
+    },
+    "details": {
+      "type": "private",
+      "architect": "Donald Ross",
+      "yearOpened": 1921,
+      "par": 70,
+      "yardage": 7390,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Hosted 7 men's majors: 3 U.S. Opens, 4 PGA Championships, Ryder Cup",
+      "didYouKnow": "Jason Dufner shot a course-record 63 in the 2013 PGA Championship. The 'Hill of Fame' 13th hole honors golf legends with trees."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Open (1956, 1968, 1989)",
+        "PGA Championship (1980, 2003, 2013, 2023)",
+        "Ryder Cup (1995)",
+        "U.S. Amateur (1949, 1998)",
+        "U.S. Senior Open (1984)",
+        "Senior PGA (2008, 2019)"
+      ],
+      "famousMoments": [
+        "Jason Dufner's course-record 63 in the 2013 PGA Championship",
+        "1941 Rochester Times-Union event with Snead, Hagen, Hogan put Oak Hill on the map"
+      ],
+      "signatureHole": "Hole 13: 'Hill of Fame,' 625-yard par 5 with trees honoring golf legends, Allen Creek crossing the fairway.",
+      "description": "Oak Hill's East Course in Pittsford, New York, has hosted more major championships than almost any other U.S. course. Donald Ross's design features tree-lined fairways, strategic bunkering, and the iconic 'Hill of Fame' 13th hole.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/oak-hill-country-club-east/aerial-tight.jpg",
+      "aerialMedium": "courses/oak-hill-country-club-east/aerial-medium.jpg",
+      "aerialWide": "courses/oak-hill-country-club-east/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "pine-needles-lodge-golf-club",
+    "name": "Pine Needles Lodge & Golf Club",
+    "location": {
+      "city": "Southern Pines",
+      "state": "North Carolina",
+      "region": "South",
+      "latitude": 35.197,
+      "longitude": -79.3921
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Donald Ross",
+      "yearOpened": 1927,
+      "par": 71,
+      "yardage": 7015,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Resort",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Hosted 4 U.S. Women's Opens (1996, 2001, 2007, 2022)",
+      "didYouKnow": "Annika Sörenstam won her first of four U.S. Women's Opens here in 1996. Minjee Lee won the 2022 U.S. Women's Open."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Women's Open (1996, 2001, 2007, 2022)",
+        "Titleholders Championship (1972)",
+        "U.S. Senior Women's Open (2019)"
+      ],
+      "famousMoments": [
+        "Annika Sörenstam won her first U.S. Women's Open here in 1996",
+        "Minjee Lee won the 2022 U.S. Women's Open"
+      ],
+      "signatureHole": "Hole 13: 208-yard par 3, slightly downhill, sharp right-to-left putts.",
+      "description": "Pine Needles is a Donald Ross classic in Southern Pines, North Carolina, that has hosted four U.S. Women's Opens. The resort course features rolling fairways, crowned greens, and the timeless strategic design Ross is known for.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/pine-needles-lodge-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/pine-needles-lodge-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/pine-needles-lodge-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "plainfield-country-club",
+    "name": "Plainfield Country Club",
+    "location": {
+      "city": "Edison",
+      "state": "New Jersey",
+      "region": "Mid Atlantic",
+      "latitude": 40.59444,
+      "longitude": -74.38944
+    },
+    "details": {
+      "type": "private",
+      "architect": "Donald Ross",
+      "yearOpened": 1921,
+      "par": 70,
+      "yardage": 7091,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Private",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Hosted The Barclays/FedEx Cup (2011, 2015)",
+      "didYouKnow": "Leighton Calkins created the modern handicap system. The club was founded in 1890 as Hillside Tennis Club."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "The Barclays/FedEx Cup (2011, 2015)",
+        "U.S. Amateur (1978)",
+        "U.S. Women's Open (1987)"
+      ],
+      "famousMoments": [
+        "Leighton Calkins created the modern handicap system at the club",
+        "Club founded 1890 as Hillside Tennis Club"
+      ],
+      "signatureHole": "Hole 3: Par 3 over water with little bail-out room.",
+      "description": "Plainfield Country Club in Edison, New Jersey, is a Donald Ross design that has hosted FedEx Cup playoff events. The course features classic Ross characteristics: crowned greens, strategic bunkering, and natural routing.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/plainfield-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/plainfield-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/plainfield-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "scioto-country-club",
+    "name": "Scioto Country Club",
+    "location": {
+      "city": "Columbus",
+      "state": "Ohio",
+      "region": "Midwest",
+      "latitude": 40.002,
+      "longitude": -83.075
+    },
+    "details": {
+      "type": "private",
+      "architect": "Donald Ross",
+      "yearOpened": 1916,
+      "par": 70,
+      "yardage": 7240,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Private",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Jack Nicklaus learned the game here; hosted U.S. Open, PGA Championship, Ryder Cup",
+      "didYouKnow": "Bobby Jones won the 1926 U.S. Open here. Jack Nicklaus learned the game under Jack Grout at Scioto."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Open (1926)",
+        "PGA Championship (1950)",
+        "Ryder Cup (1931)",
+        "U.S. Amateur (1968)",
+        "U.S. Senior Open (1986, 2016)"
+      ],
+      "famousMoments": [
+        "Bobby Jones won the 1926 U.S. Open at Scioto",
+        "Jack Nicklaus learned the game here under Jack Grout"
+      ],
+      "signatureHole": "Hole 8: Par 5 with island green and moat (played as long par 4 in championships).",
+      "description": "Scioto Country Club in Columbus, Ohio, is where Jack Nicklaus learned the game. Donald Ross's design has hosted the U.S. Open, PGA Championship, and Ryder Cup, and remains one of America's most historic courses.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/scioto-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/scioto-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/scioto-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "interlachen-country-club",
+    "name": "Interlachen Country Club",
+    "location": {
+      "city": "Edina",
+      "state": "Minnesota",
+      "region": "Midwest",
+      "latitude": 44.9153,
+      "longitude": -93.3797
+    },
+    "details": {
+      "type": "private",
+      "architect": "Donald Ross",
+      "yearOpened": 1921,
+      "par": 72,
+      "yardage": 6981,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Private",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Bobby Jones won 1930 U.S. Open here en route to Grand Slam",
+      "didYouKnow": "Annika Sörenstam holed a 6-iron for eagle on the 9th hole during the 2008 U.S. Women's Open."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Open (1930)",
+        "U.S. Women's Open (2008)",
+        "Solheim Cup (2002)",
+        "Walker Cup (1993)",
+        "U.S. Women's Amateur (1935)"
+      ],
+      "famousMoments": [
+        "Bobby Jones won the 1930 U.S. Open en route to the Grand Slam",
+        "Annika Sörenstam holed 6-iron for eagle on #9 in 2008 U.S. Women's Open"
+      ],
+      "signatureHole": "Hole 9: 518-yard par 5, site of Jones's 'lily pad' shot in the 1930 U.S. Open.",
+      "description": "Interlachen Country Club in Edina, Minnesota, is where Bobby Jones won the 1930 U.S. Open on his way to the Grand Slam. Donald Ross's design has hosted majors, the Solheim Cup, and the Walker Cup.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/interlachen-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/interlachen-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/interlachen-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "french-lick-resort-donald-ross",
+    "name": "French Lick Resort (Donald Ross Course)",
+    "location": {
+      "city": "French Lick",
+      "state": "Indiana",
+      "region": "Midwest",
+      "latitude": 38.553,
+      "longitude": -86.62
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Donald Ross",
+      "yearOpened": 1920,
+      "par": 72,
+      "yardage": 7030,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Resort",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Hosted PGA Championship (1924); Walter Hagen won here",
+      "didYouKnow": "Walter Hagen won the 1924 PGA Championship. The course was restored to Ross specs in 2006–07."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "PGA Championship (1924)",
+        "LPGA Championship (1959, 1960)",
+        "Midwest Amateur (1930s–50s)"
+      ],
+      "famousMoments": [
+        "Walter Hagen won the 1924 PGA Championship",
+        "Course restored to Ross specifications in 2006–07"
+      ],
+      "signatureHole": "Hole 16: Most photographed hole, strong elevation and bunkering.",
+      "description": "The Donald Ross Course at French Lick Resort in Indiana opened in 1920 and hosted the PGA Championship in 1924. Walter Hagen won that year. The course was meticulously restored to Ross specifications in 2006–07.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/french-lick-resort-donald-ross/aerial-tight.jpg",
+      "aerialMedium": "courses/french-lick-resort-donald-ross/aerial-medium.jpg",
+      "aerialWide": "courses/french-lick-resort-donald-ross/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "the-homestead-old-course",
+    "name": "The Homestead (Old Course)",
+    "location": {
+      "city": "Hot Springs",
+      "state": "Virginia",
+      "region": "Mid Atlantic",
+      "latitude": 37.9955,
+      "longitude": -79.8296
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Donald Ross",
+      "yearOpened": 1913,
+      "par": 72,
+      "yardage": 6099,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Resort",
+      "architectHint": "Donald Ross",
+      "tournamentHint": "Oldest first tee in continuous use in the U.S. (1892)",
+      "didYouKnow": "Sam Snead shot 60 at age 71 in 1983. The first tee has been in continuous use since 1892."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Women's Amateur (1928)",
+        "U.S. Amateur (1988)",
+        "U.S. Mid-Amateur (2000)",
+        "NCAA Division I (2004)",
+        "U.S. Senior Women's Amateur (2009, 2023, 2025)"
+      ],
+      "famousMoments": [
+        "Oldest first tee in continuous use in the U.S. (1892)",
+        "Sam Snead shot 60 at age 71 in 1983"
+      ],
+      "signatureHole": "Hole 1: Historic opener from the nation's oldest first tee; 6-6-6 par layout.",
+      "description": "The Homestead's Old Course in Hot Springs, Virginia, features the oldest first tee in continuous use in the United States (1892). Donald Ross redesigned the course in 1913. Sam Snead shot 60 here at age 71.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/the-homestead-old-course/aerial-tight.jpg",
+      "aerialMedium": "courses/the-homestead-old-course/aerial-medium.jpg",
+      "aerialWide": "courses/the-homestead-old-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "french-lick-pete-dye-course",
+    "name": "The Pete Dye Course at French Lick Resort",
+    "location": {
+      "city": "French Lick",
+      "state": "Indiana",
+      "region": "Midwest",
+      "latitude": 38.571,
+      "longitude": -86.636
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Pete Dye",
+      "yearOpened": 2009,
+      "par": 72,
+      "yardage": 8102,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Resort",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "Senior PGA Championship (2015); Golf Digest Best New Public Course 2009",
+      "didYouKnow": "Pete Dye sketched his initial vision on a napkin at a local restaurant. Built on Mount Airie with 2.5 million cubic yards of earth moved."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "PGA Professional National Championship (2010)",
+        "Senior PGA Championship (2015)"
+      ],
+      "famousMoments": [
+        "Pete Dye sketched his initial vision on a napkin at a local restaurant",
+        "Built on Mount Airie requiring movement of 2.5 million cubic yards of earth"
+      ],
+      "signatureHole": "Hole 6: Par 3 with 'infinity green' and descending approach, offering magazine-worthy views across southern Indiana.",
+      "description": "The Pete Dye Course at French Lick Resort sits atop Mount Airie with 40-mile panoramic views, volcano bunkers, three man-made lakes, and nearly 400 feet of elevation change. Named Golf Digest's Best New Public Course in 2009.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/french-lick-pete-dye-course/aerial-tight.jpg",
+      "aerialMedium": "courses/french-lick-pete-dye-course/aerial-medium.jpg",
+      "aerialWide": "courses/french-lick-pete-dye-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "austin-country-club",
+    "name": "Austin Country Club",
+    "location": {
+      "city": "Austin",
+      "state": "Texas",
+      "region": "South",
+      "latitude": 30.343,
+      "longitude": -97.797
+    },
+    "details": {
+      "type": "private",
+      "architect": "Pete Dye",
+      "yearOpened": 1984,
+      "par": 72,
+      "yardage": 7108,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Private",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "Hosted WGC-Dell Match Play (2016–2023)",
+      "didYouKnow": "Harvey Penick coached Ben Crenshaw and Tom Kite at the club's earlier locations. Pete Dye originally sketched only 17 holes—Hole 17 was added as a quick fix and became the iconic deciding hole."
+    },
+    "reveal": {
+      "notableTournaments": ["WGC-Dell Match Play (2016–2023)"],
+      "famousMoments": [
+        "Pete Dye originally sketched only 17 holes—Hole 17 was added as a quick fix and became the iconic deciding hole",
+        "Harvey Penick coached Ben Crenshaw and Tom Kite at the club's earlier locations"
+      ],
+      "signatureHole": "Hole 17: Par 3, 150 yards, tee perched on a cliff with swirling winds and Scottish-style pot bunkers—the deciding factor in countless WGC Match Play matches.",
+      "description": "Austin Country Club on Lake Austin's south bank features Scottish-style design with deep pot bunkers and massive limestone slabs. Hosted the WGC Match Play for eight years and is one of Texas's oldest clubs.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/austin-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/austin-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/austin-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "brickyard-crossing",
+    "name": "Brickyard Crossing",
+    "location": {
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "region": "Midwest",
+      "latitude": 39.7876,
+      "longitude": -86.2314
+    },
+    "details": {
+      "type": "public",
+      "architect": "Pete Dye",
+      "yearOpened": 1993,
+      "par": 72,
+      "yardage": 7180,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Public",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "Four holes inside Indianapolis Motor Speedway infield; hosted PGA, Champions, LPGA events",
+      "didYouKnow": "Arnold Palmer, Jack Nicklaus, Lee Trevino, and The Beatles have all played the course. Four holes (7–10) play inside the Indianapolis Motor Speedway infield."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "500 Festival Open (PGA Tour, 1960–1968)",
+        "Comfort Classic (Champions Tour, 1994–2000)",
+        "LPGA Indy Women in Tech Championship (2017–2019)"
+      ],
+      "famousMoments": [
+        "Four holes (7–10) play inside the Indianapolis Motor Speedway infield—one of golf's most unique settings",
+        "Arnold Palmer, Jack Nicklaus, Lee Trevino, and The Beatles have all played the course"
+      ],
+      "signatureHole": "Holes 7–10: The four holes inside the Indianapolis Motor Speedway infield, with the legendary 2.5-mile oval surrounding you.",
+      "description": "Brickyard Crossing is a public course on Indianapolis Motor Speedway grounds with 14 holes east of the backstretch and 4 inside the infield. One of few U.S. courses to host PGA, Champions Tour, and LPGA events.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/brickyard-crossing/aerial-tight.jpg",
+      "aerialMedium": "courses/brickyard-crossing/aerial-medium.jpg",
+      "aerialWide": "courses/brickyard-crossing/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "kingsmill-river-course",
+    "name": "The River Course at Kingsmill Resort",
+    "location": {
+      "city": "Williamsburg",
+      "state": "Virginia",
+      "region": "Mid Atlantic",
+      "latitude": 37.225,
+      "longitude": -76.668
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Pete Dye",
+      "yearOpened": 1975,
+      "par": 71,
+      "yardage": 6831,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Resort",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "Michelob Championship (PGA Tour); Kingsmill Championship (LPGA, 2012–2021)",
+      "didYouKnow": "Hole 17 sits on land where Jamestown settlers disembarked in 1607. The tee box features visible earthen works from Revolutionary and Civil War fortifications."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "Michelob Championship (PGA Tour, 1981–2002)",
+        "Michelob ULTRA Open (2003–2009)",
+        "Kingsmill Championship (LPGA, 2012–2021)"
+      ],
+      "famousMoments": [
+        "Hole 17 sits on land where Jamestown settlers disembarked in 1607",
+        "Tee box features visible earthen works from Revolutionary and Civil War fortifications"
+      ],
+      "signatureHole": "Hole 17: Par 3, 177 yards, playing from a bluff above the James River—'the most historic 177 yards of golf in America' with colonial foundations and Civil War cannon nearby.",
+      "description": "The River Course at Kingsmill Resort is Pete Dye's early design along the James River. The final three holes circle the water, and Hole 17 is one of America's most historically significant golf holes, set on Jamestown-era land.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/kingsmill-river-course/aerial-tight.jpg",
+      "aerialMedium": "courses/kingsmill-river-course/aerial-medium.jpg",
+      "aerialWide": "courses/kingsmill-river-course/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "bulle-rock-golf-club",
+    "name": "Bulle Rock Golf Course",
+    "location": {
+      "city": "Havre de Grace",
+      "state": "Maryland",
+      "region": "Mid Atlantic",
+      "latitude": 39.542,
+      "longitude": -76.133
+    },
+    "details": {
+      "type": "public",
+      "architect": "Pete Dye",
+      "yearOpened": 1998,
+      "par": 72,
+      "yardage": 7375,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Mid Atlantic",
+      "typeHint": "Public",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "LPGA Championship (2005–2009)",
+      "didYouKnow": "Named after Bulle Rock, the first thoroughbred racehorse brought to America. One of only 12 'Five-Star Facilities' honored by Golf Digest."
+    },
+    "reveal": {
+      "notableTournaments": ["LPGA Championship (2005–2009)"],
+      "famousMoments": [
+        "Named after Bulle Rock, the first thoroughbred racehorse brought to America",
+        "One of only 12 'Five-Star Facilities' honored by Golf Digest"
+      ],
+      "signatureHole": "Hole 2: Par 5, 555 yards, elevated tee with severely downhill fairway and a creek 90 yards short of the green creating strategic second-shot decisions.",
+      "description": "Bulle Rock is a championship Pete Dye layout on 235 acres beside the Chesapeake Bay. Hosted the LPGA Championship for five years and consistently ranks as Maryland's best public course.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/bulle-rock-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/bulle-rock-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/bulle-rock-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "oak-tree-national",
+    "name": "Oak Tree National",
+    "location": {
+      "city": "Edmond",
+      "state": "Oklahoma",
+      "region": "Southwest",
+      "latitude": 35.7192,
+      "longitude": -97.5053
+    },
+    "details": {
+      "type": "private",
+      "architect": "Pete Dye",
+      "yearOpened": 1976,
+      "par": 71,
+      "yardage": 7410,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Southwest",
+      "typeHint": "Private",
+      "architectHint": "Pete Dye",
+      "tournamentHint": "PGA Championship (1988); U.S. Amateur (1984); U.S. Senior Open (2014, 2027)",
+      "didYouKnow": "Jeff Sluman won the 1988 PGA Championship with a final-round 65. Pete Dye called it 'the finest inland golf course he has ever built.'"
+    },
+    "reveal": {
+      "notableTournaments": [
+        "U.S. Amateur (1984)",
+        "PGA Championship (1988)",
+        "Senior PGA Championship (2006)",
+        "U.S. Senior Open (2014, 2027)"
+      ],
+      "famousMoments": [
+        "Jeff Sluman won the 1988 PGA Championship with a final-round 65, finishing at 12-under 272",
+        "Pete Dye called it 'the finest inland golf course he has ever built'"
+      ],
+      "signatureHole": "Hole 5 (Oak Tree): Par 5, 592 yards, featuring the iconic oak tree used in the club's logo—players must navigate around it.",
+      "description": "Oak Tree National in Edmond, Oklahoma, is designed to be among the world's hardest courses, with wind, hilly terrain, and water on 13 holes. Home to numerous PGA Tour professionals and ranked #51 on Golf Digest's America's 100 Greatest.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/oak-tree-national/aerial-tight.jpg",
+      "aerialMedium": "courses/oak-tree-national/aerial-medium.jpg",
+      "aerialWide": "courses/oak-tree-national/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "colorado-golf-club",
+    "name": "Colorado Golf Club",
+    "location": {
+      "city": "Parker",
+      "state": "Colorado",
+      "region": "West",
+      "latitude": 39.476,
+      "longitude": -104.736
+    },
+    "details": {
+      "type": "private",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2007,
+      "par": 72,
+      "yardage": 7604,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Private",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "Senior PGA Championship (2010); Solheim Cup (2013)",
+      "didYouKnow": "Anna Nordqvist made the first hole-in-one in Solheim Cup history on the par-3 17th in 2013. Europe won 18–10, the first European win on U.S. soil."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "Senior PGA Championship (2010)",
+        "Solheim Cup (2013)"
+      ],
+      "famousMoments": [
+        "Anna Nordqvist made the first hole-in-one in Solheim Cup history on the par-3 17th in 2013",
+        "Europe won 18–10 in 2013, the first European Solheim Cup win on U.S. soil"
+      ],
+      "signatureHole": "Hole 17: Par 3, 180 yards; Nordqvist's ace hole with views over the course.",
+      "description": "Colorado Golf Club is a private Coore & Crenshaw design on a former Arabian horse ranch at 6,100+ feet elevation. Hosted the 2010 Senior PGA (Tom Lehman) and 2013 Solheim Cup.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/colorado-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/colorado-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/colorado-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "clear-creek-tahoe",
+    "name": "Clear Creek Tahoe",
+    "location": {
+      "city": "Carson City",
+      "state": "Nevada",
+      "region": "West",
+      "latitude": 39.1058,
+      "longitude": -119.8372
+    },
+    "details": {
+      "type": "private",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2009,
+      "par": 72,
+      "yardage": 7005,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Private",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "Coore & Crenshaw's only Nevada design; ranked #2 in Nevada, #137 in America's Second 100 Greatest",
+      "didYouKnow": "Coore & Crenshaw's only Nevada design. Ranked #2 in Nevada and #137 in America's Second 100 Greatest."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Coore & Crenshaw's only Nevada design",
+        "Ranked #2 in Nevada and #137 in America's Second 100 Greatest"
+      ],
+      "signatureHole": "Mountain layout with native grasses and conifers; no single hole widely cited as signature.",
+      "description": "Clear Creek Tahoe is a private Coore & Crenshaw course on the eastern slope of the Carson Range, blending into native grasses and conifers. Minimalist design with rugged mountain terrain.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/clear-creek-tahoe/aerial-tight.jpg",
+      "aerialMedium": "courses/clear-creek-tahoe/aerial-medium.jpg",
+      "aerialWide": "courses/clear-creek-tahoe/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "ozarks-national-big-cedar-lodge",
+    "name": "Ozarks National at Big Cedar Lodge",
+    "location": {
+      "city": "Hollister",
+      "state": "Missouri",
+      "region": "Midwest",
+      "latitude": 36.5612,
+      "longitude": -93.1968
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2019,
+      "par": 72,
+      "yardage": 7036,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "Midwest",
+      "typeHint": "Resort",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "Golf Digest Best New Public Course 2019; Missouri's only Coore & Crenshaw design",
+      "didYouKnow": "Golf Digest Best New Public Course in America (2019). Missouri's only Coore & Crenshaw design. Hole 13 features a 400-foot wooden bridge 60 feet above a creek."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Golf Digest Best New Public Course in America (2019)",
+        "Missouri's only Coore & Crenshaw design"
+      ],
+      "signatureHole": "Hole 13: 400-foot wooden bridge 60 feet above a creek connecting tee to fairway; long uphill approach to the green.",
+      "description": "Ozarks National at Big Cedar Lodge is a public resort course in the Ozarks with ridge-and-valley terrain, elevation changes, and strategic bunkering. Part of Johnny Morris's Big Cedar Lodge golf destination.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/ozarks-national-big-cedar-lodge/aerial-tight.jpg",
+      "aerialMedium": "courses/ozarks-national-big-cedar-lodge/aerial-medium.jpg",
+      "aerialWide": "courses/ozarks-national-big-cedar-lodge/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "the-dormie-club",
+    "name": "The Dormie Club",
+    "location": {
+      "city": "West End",
+      "state": "North Carolina",
+      "region": "South",
+      "latitude": 35.2606,
+      "longitude": -79.5073
+    },
+    "details": {
+      "type": "private",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2010,
+      "par": 71,
+      "yardage": 7016,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Private",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "Golfweek Best New Course (2010); Bill Coore's only original design in his home state of North Carolina",
+      "didYouKnow": "Golfweek Best New Course (2010). Bill Coore's only original design in his home state of North Carolina. Walking-focused, no paved cart paths."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Golfweek Best New Course (2010)",
+        "Bill Coore's only original design in his home state of North Carolina"
+      ],
+      "signatureHole": "Hole 5: Par 4, 435 yards; largest water hazard on the property, marshland and forest, playable left side of fairway.",
+      "description": "The Dormie Club is a private Sandhills course with wide fairways, sandy waste areas, and up to 110 feet of elevation change. Walking-focused, no paved cart paths. Part of the Dormie Network.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/the-dormie-club/aerial-tight.jpg",
+      "aerialMedium": "courses/the-dormie-club/aerial-medium.jpg",
+      "aerialWide": "courses/the-dormie-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "trinity-forest-golf-club",
+    "name": "Trinity Forest Golf Club",
+    "location": {
+      "city": "Dallas",
+      "state": "Texas",
+      "region": "South",
+      "latitude": 32.71,
+      "longitude": -96.723
+    },
+    "details": {
+      "type": "private",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2016,
+      "par": 72,
+      "yardage": 7450,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Private",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "AT&T Byron Nelson (2018, 2019); U.S. Junior Amateur (2025)",
+      "didYouKnow": "Built on a former landfill. Golf Digest Green Star environmental award (2018). Course record 61 (Marc Leishman 2018, Kang Sung-hoon 2019)."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "AT&T Byron Nelson (2018, 2019)",
+        "U.S. Junior Amateur (2025)",
+        "U.S. Girls' Junior (2031)"
+      ],
+      "famousMoments": [
+        "Built on a former landfill; Golf Digest Green Star environmental award (2018)",
+        "Course record 61 (Marc Leishman 2018, Kang Sung-hoon 2019)"
+      ],
+      "signatureHole": "Holes 3 & 11: Shared double green (~35,000 sq ft), inspired by St. Andrews.",
+      "description": "Trinity Forest Golf Club is a links-style course on a former landfill south of Dallas. Treeless layout with native grasses, dramatic bunkering, and a double green. Home of SMU golf teams.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/trinity-forest-golf-club/aerial-tight.jpg",
+      "aerialMedium": "courses/trinity-forest-golf-club/aerial-medium.jpg",
+      "aerialWide": "courses/trinity-forest-golf-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "bandon-preserve",
+    "name": "Bandon Preserve",
+    "location": {
+      "city": "Bandon",
+      "state": "Oregon",
+      "region": "West",
+      "latitude": 43.188,
+      "longitude": -124.39
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Bill Coore & Ben Crenshaw",
+      "yearOpened": 2012,
+      "par": 39,
+      "yardage": 1609,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Bill Coore & Ben Crenshaw",
+      "tournamentHint": "13-hole par-3 at Bandon Dunes; all net proceeds support conservation",
+      "didYouKnow": "Hole 13 was added when clearing revealed an extra site. All net proceeds support the Bandon Dunes Charitable Foundation and conservation."
+    },
+    "reveal": {
+      "notableTournaments": [],
+      "famousMoments": [
+        "Hole 13 was added when clearing revealed an extra site",
+        "All net proceeds support the Bandon Dunes Charitable Foundation and conservation"
+      ],
+      "signatureHole": "Hole 13: Par 3, 109 yards; downhill with a rolling downslope; golfers sometimes putt from the tee.",
+      "description": "Bandon Preserve is a 13-hole par-3 course at Bandon Dunes, from dunes down toward the beach with Pacific views. Holes 63–150 yards; supports conservation and the Silvery Phacelia.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/bandon-preserve/aerial-tight.jpg",
+      "aerialMedium": "courses/bandon-preserve/aerial-medium.jpg",
+      "aerialWide": "courses/bandon-preserve/aerial-wide.jpg"
+    }
   }
 ]

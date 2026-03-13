@@ -13,7 +13,7 @@ const DAYS_NEW = 60; // Days after original schedule, using only newly added cou
 const ROUNDS_PER_DAY = 3;
 const START_DATE = new Date("2026-03-11T12:00:00-05:00");
 
-const imageKeys = ["aerialTight", "aerialMedium", "aerialWide"];
+const IMAGE_KEY = "aerialMedium";
 const difficulties = ["easy", "medium", "hard"];
 
 // Original 100 course IDs (do not seed new courses into first 180 days)
@@ -159,7 +159,7 @@ for (let day = 0; day < DAYS_ORIGINAL; day++) {
 
   const rounds = shuffledPicked.map((courseId, i) => ({
     courseId,
-    imageKey: imageKeys[(day * ROUNDS_PER_DAY + i) % imageKeys.length],
+    imageKey: IMAGE_KEY,
     difficulty: difficulties[i],
   }));
 
@@ -210,7 +210,7 @@ if (newIds.length >= 3) {
       date: dateStr,
       rounds: picked.map((courseId, i) => ({
         courseId,
-        imageKey: imageKeys[(day * ROUNDS_PER_DAY + i) % imageKeys.length],
+        imageKey: IMAGE_KEY,
         difficulty: difficulties[i],
       })),
     });

@@ -92,6 +92,14 @@ export const FAZIO_COURSE_IDS: string[] = [
   "victoria-national-golf-club",
   "primm-valley-golf-club",
   "capital-city-club-crabapple",
+  "quail-hollow-club",
+  "gozzer-ranch-golf-lake-club",
+  "pinehurst-no-8",
+  "conway-farms-golf-club",
+  "edgewood-tahoe",
+  "karsten-creek-golf-club",
+  "hudson-national-golf-club",
+  "pelican-hill-ocean-north",
 ];
 
 /** Donald Ross–designed courses. */
@@ -123,6 +131,13 @@ export const DYE_COURSE_IDS: string[] = [
   "pete-dye-golf-club",
   "the-honors-course",
   "des-moines-golf-and-country-club",
+  "harbour-town-golf-links",
+  "french-lick-pete-dye-course",
+  "austin-country-club",
+  "brickyard-crossing",
+  "kingsmill-river-course",
+  "bulle-rock-golf-club",
+  "oak-tree-national",
 ];
 
 /** Bill Coore & Ben Crenshaw–designed courses. */
@@ -135,6 +150,12 @@ export const COORE_CRENSHAW_COURSE_IDS: string[] = [
   "bandon-trails",
   "sheep-ranch",
   "old-sandwich-golf-club",
+  "colorado-golf-club",
+  "clear-creek-tahoe",
+  "ozarks-national-big-cedar-lodge",
+  "the-dormie-club",
+  "trinity-forest-golf-club",
+  "bandon-preserve",
 ];
 
 /** Erie, PA area courses - its own Explore set. */
