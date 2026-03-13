@@ -41,6 +41,90 @@ export const PGA_TOUR_2025_COURSE_IDS: string[] = [
 ];
 
 /**
+ * 2026 PGA Tour schedule - lower 48 venues only.
+ * Excludes Hawaii, Mexico, Puerto Rico, Canada, Scotland, Northern Ireland, Dominican Republic, Bermuda, Japan.
+ * Chronological order by tournament date.
+ */
+export const PGA_TOUR_2026_COURSE_IDS: string[] = [
+  "pga-west-stadium-course",
+  "nicklaus-tournament-course-pga-west",
+  "la-quinta-country-club",
+  "torrey-pines-south-course",
+  "tpc-scottsdale-stadium-course",
+  "pebble-beach-golf-links",
+  "spyglass-hill",
+  "monterey-peninsula-country-club",
+  "riviera-country-club",
+  "pga-national-champion-course",
+  "bay-hill-club-and-lodge",
+  "tpc-sawgrass-stadium-course",
+  "innisbrook-copperhead-course",
+  "memorial-park-golf-course",
+  "tpc-san-antonio-oaks-course",
+  "augusta-national-golf-club",
+  "harbour-town-golf-links",
+  "tpc-louisiana",
+  "trump-national-doral-blue-monster",
+  "quail-hollow-club",
+  "dunes-golf-and-beach-club",
+  "aronimink",
+  "tpc-craig-ranch",
+  "colonial-country-club",
+  "muirfield-village-golf-club",
+  "shinnecock-hills-golf-club",
+  "tpc-river-highlands",
+  "tpc-deere-run",
+  "hurstbourne-country-club",
+  "tpc-twin-cities",
+  "detroit-golf-club",
+  "sedgefield-country-club",
+  "tpc-southwind",
+  "bellerive-country-club",
+  "east-lake-golf-club",
+  "the-cliffs-at-walnut-cove",
+  "black-desert-resort",
+  "omni-barton-creek-fazio-canyons",
+  "sea-island-golf-club-seaside",
+];
+
+/**
+ * Major championship venues since 2000 - U.S. Open + PGA Championship only.
+ * Lower 48 only. Excludes Augusta (Masters) and Open Championship (abroad).
+ * Unique venues, alphabetical.
+ */
+export const MAJORS_CHAMPIONSHIP_VENUES: string[] = [
+  "aronimink",
+  "atlanta-athletic-club",
+  "baltusrol-golf-club",
+  "bellerive-country-club",
+  "bethpage-black",
+  "chambers-bay",
+  "congressional-country-club",
+  "erin-hills",
+  "hazeltine-national-golf-club",
+  "kiawah-island-ocean-course",
+  "los-angeles-country-club",
+  "medinah-country-club",
+  "merion-golf-club",
+  "oak-hill-country-club-east",
+  "oakland-hills-country-club",
+  "oakmont-country-club",
+  "olympic-club",
+  "olympia-fields-country-club",
+  "pebble-beach-golf-links",
+  "pinehurst-no-2",
+  "quail-hollow-club",
+  "shinnecock-hills-golf-club",
+  "southern-hills-country-club",
+  "the-country-club",
+  "torrey-pines-south-course",
+  "tpc-harding-park",
+  "valhalla-golf-club",
+  "whistling-straits",
+  "winged-foot-golf-club",
+];
+
+/**
  * Tiger Woods win venues (lower 48) - from 1994 U.S. Amateur through 2019.
  * One entry per unique venue. Includes US Amateur (3) + PGA Tour (82) venues in continental US.
  */
@@ -195,6 +279,8 @@ function buildRegionSets(): Record<string, string[]> {
 
 export const EXPLORE_SETS: Record<string, string[]> = {
   pga2025: PGA_TOUR_2025_COURSE_IDS,
+  pga2026: PGA_TOUR_2026_COURSE_IDS,
+  majors: MAJORS_CHAMPIONSHIP_VENUES,
   tiger: TIGER_WINS_COURSE_IDS,
   fazio: FAZIO_COURSE_IDS,
   ross: ROSS_COURSE_IDS,

@@ -10,9 +10,14 @@ import { getLocalPlayerId, getPlayer, getExploreLeaderboard, type Player, type L
 
 const EXPLORE_OPTIONS = [
   {
-    id: "pga2025",
-    title: "2025 PGA Tour",
-    description: "Courses from the 2025 PGA Tour schedule (lower 48)",
+    id: "pga2026",
+    title: "2026 PGA Tour",
+    description: "Courses from the 2026 PGA Tour schedule (lower 48)",
+  },
+  {
+    id: "majors",
+    title: "Major Championship Venues",
+    description: "U.S. Open & PGA Championship venues since 2000 (lower 48)",
   },
   {
     id: "tiger",
@@ -49,10 +54,17 @@ const EXPLORE_OPTIONS = [
     title: "Coore & Crenshaw Collection",
     description: "Courses designed by Bill Coore & Ben Crenshaw",
   },
+  {
+    id: "pga2025",
+    title: "2025 PGA Tour",
+    description: "Courses from the 2025 PGA Tour schedule (lower 48)",
+  },
 ];
 
 const EXPLORE_CARD_IMAGES: Record<string, string> = {
   pga2025: "/images/explore/pga2025.jpg",
+  pga2026: "/images/explore/pga2026.png",
+  majors: "/images/explore/majors.png",
   tiger: "/images/explore/tiger.png",
   fazio: "/images/explore/fazio.png",
   ross: "/images/explore/donald-ross.png",

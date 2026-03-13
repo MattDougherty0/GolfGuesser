@@ -8600,5 +8600,216 @@
       "aerialMedium": "courses/bandon-preserve/aerial-medium.jpg",
       "aerialWide": "courses/bandon-preserve/aerial-wide.jpg"
     }
+  },
+  {
+    "id": "nicklaus-tournament-course-pga-west",
+    "name": "Jack Nicklaus Tournament Course at PGA West",
+    "location": {
+      "city": "La Quinta",
+      "state": "California",
+      "region": "West",
+      "latitude": 33.6433,
+      "longitude": -116.2675
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Jack Nicklaus",
+      "yearOpened": 1987,
+      "par": 72,
+      "yardage": 7204,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Jack Nicklaus",
+      "tournamentHint": "The American Express (PGA Tour); PGA Tour Q-School Finals",
+      "didYouKnow": "One of few courses with two island greens. Co-hosts Q-School with the Stadium Course."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "The American Express (PGA Tour)",
+        "PGA Tour Q-School Finals"
+      ],
+      "famousMoments": [
+        "One of few courses with two island greens",
+        "Co-hosts Q-School with the Stadium Course"
+      ],
+      "signatureHole": "Hole 17: Par 3, 209 yards, island green with a small target (38×34 yards), elevated tee with desert views.",
+      "description": "At the base of the Santa Rosa Mountains, the Nicklaus Tournament Course is a desert layout with two island greens. It is forgiving off the tee but demanding around the greens, and is a regular host of The American Express.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/nicklaus-tournament-course-pga-west/aerial-tight.jpg",
+      "aerialMedium": "courses/nicklaus-tournament-course-pga-west/aerial-medium.jpg",
+      "aerialWide": "courses/nicklaus-tournament-course-pga-west/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "la-quinta-country-club",
+    "name": "La Quinta Country Club",
+    "location": {
+      "city": "La Quinta",
+      "state": "California",
+      "region": "West",
+      "latitude": 33.6924,
+      "longitude": -116.2815
+    },
+    "details": {
+      "type": "private",
+      "architect": "Lawrence M. Hughes",
+      "yearOpened": 1959,
+      "par": 72,
+      "yardage": 7060,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Private",
+      "architectHint": "Lawrence M. Hughes",
+      "tournamentHint": "The American Express (PGA Tour), in rotation since 1964",
+      "didYouKnow": "Charlie Sifford shot 66 in the first round at La Quinta in 1964 (course competitive record). Three U.S. presidents played together here in 1995."
+    },
+    "reveal": {
+      "notableTournaments": ["The American Express (PGA Tour, since 1964)"],
+      "famousMoments": [
+        "Charlie Sifford shot 66 in the first round at La Quinta in 1964",
+        "Three U.S. presidents (Clinton, George H.W. Bush, Gerald Ford) played together in 1995"
+      ],
+      "signatureHole": "Hole 9: Par 4, narrow fairway and small greens typical of the classic layout.",
+      "description": "La Quinta Country Club has been a staple of The American Express for over 50 years, with narrow fairways, small greens, and demanding par 3s. It is known for its greens quality and classic design.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/la-quinta-country-club/aerial-tight.jpg",
+      "aerialMedium": "courses/la-quinta-country-club/aerial-medium.jpg",
+      "aerialWide": "courses/la-quinta-country-club/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "the-cliffs-at-walnut-cove",
+    "name": "The Cliffs at Walnut Cove",
+    "location": {
+      "city": "Arden",
+      "state": "North Carolina",
+      "region": "South",
+      "latitude": 35.4627,
+      "longitude": -82.6024
+    },
+    "details": {
+      "type": "private",
+      "architect": "Jack Nicklaus",
+      "yearOpened": 2005,
+      "par": 72,
+      "yardage": 7167,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Private",
+      "architectHint": "Jack Nicklaus",
+      "tournamentHint": "Biltmore Championship (PGA Tour 2026); first PGA Tour event in Asheville since 1942",
+      "didYouKnow": "Jack Nicklaus and Kevin Costner played the ceremonial opening round in 2005. First PGA Tour event in Asheville since 1942."
+    },
+    "reveal": {
+      "notableTournaments": [
+        "Biltmore Championship (PGA Tour 2026)",
+        "BMW Charity Pro-Am (Nationwide Tour, 2005)"
+      ],
+      "famousMoments": [
+        "Jack Nicklaus and Kevin Costner played the ceremonial opening round in 2005",
+        "First PGA Tour event in Asheville since 1942"
+      ],
+      "signatureHole": "Hole 17: Par 3 with elevation change and mountain views typical of the layout.",
+      "description": "The Cliffs at Walnut Cove sits in a valley between Pisgah National Forest and the Blue Ridge Parkway. It features bentgrass fairways, strategic bunkering, and elevation changes.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/the-cliffs-at-walnut-cove/aerial-tight.jpg",
+      "aerialMedium": "courses/the-cliffs-at-walnut-cove/aerial-medium.jpg",
+      "aerialWide": "courses/the-cliffs-at-walnut-cove/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "black-desert-resort",
+    "name": "Black Desert Resort",
+    "location": {
+      "city": "Ivins",
+      "state": "Utah",
+      "region": "West",
+      "latitude": 37.185,
+      "longitude": -113.674
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Tom Weiskopf",
+      "yearOpened": 2023,
+      "par": 72,
+      "yardage": 7393,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "West",
+      "typeHint": "Resort",
+      "architectHint": "Tom Weiskopf",
+      "tournamentHint": "Bank of Utah Championship (PGA Tour 2026)",
+      "didYouKnow": "Tom Weiskopf's last design before his death in August 2022. Built through ancient basalt lava fields."
+    },
+    "reveal": {
+      "notableTournaments": ["Bank of Utah Championship (PGA Tour 2026)"],
+      "famousMoments": [
+        "Tom Weiskopf's last design before his death in August 2022",
+        "Built through ancient basalt lava fields; Matt McCarty won the inaugural Bank of Utah Championship in 2024"
+      ],
+      "signatureHole": "Hole 7: Par 5, 592 yards, with lava islands in the fairway, semi-blind tee shot, and uphill approach to a small green.",
+      "description": "Black Desert Resort is set among black lava fields and red rock mountains in Greater Zion. It has wide fairways, two drivable par 4s, and a distinctive volcanic landscape.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/black-desert-resort/aerial-tight.jpg",
+      "aerialMedium": "courses/black-desert-resort/aerial-medium.jpg",
+      "aerialWide": "courses/black-desert-resort/aerial-wide.jpg"
+    }
+  },
+  {
+    "id": "omni-barton-creek-fazio-canyons",
+    "name": "Omni Barton Creek Resort (Fazio Canyons)",
+    "location": {
+      "city": "Austin",
+      "state": "Texas",
+      "region": "South",
+      "latitude": 30.2912,
+      "longitude": -97.8588
+    },
+    "details": {
+      "type": "resort",
+      "architect": "Tom Fazio",
+      "yearOpened": 1999,
+      "par": 72,
+      "yardage": 7433,
+      "courseRating": null
+    },
+    "clues": {
+      "region": "South",
+      "typeHint": "Resort",
+      "architectHint": "Tom Fazio",
+      "tournamentHint": "Good Good Championship (PGA Tour 2026)",
+      "didYouKnow": "$5 million renovation in 2022. Former Golf Digest America's 100 Greatest Public Courses. First PGA Tour event at the resort."
+    },
+    "reveal": {
+      "notableTournaments": ["Good Good Championship (PGA Tour 2026)"],
+      "famousMoments": [
+        "$5 million renovation in 2022",
+        "First PGA Tour event at the resort"
+      ],
+      "signatureHole": "Hole 18: Par 5, 561 yards, elevated tee, creek crossing the fairway, second shot between creek and bunkers, often finishing with a pitch to the green.",
+      "description": "Fazio Canyons is set in Texas Hill Country with limestone cliffs, creeks, and elevation changes. It is the highest-ranked course at Omni Barton Creek and will host the inaugural Good Good Championship in 2026.",
+      "videos": []
+    },
+    "images": {
+      "aerialTight": "courses/omni-barton-creek-fazio-canyons/aerial-tight.jpg",
+      "aerialMedium": "courses/omni-barton-creek-fazio-canyons/aerial-medium.jpg",
+      "aerialWide": "courses/omni-barton-creek-fazio-canyons/aerial-wide.jpg"
+    }
   }
 ]
