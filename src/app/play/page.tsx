@@ -4,6 +4,7 @@ import { Suspense, useReducer, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { getTodayPuzzle } from "@/lib/daily";
 import { getCourseById } from "@/lib/courses";
+import { getLocalPlayerId, submitExploreScore } from "@/lib/db";
 import { buildExplorePuzzle } from "@/lib/explore";
 import { calculatePinDistance, calculateRoundScore, calculateHintPenalty } from "@/lib/scoring";
 import { getTodayResults, saveRoundResult } from "@/lib/storage";
@@ -269,10 +270,17 @@ function PlayContent() {
   const totalRounds = state.puzzle?.rounds.length ?? 0;
 
   // ── Next round / finish ──
-  const handleNext = useCallback(() => {
+  const handleNext = useCallback(async () => {
     if (state.roundIndex + 1 >= totalRounds) {
       if (isExploreMode) {
         const finalTotal = state.guessResults.reduce((sum, r) => sum + r.score, 0);
+        const setId = searchParams.get("set")!;
+        const countParam = searchParams.get("count")!;
+        const count = (countParam === "all" ? "all" : countParam) as "5" | "10" | "all";
+        const playerId = getLocalPlayerId();
+        if (playerId) {
+          await submitExploreScore({ playerId, setId, count, totalScore: finalTotal });
+        }
         router.push(`/explore?done=1&score=${finalTotal}`);
       } else {
         router.push("/results");
@@ -280,7 +288,7 @@ function PlayContent() {
     } else {
       dispatch({ type: "NEXT_ROUND" });
     }
-  }, [state.roundIndex, state.guessResults, totalRounds, isExploreMode, router]);
+  }, [state.roundIndex, state.guessResults, totalRounds, isExploreMode, router, searchParams]);
 
   // ── Latest guess result (for reveal) ──
   const latestResult = state.guessResults[state.guessResults.length - 1] ?? null;

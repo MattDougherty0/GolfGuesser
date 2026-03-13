@@ -1,5 +1,5 @@
 import type { PuzzleRound } from "./types";
-import { getAllCourses } from "./courses";
+import { getAllCourses, getCourseById } from "./courses";
 import { REGIONS } from "./regions";
 
 /**
@@ -156,4 +156,13 @@ export function buildExplorePuzzle(
 
 export function getExploreSetCount(setId: string): number {
   return EXPLORE_SETS[setId]?.length ?? 0;
+}
+
+/** Get display names of all courses in an explore set. */
+export function getExploreSetCourseNames(setId: string): string[] {
+  const ids = EXPLORE_SETS[setId];
+  if (!ids) return [];
+  return ids
+    .map((id) => getCourseById(id)?.name)
+    .filter((n): n is string => n != null);
 }

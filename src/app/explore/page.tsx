@@ -1,12 +1,12 @@
 "use client";
 
-import { Suspense, useState, useEffect } from "react";
+import { Suspense, useState, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import MainWithSidebar from "@/components/layout/MainWithSidebar";
-import { getExploreSetCount } from "@/lib/explore";
+import { getExploreSetCount, getExploreSetCourseNames } from "@/lib/explore";
 import { REGIONS, getStatesAbbrevForRegion } from "@/lib/regions";
-import { getLocalPlayerId, getPlayer, type Player } from "@/lib/db";
+import { getLocalPlayerId, getPlayer, getExploreLeaderboard, type Player, type LeaderboardEntry, type ExploreCount } from "@/lib/db";
 
 const EXPLORE_OPTIONS = [
   {
@@ -45,6 +45,96 @@ const EXPLORE_CARD_IMAGES: Record<string, string> = {
 
 const COUNT_OPTIONS = [5, 10] as const;
 
+function ExploreSetLeaderboard({
+  setId,
+  totalCount,
+  playerId,
+}: {
+  setId: string;
+  totalCount: number;
+  playerId: string | null;
+}) {
+  const [tab, setTab] = useState<ExploreCount>("5");
+  const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchLeaderboard = useCallback(async (count: ExploreCount) => {
+    setLoading(true);
+    const data = await getExploreLeaderboard(setId, count);
+    setEntries(data);
+    setLoading(false);
+  }, [setId]);
+
+  useEffect(() => {
+    fetchLeaderboard(tab);
+  }, [tab, fetchLeaderboard]);
+
+  const tabLabels: { key: ExploreCount; label: string }[] = [
+    { key: "5", label: "5 courses" },
+    { key: "10", label: "10 courses" },
+    { key: "all", label: `All (${totalCount})` },
+  ];
+
+  return (
+    <div className="rounded-xl border border-cream/10 bg-card/50 px-4 py-4">
+      <p className="text-xs font-medium uppercase tracking-wider text-cream/50 mb-3">
+        Leaderboard
+      </p>
+      <div className="flex gap-1 mb-4 rounded-full border border-cream/10 bg-primary p-1">
+        {tabLabels.map(({ key, label }) => (
+          <button
+            key={key}
+            type="button"
+            onClick={() => setTab(key)}
+            className={`
+              flex-1 rounded-full py-1.5 text-xs font-medium transition-all
+              ${tab === key
+                ? "bg-accent text-background"
+                : "text-cream/50 hover:text-cream/80"
+              }
+            `}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+      {loading ? (
+        <div className="flex justify-center py-8">
+          <div className="h-5 w-5 animate-spin rounded-full border-2 border-cream/20 border-t-accent" />
+        </div>
+      ) : entries.length === 0 ? (
+        <p className="text-sm text-cream/40 py-4">No scores yet. Be the first!</p>
+      ) : (
+        <div className="space-y-2 max-h-64 overflow-y-auto">
+          {entries.map((entry) => {
+            const isMe = entry.player_id === playerId;
+            return (
+              <div
+                key={`${entry.player_id}-${entry.rank}`}
+                className={`
+                  flex items-center gap-2 rounded-lg border p-2 text-sm
+                  ${isMe ? "border-accent/30 bg-accent/5" : "border-cream/8 bg-card/30"}
+                `}
+              >
+                <span className="w-6 shrink-0 text-center font-bold text-cream/60">
+                  {entry.rank}
+                </span>
+                <span className={`flex-1 min-w-0 truncate ${isMe ? "text-accent" : "text-cream"}`}>
+                  {entry.display_name}
+                  {isMe && " (you)"}
+                </span>
+                <span className="shrink-0 tabular-nums font-semibold text-accent">
+                  {entry.total_score.toLocaleString()}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ExploreContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -72,15 +162,25 @@ function ExploreContent() {
   };
 
   const totalCount = selectedSet ? getExploreSetCount(selectedSet) : 0;
+  const courseNames = selectedSet ? getExploreSetCourseNames(selectedSet) : [];
 
   return (
     <MainWithSidebar playerName={player?.display_name}>
       <main className="flex flex-1 flex-col px-4 py-8 sm:px-8">
+        {selectedSet && (
+          <button
+            type="button"
+            onClick={handleBack}
+            className="mb-2 text-sm text-cream/50 hover:text-cream transition-colors text-left"
+          >
+            ← Back
+          </button>
+        )}
         <h1 className="font-serif text-3xl tracking-tight text-cream sm:text-4xl">
           Explore
         </h1>
         <p className="mt-2 text-sm text-cream/50">
-          Play custom sets of courses. No leaderboard—just practice.
+          Play custom sets of courses.
         </p>
 
         {doneScore !== null && (
@@ -143,14 +243,8 @@ function ExploreContent() {
           </div>
         ) : (
           <div className="mt-8">
-            <button
-              type="button"
-              onClick={handleBack}
-              className="mb-4 text-sm text-cream/50 hover:text-cream transition-colors"
-            >
-              ← Back
-            </button>
-            <p className="text-cream/70">
+            {/* How many courses - always first */}
+            <p className="text-accent font-medium">
               How many courses do you want to play?
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
@@ -171,6 +265,28 @@ function ExploreContent() {
               >
                 All ({totalCount})
               </button>
+            </div>
+
+            {/* Desktop: courses list (left) | leaderboard (right) side by side */}
+            {/* Mobile: leaderboard above courses list */}
+            <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+              {/* Courses list - left on desktop, below leaderboard on mobile */}
+              {courseNames.length > 0 && (
+                <div className="min-w-0 order-2 lg:order-1 rounded-xl border border-cream/10 bg-card/50 px-4 py-4">
+                  <p className="text-xs font-medium uppercase tracking-wider text-cream/50 mb-3">
+                    Courses in this set
+                  </p>
+                  <ul className="text-sm text-cream/70 leading-relaxed list-disc list-inside space-y-1">
+                    {courseNames.map((name) => (
+                      <li key={name}>{name}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {/* Leaderboard - right on desktop, above courses on mobile */}
+              <div className="min-w-0 order-1 lg:order-2">
+                <ExploreSetLeaderboard setId={selectedSet} totalCount={totalCount} playerId={getLocalPlayerId()} />
+              </div>
             </div>
           </div>
         )}

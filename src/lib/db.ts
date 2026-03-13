@@ -200,3 +200,52 @@ export async function getAllTimeLeaderboard(
       total_score: val.total,
     }));
 }
+
+// ── Explore Scores ──
+
+export type ExploreCount = "5" | "10" | "all";
+
+export async function submitExploreScore(params: {
+  playerId: string;
+  setId: string;
+  count: ExploreCount;
+  totalScore: number;
+}): Promise<{ success: boolean; error?: string }> {
+  const { error } = await supabase.from("explore_scores").insert({
+    player_id: params.playerId,
+    set_id: params.setId,
+    count: params.count,
+    total_score: params.totalScore,
+  });
+
+  if (error) return { success: false, error: error.message };
+  return { success: true };
+}
+
+interface ExploreScoreRow {
+  player_id: string;
+  total_score: number;
+  players: { display_name: string };
+}
+
+export async function getExploreLeaderboard(
+  setId: string,
+  count: ExploreCount,
+  limit = 50
+): Promise<LeaderboardEntry[]> {
+  const { data } = await supabase
+    .from("explore_scores")
+    .select("player_id, total_score, players!inner(display_name)")
+    .eq("set_id", setId)
+    .eq("count", count)
+    .order("total_score", { ascending: false })
+    .limit(limit);
+
+  if (!data) return [];
+  return (data as unknown as ExploreScoreRow[]).map((row, i) => ({
+    rank: i + 1,
+    player_id: row.player_id,
+    display_name: row.players.display_name,
+    total_score: row.total_score,
+  }));
+}
