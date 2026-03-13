@@ -3864,7 +3864,7 @@
     "rounds": [
       {
         "courseId": "lake-shore-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {
@@ -4174,7 +4174,7 @@
       },
       {
         "courseId": "lake-shore-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "hard"
       }
     ]
@@ -4324,7 +4324,7 @@
     "rounds": [
       {
         "courseId": "lake-shore-country-club",
-        "imageKey": "aerialMedium",
+        "imageKey": "aerialWide",
         "difficulty": "easy"
       },
       {

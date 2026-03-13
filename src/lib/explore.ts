@@ -229,10 +229,9 @@ export function buildExplorePuzzle(
   const take = Math.min(count, shuffled.length);
   const selected = shuffled.slice(0, take);
 
-  const imageKey = "aerialMedium";
   const rounds: PuzzleRound[] = selected.map((courseId) => ({
     courseId,
-    imageKey,
+    imageKey: courseId === "lake-shore-country-club" ? "aerialWide" : "aerialMedium",
     difficulty: "medium",
   }));
 
