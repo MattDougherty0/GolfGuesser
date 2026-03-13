@@ -29,11 +29,35 @@ const EXPLORE_OPTIONS = [
     title: region,
     description: `Courses in the ${region} region`,
   })),
+  {
+    id: "fazio",
+    title: "Fazio Collection",
+    description: "Courses designed by Tom Fazio",
+  },
+  {
+    id: "ross",
+    title: "Donald Ross Collection",
+    description: "Courses designed by Donald Ross",
+  },
+  {
+    id: "dye",
+    title: "Pete Dye Collection",
+    description: "Courses designed by Pete Dye",
+  },
+  {
+    id: "cooreCrenshaw",
+    title: "Coore & Crenshaw Collection",
+    description: "Courses designed by Bill Coore & Ben Crenshaw",
+  },
 ];
 
 const EXPLORE_CARD_IMAGES: Record<string, string> = {
   pga2025: "/images/explore/pga2025.jpg",
   tiger: "/images/explore/tiger.png",
+  fazio: "/images/explore/fazio.png",
+  ross: "/images/explore/donald-ross.png",
+  dye: "/images/explore/pete-dye.png",
+  cooreCrenshaw: "/images/explore/coore-crenshaw.png",
   erie: "/images/explore/erie.jpg",
   "region-West": "/images/explore/west.jpg",
   "region-Southwest": "/images/explore/southwest.jpg",

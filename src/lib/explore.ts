@@ -77,6 +77,66 @@ export const TIGER_WINS_COURSE_IDS: string[] = [
   "tpc-sugarloaf",
 ];
 
+/** Tom Fazio–designed courses. */
+export const FAZIO_COURSE_IDS: string[] = [
+  "congaree-golf-club",
+  "caves-valley-golf-club",
+  "shadow-creek",
+  "sea-island-golf-club-seaside",
+  "sage-valley-golf-club",
+  "trump-national-golf-club-bedminster",
+  "wade-hampton-golf-club",
+  "the-estancia-club",
+  "world-woods-golf-club",
+  "lake-nona-golf-country-club",
+  "victoria-national-golf-club",
+  "primm-valley-golf-club",
+  "capital-city-club-crabapple",
+];
+
+/** Donald Ross–designed courses. */
+export const ROSS_COURSE_IDS: string[] = [
+  "pinehurst-no-2",
+  "oakland-hills-country-club",
+  "inverness-club",
+  "east-lake-golf-club",
+  "sedgefield-country-club",
+  "seminole",
+  "aronimink",
+  "broadmoor-golf-club",
+  "worcester-country-club",
+  "wannamoisett-country-club",
+  "detroit-golf-club",
+  "the-kahkwa-club",
+];
+
+/** Pete Dye–designed courses. */
+export const DYE_COURSE_IDS: string[] = [
+  "tpc-sawgrass-stadium-course",
+  "whistling-straits",
+  "kiawah-island-ocean-course",
+  "crooked-stick-golf-club",
+  "tpc-river-highlands",
+  "pga-west-stadium-course",
+  "tpc-louisiana",
+  "blackwolf-run-river-course",
+  "pete-dye-golf-club",
+  "the-honors-course",
+  "des-moines-golf-and-country-club",
+];
+
+/** Bill Coore & Ben Crenshaw–designed courses. */
+export const COORE_CRENSHAW_COURSE_IDS: string[] = [
+  "streamsong-red",
+  "sand-valley",
+  "we-ko-pa-saguaro",
+  "sand-hills",
+  "friars-head",
+  "bandon-trails",
+  "sheep-ranch",
+  "old-sandwich-golf-club",
+];
+
 /** Erie, PA area courses - its own Explore set. */
 export const ERIE_COURSE_IDS: string[] = [
   "lake-shore-country-club",
@@ -115,6 +175,10 @@ function buildRegionSets(): Record<string, string[]> {
 export const EXPLORE_SETS: Record<string, string[]> = {
   pga2025: PGA_TOUR_2025_COURSE_IDS,
   tiger: TIGER_WINS_COURSE_IDS,
+  fazio: FAZIO_COURSE_IDS,
+  ross: ROSS_COURSE_IDS,
+  dye: DYE_COURSE_IDS,
+  cooreCrenshaw: COORE_CRENSHAW_COURSE_IDS,
   erie: ERIE_COURSE_IDS,
   ...buildRegionSets(),
 };
