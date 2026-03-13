@@ -5,9 +5,10 @@ import { useState } from "react";
 interface UsernameModalProps {
   onSubmit: (name: string) => Promise<boolean>;
   onSkip: () => void;
+  onComplete: () => void;
 }
 
-export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) {
+export default function UsernameModal({ onSubmit, onSkip, onComplete }: UsernameModalProps) {
   const [name, setName] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -27,7 +28,9 @@ export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) 
     setError("");
     try {
       const success = await onSubmit(trimmed);
-      if (!success) {
+      if (success) {
+        onComplete();
+      } else {
         setError("Could not create player. Try again.");
       }
     } finally {
@@ -71,13 +74,16 @@ export default function UsernameModal({ onSubmit, onSkip }: UsernameModalProps) 
           </button>
         </form>
 
-        <button
-          type="button"
-          onClick={onSkip}
-          className="mt-3 w-full text-center text-xs text-cream/35 transition-colors hover:text-cream/55"
-        >
-          Continue without a name &mdash; no leaderboard tracking
-        </button>
+<button
+        type="button"
+        onClick={() => {
+          onSkip();
+          onComplete();
+        }}
+        className="mt-3 w-full text-center text-xs text-cream/35 transition-colors hover:text-cream/55"
+      >
+        Continue without a name &mdash; no leaderboard tracking
+      </button>
       </div>
     </div>
   );

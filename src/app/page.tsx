@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { isTodayCompleted, getTodayResults } from "@/lib/storage";
 import { getLocalPlayerId, getPlayer, createPlayer, type Player } from "@/lib/db";
 import MainWithSidebar from "@/components/layout/MainWithSidebar";
@@ -39,11 +40,14 @@ function useMidnightCountdown() {
 }
 
 export default function Home() {
+  const router = useRouter();
   const [completed, setCompleted] = useState(false);
   const [todayScore, setTodayScore] = useState(0);
   const [mounted, setMounted] = useState(false);
   const [player, setPlayer] = useState<Player | null>(null);
   const [needsUsername, setNeedsUsername] = useState(false);
+  const [showNameModal, setShowNameModal] = useState(false);
+  const [pendingDestination, setPendingDestination] = useState<"/play" | "/explore" | null>(null);
 
   const countdown = useMidnightCountdown();
 
@@ -80,6 +84,23 @@ export default function Home() {
 
   function handleSkipLogin() {
     setNeedsUsername(false);
+  }
+
+  function handleCtaClick(destination: "/play" | "/explore") {
+    if (needsUsername) {
+      setPendingDestination(destination);
+      setShowNameModal(true);
+    } else {
+      router.push(destination);
+    }
+  }
+
+  function handleNameModalComplete() {
+    setShowNameModal(false);
+    if (pendingDestination) {
+      router.push(pendingDestination);
+      setPendingDestination(null);
+    }
   }
 
   const today = mounted
@@ -124,6 +145,13 @@ export default function Home() {
                 >
                   View Results
                 </Link>
+                <button
+                  type="button"
+                  onClick={() => handleCtaClick("/explore")}
+                  className="rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
+                >
+                  Explore More
+                </button>
                 <Link
                   href="/leaderboard"
                   className="text-sm font-medium text-accent underline underline-offset-2 hover:brightness-110 transition-colors"
@@ -140,17 +168,33 @@ export default function Home() {
               </div>
             </div>
           ) : mounted ? (
-            <Link
-              href="/play"
-              className="mt-8 inline-block rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
-            >
-              Play Today&apos;s Challenge
-            </Link>
+            <div className="mt-8 flex flex-col items-center gap-3">
+              <button
+                type="button"
+                onClick={() => handleCtaClick("/play")}
+                className="w-full rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20 sm:w-auto"
+              >
+                Play Today&apos;s Challenge
+              </button>
+              <button
+                type="button"
+                onClick={() => handleCtaClick("/explore")}
+                className="w-full rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20 sm:w-auto"
+              >
+                Explore More
+              </button>
+            </div>
           ) : null}
         </div>
       </main>
 
-      {needsUsername && <UsernameModal onSubmit={handleCreatePlayer} onSkip={handleSkipLogin} />}
+      {showNameModal && (
+        <UsernameModal
+          onSubmit={handleCreatePlayer}
+          onSkip={handleSkipLogin}
+          onComplete={handleNameModalComplete}
+        />
+      )}
     </MainWithSidebar>
   );
 }
