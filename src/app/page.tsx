@@ -150,7 +150,7 @@ export default function Home() {
                   onClick={() => handleCtaClick("/explore")}
                   className="rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20"
                 >
-                  Explore More
+                  Explore Mode
                 </button>
                 <Link
                   href="/leaderboard"
@@ -181,7 +181,7 @@ export default function Home() {
                 onClick={() => handleCtaClick("/explore")}
                 className="w-full rounded-full bg-accent px-8 py-3 text-base font-semibold text-background transition-all hover:brightness-110 hover:shadow-lg hover:shadow-accent/20 sm:w-auto"
               >
-                Explore More
+                Explore Mode
               </button>
             </div>
           ) : null}
