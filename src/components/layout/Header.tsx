@@ -9,12 +9,15 @@ interface HeaderProps {
 
 export default function Header({ playerName }: HeaderProps) {
   const pathname = usePathname();
-  const isDaily = pathname === "/" || pathname.startsWith("/play") || pathname.startsWith("/results");
+  const isCourseMuse = pathname.startsWith("/coursemuse");
+  const isDaily =
+    !isCourseMuse &&
+    (pathname === "/" || pathname.startsWith("/play") || pathname.startsWith("/results"));
   const isExplore = pathname.startsWith("/explore");
 
   return (
     <header className="flex items-center justify-between px-4 py-3 sm:px-6">
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
         <Link
           href="/"
           className={`text-sm font-medium transition-colors ${
@@ -31,6 +34,15 @@ export default function Header({ playerName }: HeaderProps) {
           }`}
         >
           Explore
+        </Link>
+        <span className="text-cream/20">|</span>
+        <Link
+          href="/coursemuse"
+          className={`text-sm font-medium transition-colors ${
+            isCourseMuse ? "text-accent" : "text-cream/50 hover:text-cream/80"
+          }`}
+        >
+          CourseMuse
         </Link>
       </div>
 
