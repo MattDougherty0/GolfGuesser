@@ -2,8 +2,8 @@ import type { CitationGap } from "@/lib/coursemuse/types";
 
 /**
  * Cards shipped without a `primarySourceUrl` on the AnswerCard model.
- * Primary statistical authority for these rows is often the 2026 PGA TOUR Media Guide (local PDF),
- * which does not have one stable public URL per table row.
+ * Primary statistical authority for these rows is often the 2026 PGA TOUR Media Guide
+ * (docs/coursemuse/2026-pga-tour-media-guide-2026-03-02.pdf), which has no one stable public URL per table row.
  *
  * Handoff: review this list when auditing citations.
  */

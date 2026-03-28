@@ -2,6 +2,7 @@ import type { AnswerCard } from "@/lib/coursemuse/types";
 
 /**
  * Facts below are verified against the 2026 PGA TOUR Media Guide (PDF, Mar 2 2026 update)
+ * at docs/coursemuse/2026-pga-tour-media-guide-2026-03-02.pdf in this repo,
  * and/or official USGA / PGA / venue pages as noted in scope + primarySourceUrl.
  */
 export const ANSWER_CARDS: AnswerCard[] = [
